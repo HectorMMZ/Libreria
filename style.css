@@ -1,0 +1,34 @@
+body{
+    background-color: #eeeded;
+    font-family: "Playfair Display", serif;
+}
+
+.TituloLibreria{
+    margin-left: 190px;
+}
+
+.Buscador{
+    margin-left: 910px;
+    margin-top: -50px ;
+}
+
+.Cuerpo{
+    background-color: white;
+    padding: 150px 50px 150px 50px;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: -8px ;
+}
+
+.Novedades{
+    margin-left: 200px;
+
+}
+
+.Ofertas{
+    margin-left: 1030px;
+    margin-top: -40px ;
+
+}
+
+
