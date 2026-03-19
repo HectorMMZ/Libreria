@@ -12,7 +12,8 @@ body{
     margin-top: -50px ;
 }
 
-.Cuerpo{
+
+.EncuentraIndex{
     background-color: white;
     padding: 150px 50px 150px 50px;
     margin-right: 150px;
@@ -20,15 +21,39 @@ body{
     margin-top: -8px ;
 }
 
-.Novedades{
-    margin-left: 200px;
-
+.Contenido{
+    background-color: #424141 ;
+    margin-top: -29px;   
+    margin-left: 150px;
+    margin-right: 150px; 
+   
 }
 
-.Ofertas{
-    margin-left: 1030px;
-    margin-top: -40px ;
 
+.TituloRecomendado{
+    background-color: white;
+    padding: 205px 20px 40px; 
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: -8px ;
+   
+}
+
+.TituloRecomendado h2{
+    margin-left: 430px;
+    margin-top: -170px;
+}
+
+.TituloRecomendado h5{
+    margin-left: 760px;
+}
+
+
+.TituloRecomendado p{
+    margin-left: 320px;
+    margin-right: 50px;
+    margin-top: -5px;
+    
 }
 
 
