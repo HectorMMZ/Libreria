@@ -1,0 +1,27 @@
+body{
+    background-color: #eeeded;
+    font-family: "Playfair Display", serif;
+    padding-top: 125px;
+}
+
+.TituloLibreria{
+    margin-left: 190px;
+}
+
+.Buscador{
+    margin-left: 910px;
+    margin-top: -50px ;
+}
+
+.BarraDeTareas{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;       
+    right: 0;
+    background-color: white;
+}
+
+.LineaDeAbajo{
+    margin-bottom: 0;
+}

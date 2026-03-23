@@ -1,0 +1,120 @@
+body{
+    background-color:white /*#151613 */;
+    font-family: "Marcellus", serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* 
+.TituloLibreria{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    max-width: 1000px;
+    text-align: left;    
+} */
+
+.BarraDeActividades{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    max-width: 1000px;
+
+}
+
+.BarraDeActividades a{
+    text-decoration: none; 
+    color: white;
+}
+
+.Libreria{
+    background-image: url('Libros3.jpg');
+    height: 97vh;
+    padding-top: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+} 
+
+/* .Buscador{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1000px;
+    text-align: right;  
+    margin-top: -50px ;
+} PONERLO SOLO EN CATALOGO*/
+
+
+
+/* .LineaDeAbajo{
+    margin-bottom: 0;
+} */
+
+
+.Encuentra{
+    margin-left: auto;   
+    margin-right: auto;  
+    width: 70%;          
+    max-width: 1000px;
+    margin-top: 220px;
+    margin-bottom: 275px;
+    text-align: left;    
+}
+
+
+.MasLeido{
+    margin-left: auto;   
+    margin-right: auto;  
+    max-width: 1000px;
+    margin-top: 150px;
+    width: 70%;
+    text-align: left;   
+}
+
+.MasLeidoColor{
+    width: 100%;
+    padding: 30px 0;
+    background-color: #494d32/* #7B8253*/;
+}
+
+.Novedades{
+    margin-left: auto;   
+    margin-right: auto;  
+    max-width: 1000px;
+    margin-top: 150px;
+    width: 70%;
+    text-align: left;   
+}
+
+.NovedadesColor{
+    width: 100%;
+    padding: 30px 0;
+    background-color: #5f6440/* #7B8253*/;
+}
+
+.Ofertas{
+    margin-left: auto;   
+    margin-right: auto;  
+    max-width: 1000px;
+    margin-top: 150px;
+    width: 70%;
+    text-align: left;   
+}
+
+.DerechosDeAutor{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;  
+    text-align: left;
+}
+
+.OfertasColor{
+    width: 100%;
+    padding: 30px 0;
+    background-color: #6c7249/* #7B8253*/;
+}

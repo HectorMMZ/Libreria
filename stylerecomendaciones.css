@@ -1,0 +1,69 @@
+body{
+    background-color:white /*#151613 */;
+    font-family: "Marcellus", serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* .TituloLibreria{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    max-width: 1000px;
+    text-align: left;  
+} */
+
+.BarraDeActividades{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    max-width: 1000px;
+}
+
+.BarraDeActividades a{
+    text-decoration: none; 
+    color: black;
+}
+
+.CuerpoColor{
+    
+    background-color: #7d835c/* #7B8253*/;
+}
+
+.TituloRecomendado{
+   margin-left: auto;   
+    margin-right: auto;  
+    width: 70%;          
+    max-width: 1000px;
+    margin-top: 100px;
+    margin-bottom: 275px;
+    text-align: left;  
+    background-color: white;
+
+}
+
+.TituloRecomendadoColor{
+    width: 100%;
+    padding: 30px 0;
+    background-color: #7d835c/* #7B8253*/;
+}
+
+/* .TituloRecomendado h2{
+    margin-left: 430px;
+    margin-top: -170px;
+}
+
+.TituloRecomendado h5{
+    margin-left: 760px;
+}
+
+
+.TituloRecomendado p{
+    margin-left: 320px;
+    margin-right: 50px;
+    margin-top: -5px;
+    
+} */
