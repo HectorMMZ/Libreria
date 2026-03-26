@@ -25,7 +25,12 @@ body{
 
 .BarraDeActividades a{
     text-decoration: none; 
-    color: black;
+    color: white;
+}
+
+            /* Css del carro para que sea mas grande */
+.BotonCarro i{
+    font-size: 20px;
 }
 
 .CuerpoColor{

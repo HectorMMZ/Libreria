@@ -5,14 +5,6 @@ body{
     margin: 0;
 }
 
-/* 
-.TituloLibreria{
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    max-width: 1000px;
-    text-align: left;    
-} */
 
 .BarraDeActividades{
     display: flex; 
@@ -20,7 +12,7 @@ body{
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    /* width: 70%; */
     max-width: 1000px;
 
 }
@@ -30,8 +22,19 @@ body{
     color: white;
 }
 
+            /* Css del carro para que sea mas grande */
+.BotonCarro i{
+    font-size: 20px;
+    
+}
+
+.BotonUsuario i{
+    font-size: 20px;
+}
+
+
 .Libreria{
-    background-image: url('Libros3.jpg');
+    background-image: url('Libros1.jpg');
     height: 97vh;
     padding-top: 20px;
     background-size: cover;
@@ -40,20 +43,6 @@ body{
     background-attachment: fixed;
 } 
 
-/* .Buscador{
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    max-width: 1000px;
-    text-align: right;  
-    margin-top: -50px ;
-} PONERLO SOLO EN CATALOGO*/
-
-
-
-/* .LineaDeAbajo{
-    margin-bottom: 0;
-} */
 
 
 .Encuentra{
@@ -61,7 +50,7 @@ body{
     margin-right: auto;  
     width: 70%;          
     max-width: 1000px;
-    margin-top: 220px;
+    margin-top: 210px;
     margin-bottom: 275px;
     text-align: left;    
 }
@@ -79,7 +68,7 @@ body{
 .MasLeidoColor{
     width: 100%;
     padding: 30px 0;
-    background-color: #494d32/* #7B8253*/;
+    background-color: #232E35/* #494d32 *//* #7B8253*/;
 }
 
 .Novedades{
@@ -94,7 +83,7 @@ body{
 .NovedadesColor{
     width: 100%;
     padding: 30px 0;
-    background-color: #5f6440/* #7B8253*/;
+    background-color: #384856/* #7B8253*/;
 }
 
 .Ofertas{
@@ -116,5 +105,37 @@ body{
 .OfertasColor{
     width: 100%;
     padding: 30px 0;
-    background-color: #6c7249/* #7B8253*/;
+    background-color: #232E35/* #7B8253*/;
+}
+
+
+/* DALE LAS GRACIAS A GEMINI :P */
+
+/* El cuadro de búsqueda */
+.Buscador input[type="search"] {
+    width: 220px;
+    height: 35px;
+    border: none; /* Quitamos bordes */
+    outline: none; /* Quitamos el borde azul al hacer clic */
+    padding: 0 10px;
+    font-size: 14px;
+    font-family: 'Marcellus', serif;
+    color: #384856;
+}
+
+/* El botón ¡Vamos!: Con fondo y sin bordes */
+.Buscador input[type="submit"] {
+    height: 35px; /* Misma altura que el input */
+    padding: 0 15px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Marcellus', serif;
+    color: white; /* Color oscuro para el texto */
+    /* Usamos el color dorado sobrio y plano (sin degradados) */
+    background: #384856; 
+    border: none; /* ELIMINA BORDES */
+    border-radius: 0; /* TOTALMENTE CUADRADO */
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
 }
