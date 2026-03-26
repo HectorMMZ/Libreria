@@ -1,0 +1,164 @@
+/*RESET BÁSICO (Normalización)*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*ESTILOS BASE DEL CUERPO (Body)*/
+body {
+    
+    font-family: "Marcellus", serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; 
+    color: #333333;  
+}
+
+/*ELEMENTOS COMUNES*/
+/* Quitar los puntos por defecto de las listas (útil para el menú de navegación) */
+ul {
+    list-style: none;
+}
+
+/* Quitar el subrayado azul por defecto de los enlaces */
+a {
+    text-decoration: none;
+    color: inherit; /* Hace que el enlace tome el color del texto a su alrededor */
+}
+
+/* Las imágenes nunca se desbordarán de su contenedor */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.TituloLibreria{
+    margin-left: 190px;
+    /* font-family: "Playfair Display", serif; */
+    color: #D4A20F;
+}
+
+.Buscador{
+    margin-left: 910px;
+    margin-top: -50px ;
+}
+
+.BarraDeTareas{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;       
+    right: 0;
+    background-color: white;
+}
+
+.LineaDeAbajo{
+    margin-bottom: 0;
+}
+
+
+/* 
+.TituloLibreria{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    max-width: 1000px;
+    text-align: left;    
+} */
+
+.BarraDeActividades{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    max-width: 1000px;
+
+}
+
+.BarraDeActividades a{
+    text-decoration: none; 
+    color: white;
+}
+
+
+/* .Buscador{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1000px;
+    text-align: right;  
+    margin-top: -50px ;
+} PONERLO SOLO EN CATALOGO*/
+
+
+
+/* .LineaDeAbajo{
+    margin-bottom: 0;
+} */
+
+
+.Encuentra{
+    margin-left: auto;   
+    margin-right: auto;  
+    width: 70%;          
+    max-width: 1000px;
+    margin-top: 220px;
+    margin-bottom: 275px;
+    text-align: left;    
+}
+
+
+.MasLeido{
+    margin-left: auto;   
+    margin-right: auto;  
+    max-width: 1000px;
+    margin-top: 150px;
+    width: 70%;
+    text-align: left;   
+}
+
+.MasLeidoColor{
+    width: 100%;
+    padding: 30px 0;
+    background-color: #F5F5F5 /* #7B8253*/;
+}
+
+.Novedades{
+    margin-left: auto;   
+    margin-right: auto;  
+    max-width: 1000px;
+    margin-top: 150px;
+    width: 70%;
+    text-align: left;   
+}
+
+.NovedadesColor{
+    width: 100%;
+    padding: 30px 0;
+    background-color: #808080 /* #7B8253*/;
+}
+
+.Ofertas{
+    margin-left: auto;   
+    margin-right: auto;  
+    max-width: 1000px;
+    margin-top: 150px;
+    width: 70%;
+    text-align: left;   
+}
+
+.DerechosDeAutor{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;  
+    text-align: left;
+}
+
+.OfertasColor{
+    width: 100%;
+    padding: 30px 0;
+    background-color: #6c7249/* #7B8253*/;
+}
