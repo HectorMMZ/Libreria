@@ -130,7 +130,7 @@ img {
 .MasLeidoColor{
     width: 100%;
     padding: 30px 0;
-    background-color: #494d32/* #7B8253*/;
+    background-color: #F5F5F5 /* #7B8253*/;
 }
 
 .Novedades{
@@ -145,7 +145,7 @@ img {
 .NovedadesColor{
     width: 100%;
     padding: 30px 0;
-    background-color: #5f6440/* #7B8253*/;
+    background-color: #808080 /* #7B8253*/;
 }
 
 .Ofertas{
