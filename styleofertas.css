@@ -1,3 +1,13 @@
+body{
+    background-color: #eeeded;
+    font-family: "Playfair Display", serif;
+    padding-top: 125px;
+}
+
+.TituloLibreria{
+    margin-left: 190px;
+}
+
 .Buscador{
     margin-left: 910px;
     margin-top: -50px ;

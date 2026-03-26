@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 110vh; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    background: #384856;
+    font-family: "Marcellus", serif;
+    padding-top: 20px;
+}
+
+
+
+.BarraDeActividades{
+   display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+     margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    width: 74%;
+    padding: 21px 0; 
+    margin-bottom: 10px;
+
+}
+
+.BarraDeActividades a{
+    text-decoration: none;
+    color: white;
+
+}
+
+    /* Css del carro para que sea mas grande */
+.BotonCarro i{
+    font-size: 20px;
+    
+}
+
+.BotonUsuario i{
+    font-size: 20px;
+}
+
+
+
+.Contenido {
+    width: 420px;
+    height: 540px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+}
+
+.Registro {
+    width: 840px;
+    height: 100%;
+    display: flex;
+    transition: transform 0.8s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.Formato {
+    width: 420px;
+    padding: 45px 35px;
+    text-align: center;
+    background: #232E35;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.NuevaCuenta input {
+    margin-bottom: 14px;
+    padding: 15px 20px;
+}
+
+.Formato p {
+    margin-top: 18px;
+    color: #fff;
+    font-size: 14px;
+}
+
+h2 {
+    color: #fff;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+input {
+    width: 100%;
+    padding: 16px 20px;
+    margin-bottom: 18px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 16px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    background: linear-gradient(to right, #ffd36a, #ffb347);
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    margin-top: 25px;
+    color: #fff;
+    font-size: 14px;
+}
+
+span {
+    color: #ffe600;
+    cursor: pointer;
+    font-weight: 600;
+}
