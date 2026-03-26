@@ -8,10 +8,10 @@
 /*ESTILOS BASE DEL CUERPO (Body)*/
 body {
     
-    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
+    font-family: "Marcellus", serif;
     line-height: 1.6;
     background-color: #f4f4f4; 
-    color: #333333; 
+    color: #333333;  
 }
 
 /*ELEMENTOS COMUNES*/
@@ -35,6 +35,8 @@ img {
 
 .TituloLibreria{
     margin-left: 190px;
+    /* font-family: "Playfair Display", serif; */
+    color: #D4A20F;
 }
 
 .Buscador{
@@ -81,15 +83,6 @@ img {
     color: white;
 }
 
-.Libreria{
-    background-image: url('Libros3.jpg');
-    height: 97vh;
-    padding-top: 20px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-} 
 
 /* .Buscador{
     margin-left: auto;

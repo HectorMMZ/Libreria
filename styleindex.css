@@ -1,0 +1,11 @@
+/*Aqui va a ir todo el nuevo codigo css del index que no sea global*/
+
+.FondoIndex {
+    background-image: url('Libros3.jpg'); 
+    height: 97vh;
+    padding-top: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
