@@ -5,77 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar Sesion</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styleInicioDeSesion.css">
 
+    <!-- Css global -->
+    <link rel="stylesheet" href="global.css">
+
     <!-- Y CON ESTO SE PUEDO "VER" LOS ICONOS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <!-- ---------------------------- -->
+     
 </head>
 <body>
 
-    <div class="BarraDeActividades">
-                <h4 style="color: white">Libreria <br> Quimera
-                </h4>
+   <div class="ColorBarraDeActividades">
+        <div class="BarraDeActividadesMargen">
+                <div class="BarraDeActividades">
+                        <h4 style="color: white">Libreria <br> Quimera
+                        </h4>
 
-                <a href="index.html">Inicio</a>
-                <a href="recomendaciones.html">Recomendaciones</a>
-                <a href="catalogo.html">Catalogo</a>
-                <a href="novedades.html">Novedades</a>
-                <a href="ofertas.html">Ofertas</a>
+                        <a href="index.html">Inicio</a>
+                        <a href="recomendaciones.html">Recomendaciones</a>
+                        <a href="catalogo.html">Catalogo</a>
+                        <a href="novedades.html">Novedades</a>
+                        <a href="ofertas.html">Ofertas</a>
 
-                <!-- QUI ESTA EL ICONO DEL USUARIO -->
-                <a href="usuario.html" class="BotonUsuario">
-                    <i class="fa-solid fa-user"></i>
-                </a>
+                        <!-- QUI ESTA EL ICONO DEL USUARIO -->
+                        <a href="usuario.html" class="BotonUsuario">
+                            <i class="fa-solid fa-user"></i>
+                        </a>
 
-                <!-- AQUI ESTA EL ICONO DEL CARRO -->
-                <a href="articulos.html" class="BotonCarro">
-                    <i class="fa-solid fa-cart-arrow-down"></i>
-                </a>
-
-            
+                        <!-- AQUI ESTA EL ICONO DEL CARRO -->
+                        <a href="articulos.html" class="BotonCarro">
+                            <i class="fa-solid fa-cart-arrow-down"></i>
+                        </a>
+                </div>
         </div>
+    </div>  
 
-      
-    <div class="Contenido">
-        <div class="Registro" id="Registro">
+    <div class="CuerpoDelInicioDeSesion">
+        <div class="Contenido">
+            <div class="Registro" id="Registro">
 
-            <div class="Formato InicioDeSesion">
-                <h2>Iniciar sesion</h2>
-                
-                <input type="email" placeholder="Correo">
-                <input type="password" placeholder="Contraseña">
-                
-                <button>Ingresar</button>
-                
-                <p>¿Aun no tienes cuenta?
-                    <span id="Registrate">Registrate</span>
-                </p>
+                <div class="Formato InicioDeSesion">
+                    <h2>Iniciar sesion</h2>
+                    
+                    <input type="email" placeholder="Correo">
+                    <input type="password" placeholder="Contraseña">
+                    
+                    <button>Ingresar</button>
+                    
+                    <p>¿Aun no tienes cuenta?
+                        <span id="Registrate">Registrate</span>
+                    </p>
+                </div>
+
+                <div class="Formato NuevaCuenta">
+                    <h2>Registra</h2>
+                    
+                    <input type="text" placeholder="Primer Nombre">
+                    <input type="text" placeholder="Segundo Nombre">
+                    <input type="email" placeholder="Correo">
+                    <input type="password" placeholder="Contraseña">
+                    <input type="tel" placeholder="Numero Telefonico">
+                    
+                    <button>Crear cuenta</button>
+                    
+                    <p>¿Todo listo?
+                        <span id="RegistroNuevo">Iniciar sesion</span>
+                    </p>
+                </div>
+
             </div>
-
-            <div class="Formato NuevaCuenta">
-                <h2>Registra</h2>
-                
-                <input type="text" placeholder="Primer Nombre">
-                <input type="text" placeholder="Segundo Nombre">
-                <input type="email" placeholder="Correo">
-                <input type="password" placeholder="Contraseña">
-                <input type="tel" placeholder="Numero Telefonico">
-                
-                <button>Crear cuenta</button>
-                
-                <p>¿Todo listo?
-                    <span id="RegistroNuevo">Iniciar sesion</span>
-                </p>
-            </div>
-
         </div>
-    </div>
+</div>
+        <script src="scriptIniciarSesion.js"></script>
 
-    <script src="scriptIniciarSesion.js"></script>
+    
 </body>
 </html>

@@ -1,60 +1,24 @@
-body{
-    background-color:white /*#151613 */;
-    font-family: "Marcellus", serif;
-    padding: 0;
-    margin: 0;
-}
-
-
-.BarraDeActividades{
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    /* width: 70%; */
-    max-width: 1000px;
-
-}
-
-.BarraDeActividades a{
-    text-decoration: none; 
-    color: white;
-}
-
-            /* Css del carro para que sea mas grande */
-.BotonCarro i{
-    font-size: 20px;
-    
-}
-
-.BotonUsuario i{
-    font-size: 20px;
-}
-
-
-.Libreria{
+.LibreriaIMG{
     background-image: url('Libros1.jpg');
-    height: 97vh;
-    padding-top: 20px;
+    height: 101vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
 } 
 
-
-
-.Encuentra{
+.EncuentraLibro{
     margin-left: auto;   
     margin-right: auto;  
     width: 70%;          
     max-width: 1000px;
-    margin-top: 210px;
-    margin-bottom: 275px;
-    text-align: left;    
+    margin-top: 180px;
+    margin-bottom: 200px;
+    text-align: left; 
+    
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.6));
 }
-
 
 .MasLeido{
     margin-left: auto;   
@@ -83,7 +47,7 @@ body{
 .NovedadesColor{
     width: 100%;
     padding: 30px 0;
-    background-color: #384856/* #7B8253*/;
+    background-color: white/* #7B8253*/;
 }
 
 .Ofertas{
@@ -95,19 +59,18 @@ body{
     text-align: left;   
 }
 
-.DerechosDeAutor{
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;  
-    text-align: left;
-}
-
 .OfertasColor{
     width: 100%;
     padding: 30px 0;
     background-color: #232E35/* #7B8253*/;
 }
 
+.DerechosDeAutor{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;  
+    text-align: left;
+}
 
 /* DALE LAS GRACIAS A GEMINI :P */
 
