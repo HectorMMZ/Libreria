@@ -14,7 +14,7 @@ body{
     max-width: 1000px;
 }
 
-.BarraDeActividades a{
+.BarraDeActividades a{ /*Que hace esto?*/
     text-decoration: none; 
     color: white;
 
@@ -45,4 +45,17 @@ body{
 /* Css del inicio de sesion */
 .BotonUsuario i{
     font-size: 20px;
+}
+
+.TarjetaLibro{
+    background-color: white;
+    width: 200px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*Para evitar que la imagen del libro se desborde*/
+.TarjetaLibro img{
+    width: 100%;
+    height: auto;
 }
