@@ -10,13 +10,13 @@ body, header, nav, div, form, input, h1{
     display: flex;
     flex-direction: column; 
     align-items: center; 
-    background:  #7d835c;
+    background:  #9DAA75;
     font-family: "Marcellus", serif;
     padding-top: 20px;
 }
 
 .ColorBarraDeActividades{
-    background-color: #7d835c;
+    background-color: #9DAA75;
 }
 
 .Contenido {
@@ -38,7 +38,7 @@ body, header, nav, div, form, input, h1{
     width: 420px;
     padding: 45px 35px;
     text-align: center;
-    background: #232E35;
+    background: #1f3845;
     display: flex;
     flex-direction: column;
     justify-content: center;

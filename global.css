@@ -1,5 +1,5 @@
 body{
-    background-color:white;
+    background-color:#9DAA75;
     font-family: "Marcellus", serif;
     padding: 0;
     margin: 0;
@@ -14,7 +14,7 @@ body{
     max-width: 1000px;
 }
 
-.BarraDeActividades a{ /*Que hace esto?*/
+.BarraDeActividades a{ /*Que hace esto? Esto hace que no este subrayado el link o sea lo quita y le pone el color blanco*/
     text-decoration: none; 
     color: white;
 
@@ -56,6 +56,54 @@ body{
 
 /*Para evitar que la imagen del libro se desborde*/
 .TarjetaLibro img{
+    width: 100%;
+    height: auto;
+}
+
+
+.TarjetaLibro1{
+    background-color: white;
+    width: 200px;
+    padding: 15px;
+    margin-left: 240px;
+    margin-top: -435px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*Para evitar que la imagen del libro se desborde*/
+.TarjetaLibro1 img{
+    width: 100%;
+    height: auto;
+}
+
+
+.TarjetaLibro2{
+    background-color: white;
+    width: 200px;
+    padding: 15px;
+    margin-left: 480px;
+    margin-top: -435px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*Para evitar que la imagen del libro se desborde*/
+.TarjetaLibro2 img{
+    width: 100%;
+    height: auto;
+}
+
+
+.TarjetaLibro3{
+    background-color: white;
+    width: 200px;
+    padding: 15px;
+    margin-left: 720px;
+    margin-top: -435px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*Para evitar que la imagen del libro se desborde*/
+.TarjetaLibro3 img{
     width: 100%;
     height: auto;
 }
