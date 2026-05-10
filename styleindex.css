@@ -19,25 +19,6 @@
     filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.6));
 }
 
-.MasLeido{
-    margin-left: auto;   
-    margin-right: auto;  
-    max-width: 1000px;
-    margin-top: 150px;
-    width: 70%;
-    text-align: center;   
-
-}
-
-.MasLeidoColor{
-    width: 90%;
-    padding: 30px 0;
-    background-color: #1f3845/* #494d32 *//* #7B8253*/;
-    margin: 0 auto;
-
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.6));
-}
 
 .Novedades{
     margin-left: auto;   
