@@ -5,3 +5,120 @@
 .ColorCuerpo{
     background-color: #9DAA75/* #7B8253*/;
 }
+
+ul {
+    list-style-type: none;
+}
+
+a{
+    list-style-type: none;
+}
+
+
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: #9DAA75;
+    
+}
+
+aside {
+    
+    padding: 2rem;
+    padding-right: 0;
+    color: #1f3845;
+    position: sticky;
+    top: 0;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+/* 43:30 */
+.boton-menu{
+    background-color: transparent;
+    border: 0;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1rem;
+    font-size: .85rem;
+}
+
+.boton-menu.active{
+    background-color: #1f3845;
+    color: white;
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.text-footer{
+    color: #1f3845;
+    font-size: .85rem;
+}
+
+main{
+    background-color: #1f3845;
+    margin: 1rem;
+    padding: 3rem;
+}
+
+.titulo-principal{
+    color: white;
+}
+
+.contenedor-productos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /*Aquii es para poner el numero de fichas que quieres en una sola fila*/
+    gap: 2rem;
+}
+
+.producto-img{
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
+.producto-detalles{
+    background-color: white;
+    color: black;
+    padding: .5rem;
+    margin-top: -2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+.producto-titulo{
+    font-size: 1rem;
+}
+
+.producto-agregar{
+    border: 0;
+    background-color: #1f3845;
+    color: white;
+    padding: .5rem;
+    text-transform: uppercase;
+    border: 2px solid #1f3845;
+    transition: background-color .25s, color .25s;
+}
+
+.producto-agregar:hover{
+    background-color: white; /* Cambia el fondo a blanco */
+    color: #1f3845;
+}
