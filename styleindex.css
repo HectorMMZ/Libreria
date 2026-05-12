@@ -24,14 +24,14 @@
     margin-right: auto;  
     max-width: 1000px;
     margin-top: 100px;
-    width: 70%;
+    width: 80%;
     text-align: center; 
 
 }
 
 .RecomendacionesColor{
-    width: 90%;
-    padding: 30px 0;
+    width: 70%;
+    padding: 15px 0;
     background-color: #1f3845/* #494d32 *//* #7B8253*/;
     margin: 0 auto;
 
@@ -44,12 +44,12 @@
     margin-right: auto;  
     max-width: 1000px;
     margin-top: 100px;
-    width: 70%;
+    width: 80%;
     text-align: center;   
 }
 
 .NovedadesColor{
-    width: 90%;
+    width: 70%;
     padding: 30px 0;
     background-color: white/* #7B8253*/;
     margin: 0 auto;
@@ -63,12 +63,12 @@
     margin-right: auto;  
     max-width: 1000px;
     margin-top: 100px;
-    width: 70%;
+    width: 80%;
     text-align: center;   
 }
 
 .OfertasColor{
-    width: 90%;
+    width: 70%;
     padding: 30px 0;
     background-color: #1f3541/* #7B8253*/;
     margin: 0 auto;
