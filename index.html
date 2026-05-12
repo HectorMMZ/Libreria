@@ -65,7 +65,8 @@
             <p style="color : #8fa464" >Nuestros mejores libros</p>
             <h3 style="color : #8fa464" >¿Que es lo que lee la gente?</h3>
             <br>
-            <div class="ContenedorTarjetas">
+            <div class="VentanaCarrusel">
+            <div class="ContenedorTarjetas" id="banner">
                 <div class="TarjetaLibro">
                     <img src="Domitila2.jpeg" alt="Portada del libro Domitila" height="200" width="120">
                     <h3 class="titulo-libro">El Título del Libro</h3>
@@ -99,8 +100,14 @@
                     <h3 class="titulo-libro">El Título del Libro</h3>
                     <p class="autor-libro">Nombre del Autor</p>
                     <p class="precio-libro">$399.00</p>
+                </div>
+                <div class="BotonTarjetas">
+                    <button onclick="anterior()"> ( </button>
+                    <button onclick="siguiente()"> ) </button>
                 </div>
             </div>
+            </div>
+            <script src="scriptBotonTarjetas.js"></script>
         </div>
      </div>
 

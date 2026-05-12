@@ -61,10 +61,16 @@ body{
     height: auto;
 }
 
+.VentanaCarrusel{
+    overflow: hidden; 
+    width: 100%;
+}
+
 .ContenedorTarjetas{
     display: flex;
     justify-content: center;
     gap: 20px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     padding: 20px;
+    transition: transform 0.5s ease-in-out;
 }
