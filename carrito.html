@@ -12,7 +12,7 @@
     <!-- Css global -->
     <link rel="stylesheet" href="global.css">
     
-    <link rel="stylesheet" href="styleofertas.css">
+    <link rel="stylesheet" href="stylecatalogo.css">
 
 
     <!-- Y CON ESTO SE PUEDO "VER" LOS ICONOS -->
@@ -28,15 +28,16 @@
     <div class="ColorBarraDeActividades">
         <div class="BarraDeActividadesMargen">
                 <div class="BarraDeActividades">
-                        <a href="index.html">
-                        <h4 style="color: white">Libreria <br> Quimera</h4>
+                      <a>
+                        <h3 style="color: white">Libreria <br> Quimera</h3>
                         </a>
-
-                        <a href="index.html">Inicio</a>
-                        <a href="recomendaciones.html">Recomendaciones</a>
+                        
+                        <a href="index.html" >Inicio</a>
+                        <a href="ofertas.html" style="color: rgb(188, 2, 2);" ><strong>¡Ofertas!</strong></a>
                         <a href="catalogo.html">Catalogo</a>
                         <a href="novedades.html">Novedades</a>
-                        <a href="ofertas.html">Ofertas</a>
+                        <a href="conocenosmas.html">Conocenos Mas</a>
+                       
 
                         <!-- AQUI ESTA EL ICONO DEL USUARIO -->
                         <a href="usuario.html" class="BotonUsuario">
@@ -44,7 +45,7 @@
                         </a>
 
                         <!-- AQUI ESTA EL ICONO DEL CARRO -->
-                        <a href="articulos.html" class="BotonCarro">
+                        <a href="carrito.html" class="BotonCarro">
                             <i class="fa-solid fa-cart-arrow-down"></i>
                         </a>
                 </div>
@@ -55,31 +56,34 @@
     
     <div class="wrapper">
 
-            <side>
+            <aside>
+                 <header>
+                    <h1 class="logo" style="color: #9DAA75">Libreria Quimera</h1>
+                </header>
                 <nav>
                     <ul>
                         
-                        <li><a class="boton-menu boton-volver" href="catalogo.html">Seguir comprando <i class="bi bi-arrow-return-left"></i></span></a></li>
+                        <li><a class="boton-menu boton-volver" href="catalogo.html"><i class="bi bi-arrow-return-left"></i> Seguir comprando </span></a></li>
 
-                        <li><a class="boton-menu boton-carrito active"  href="articulos.html"> <i class="fa-solid fa-cart-arrow-down"></i>Carrito </span></a></li>
+                        <li><a class="boton-menu boton-carrito active"  href="carrito.html"> <i class="fa-solid fa-cart-arrow-down"></i> Carrito </span></a></li>
 
                     </ul>
                 </nav>
 
                 <footer>
-                    <p class="text-footer">&copy; Libreria Quimera 2026. Todos los derechos reservados.</p>
+                    <p class="text-footer">&copy; Libreria Quimera 2026.</p>
                 </footer>
-            </side>
+            </aside>
 
                  <main>
                     <h2 class="titulo-principal"> Carrito</h2>
                     <div class="contenedor-carrito">
-                        <p class="carrito-vacio"> Tu carrito estas vacio :(</p>
+                        <p class="carrito-vacio" style="color: white"> Tu carrito estas vacio :(</p>
 
-                            <div class="carrito-productos">
+                            <div class="carrito-productos disable">
 
                                 <div class="carrito-producto">
-                                    <img src="Domitila2.jpeg" alt="">
+                                    <img class="carrito-producto-img" src="Domitila2.jpeg" alt="">
                                     <div class="carrito-producto-titulo">
                                         <small>Titulo</small>
                                         <h3>Libro Novela</h3>
@@ -102,7 +106,7 @@
                                 </div>
 
                                 <div class="carrito-producto">
-                                    <img src="Domitila2.jpeg" alt="">
+                                    <img class="carrito-producto-img" src="Domitila2.jpeg" alt="">
                                     <div class="carrito-producto-titulo">
                                         <small>Titulo</small>
                                         <h3>Libro Novela 2</h3>
@@ -125,7 +129,7 @@
                                 </div>
 
                                 <div class="carrito-producto">
-                                    <img src="Domitila2.jpeg" alt="">
+                                    <img  class="carrito-producto-img" src="Domitila2.jpeg" alt="">
                                     <div class="carrito-producto-titulo">
                                         <small>Titulo</small>
                                         <h3>Libro Novela 3</h3>
@@ -149,20 +153,22 @@
 
                             </div>
 
-                            <div class="carrito-acciones">
+                            <div class="carrito-acciones disable">
 
                                 <div class="carrito-accion-izquierda">
                                     <button class="carrito-acciones-vaciar"> Vaciar carrito</button>
 
                                 </div>
-                                <div class="carrito-accion-derecha">
-                                        <div class="carrito acciones total">
-                                            <p>Total</p>
-                                            <p id="total">$597</p>
+                                <div class="carrito-acciones-derecha">
+                                        <div class="carrito-acciones-total">
+                                            <p>Total: </p>
+                                            <p id="total"> $597</p>
                                         </div>
                                         <button class="carrito-acciones-comprar">Comprar ahora</button>
                                 </div>
                             </div>
+                                 <p class="carrito-comprado disable" style="color: white"> Muchas Gracias Por Tu Compra :D</p>
+
                     </div>
                  </main>
 
