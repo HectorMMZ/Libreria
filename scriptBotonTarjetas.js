@@ -29,7 +29,7 @@ function anterior()
 }
 
 // Movimiento automatico cada 10 segundo
-setInterval(() => {
-    siguiente();
-}, 10000
-);
+// setInterval(() => {
+//     siguiente();
+// }, 10000
+// );
