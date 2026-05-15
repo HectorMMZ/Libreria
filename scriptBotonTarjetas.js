@@ -3,7 +3,7 @@ let indice = 0;
 function mostrarSlide()
 {
     const slide = document.getElementById("banner");
-        slide.style.transform = `translateX(-${indice * 170}px)`;
+    slide.style.transform = `translateX(-${indice * 170}px)`;
 }
 
 function siguiente()

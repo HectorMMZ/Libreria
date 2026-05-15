@@ -73,6 +73,32 @@ body{
     gap: 20px;
     flex-wrap: nowrap;
     padding: 20px;
-    transition: transform 0.5s ease-in-out;
-    
+    transition: transform 0.5s ease-in-out;   
+}
+
+/* Centra el contenedor de los botones debajo de las tarjetas */
+.BotonTarjetas {
+    display: flex;
+    justify-content: center; 
+    gap: 30px;               
+    margin-top: 20px;        
+    padding-bottom: 20px; 
+}
+
+/* Le damos estilo a los botones para que combinen con la librería */
+.BotonTarjetas button {
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #F8A348; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+/* Cambia al rojo de tu paleta cuando le pasas el mouse por encima [cite: 1] */
+.BotonTarjetas button:hover {
+    background-color: #E15244; 
 }
