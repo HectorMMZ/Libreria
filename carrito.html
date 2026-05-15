@@ -78,85 +78,18 @@
                  <main>
                     <h2 class="titulo-principal"> Carrito</h2>
                     <div class="contenedor-carrito">
-                        <p class="carrito-vacio" style="color: white"> Tu carrito estas vacio :(</p>
+                        <p id="carrito-vacio" class="carrito-vacio" style="color: white"> Tu carrito estas vacio :(</p>
 
-                            <div class="carrito-productos disable">
+                            <div id="carrito-productos" class="carrito-productos disable">
 
-                                <div class="carrito-producto">
-                                    <img class="carrito-producto-img" src="Domitila2.jpeg" alt="">
-                                    <div class="carrito-producto-titulo">
-                                        <small>Titulo</small>
-                                        <h3>Libro Novela</h3>
-                                    </div>
-                                    <div class="carrito-producto-cantidad">
-                                        <small>Cantidad</small>
-                                        <p>1</p>
-                                    </div>
-
-                                    <div class="carrito-producto-precio">
-                                        <small>Precio</small>
-                                        <p>$199</p>
-                                    </div>
-
-                                    <div class="carrito-producto-subtotal">
-                                        <small>Subtototal</small>
-                                        <p>$199</p>
-                                    </div>
-                                    <button class="carrito-producto-eliminar"><i class="bi bi-trash3-fill"></i></button>
-                                </div>
-
-                                <div class="carrito-producto">
-                                    <img class="carrito-producto-img" src="Domitila2.jpeg" alt="">
-                                    <div class="carrito-producto-titulo">
-                                        <small>Titulo</small>
-                                        <h3>Libro Novela 2</h3>
-                                    </div>
-                                    <div class="carrito-producto-cantidad">
-                                        <small>Cantidad</small>
-                                        <p>1</p>
-                                    </div>
-
-                                    <div class="carrito-producto-precio">
-                                        <small>Precio</small>
-                                        <p>$199</p>
-                                    </div>
-
-                                    <div class="carrito-producto-subtotal">
-                                        <small>Subtototal</small>
-                                        <p>$199</p>
-                                    </div>
-                                    <button class="carrito-producto-eliminar"><i class="bi bi-trash3-fill"></i></button>
-                                </div>
-
-                                <div class="carrito-producto">
-                                    <img  class="carrito-producto-img" src="Domitila2.jpeg" alt="">
-                                    <div class="carrito-producto-titulo">
-                                        <small>Titulo</small>
-                                        <h3>Libro Novela 3</h3>
-                                    </div>
-                                    <div class="carrito-producto-cantidad">
-                                        <small>Cantidad</small>
-                                        <p>1</p>
-                                    </div>
-
-                                    <div class="carrito-producto-precio">
-                                        <small>Precio</small>
-                                        <p>$199</p>
-                                    </div>
-
-                                    <div class="carrito-producto-subtotal">
-                                        <small>Subtototal</small>
-                                        <p>$199</p>
-                                    </div>
-                                    <button class="carrito-producto-eliminar"><i class="bi bi-trash3-fill"></i></button>
-                                </div>
+                               <!-- Se llenara con el JS -->
 
                             </div>
 
-                            <div class="carrito-acciones disable">
+                            <div id="carrito-acciones" class="carrito-acciones disable">
 
                                 <div class="carrito-accion-izquierda">
-                                    <button class="carrito-acciones-vaciar"> Vaciar carrito</button>
+                                    <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar"> Vaciar carrito</button>
 
                                 </div>
                                 <div class="carrito-acciones-derecha">
@@ -164,16 +97,16 @@
                                             <p>Total: </p>
                                             <p id="total"> $597</p>
                                         </div>
-                                        <button class="carrito-acciones-comprar">Comprar ahora</button>
+                                        <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar ahora</button>
                                 </div>
                             </div>
-                                 <p class="carrito-comprado disable" style="color: white"> Muchas Gracias Por Tu Compra :D</p>
+                                 <p id="carrito-comprado" class="carrito-comprado disable" style="color: white"> Muchas Gracias Por Tu Compra :D</p>
 
                     </div>
                  </main>
 
         </div>
 
-        <script src="scriptCatalogo.js"></script>
+        <script src="scriptCarrito.js"></script>
 </body>
 </html>

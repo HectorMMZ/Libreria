@@ -58,12 +58,12 @@ aside {
     font-weight: 600;
     padding: 1rem;
     font-size: .85rem;
+    width: 100%;
 }
 
 .boton-menu.active{
     background-color: #1f3845;
     color: white;
-    width: 100%;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
     position: relative;
