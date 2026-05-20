@@ -76,7 +76,8 @@ body{
     gap: 20px;
     flex-wrap: nowrap;
     padding: 20px;
-    transition: transform 0.5s ease-in-out;   
+    transition: transform 0.5s ease-in-out;
+    overflow: hidden;   
 }
 
 /* Centra el contenedor de los botones debajo de las tarjetas */

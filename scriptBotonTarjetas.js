@@ -1,51 +1,35 @@
-let indice = 0;
+function siguiente(idContenedor) {
+    //Buscamos el banner ESPECÍFICO que nos pidió el botón
+    const banner = document.getElementById(idContenedor);
+    
+    const primeraTarjeta = banner.firstElementChild;
+    const desplazamiento = primeraTarjeta.offsetWidth + 20;
 
-function mostrarSlide()
-{
-    const slide = document.getElementById("banner");
-    slide.style.transform = `translateX(-${indice * 170}px)`;
+    banner.style.transition = "transform 0.4s ease-in-out";
+    banner.style.transform = `translateX(-${desplazamiento}px)`;
+
+    setTimeout(() => {
+        banner.style.transition = "none";
+        banner.appendChild(primeraTarjeta);
+        banner.style.transform = "translateX(0)";
+    }, 400); 
 }
 
-function siguiente()
-{
-    if(indice < 5){
-        indice++;
-    }
-    else{
-        indice = 0;
-    }
-    mostrarSlide();
+function anterior(idContenedor) {
+    //Buscamos el otro banner ESPECÍFICO que nos pidió el botón
+    const banner = document.getElementById(idContenedor);
+    
+    const ultimaTarjeta = banner.lastElementChild;
+    const primeraTarjeta = banner.firstElementChild;
+    const desplazamiento = primeraTarjeta.offsetWidth + 20;
+    
+    banner.style.transition = "none";
+    banner.prepend(ultimaTarjeta);
+    
+    banner.style.transform = `translateX(-${desplazamiento}px)`;
+
+    setTimeout(() => {
+        banner.style.transition = "transform 0.4s ease-in-out";
+        banner.style.transform = "translateX(0)";
+    }, 10);
 }
-
-function anterior()
-{
-    if(indice > 0){
-        indice--;
-    }
-    else{
-        indice = 2;
-    }
-    mostrarSlide();
-}
-
-// function siguiente(banner) {
-//     // 1. Buscamos el banner SOLO cuando se hace clic
-//     const banner = document.getElementById(banner);
-    
-//     // 2. Agarramos la PRIMERA tarjeta que está en la fila
-//     const primeraTarjeta = banner.firstElementChild;
-    
-//     // 3. La despegamos y la mandamos al FINAL de la fila
-//     banner.appendChild(primeraTarjeta);
-// }
-
-// function anterior(banner) {
-//     // 1. Buscamos el banner SOLO cuando se hace clic
-//     const banner = document.getElementById(banner);
-    
-//     // 2. Agarramos la ÚLTIMA tarjeta de la fila
-//     const ultimaTarjeta = banner.lastElementChild;
-    
-//     // 3. La despegamos y la mandamos al INICIO de la fila
-//     banner.prepend(ultimaTarjeta);
-// }
