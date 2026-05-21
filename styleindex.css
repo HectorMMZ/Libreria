@@ -21,15 +21,6 @@
     }
 }
 
-.logo{
-   
-   border-radius: 100%;
-    width: 80px;
-    position: relative;
-    left: 30px;
-     justify-content: space-between; 
-  
-}
 
 .EncuentraLibro{
     background: linear-gradient(90deg, transparent 0%, rgba(252, 252, 252, 0.95) 20%, rgba(252, 252, 252, 0.95) 80%, transparent 100%);
