@@ -1,11 +1,15 @@
-.LibreriaIMG{
-    background-image: url('Libros2.jpg');
-    height: 60vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: repeat-x;
-    animation: moverFondo 40s linear infinite;
-    /* background-position: center; */
+.LibreriaIMG {
+    background-image: url('libros2.jpg'); /* O tu tira de imágenes */
+    
+    /* 1. La altura correcta que ya habíamos logrado */
+    height: 60vh; 
+    
+    /* 2. Ajustamos el tamaño de la imagen para que encaje con la nueva altura */
+    background-size: auto 60vh; 
+    
+    /* 3. Las propiedades mágicas de la animación que se nos perdieron */
+    background-repeat: repeat-x; 
+    animation: moverFondo 40s linear infinite; 
 }
 
 @keyframes moverFondo{
@@ -31,27 +35,17 @@
     background: linear-gradient(90deg, transparent 0%, rgba(252, 252, 252, 0.95) 20%, rgba(252, 252, 252, 0.95) 80%, transparent 100%);
     
     width: 80%;
-    height: 100%;
     max-width: 900px;
+    height: 100%;
     padding: 0 40px;
-    margin: 0 auto; 
+    margin: 0 auto;
     
+    /*Acomodo Interno (Flexbox) para centrar perfectamente todo el contenido inside the box */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; 
     align-items: center; 
     text-align: center; 
-
-    /* margin-left: auto;   
-    margin-right: auto;  
-    width: 70%;          
-    max-width: 1000px;
-    margin-top: 230px;
-    margin-bottom: 335px;
-    text-align: left;  */
-
-    /* text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.6)); */
 }
 
 .Recomendaciones{
@@ -64,14 +58,30 @@
 
 }
 
-.RecomendacionesColor{
-    width: 70%;
-    padding: 15px 0;
-    background-color: #1f3845/* #494d32 *//* #7B8253*/;
-    margin: 0 auto;
+.RecomendacionesColor .Ofertas .Novedades {
+    background-color: #FFFFFF !important; /* Fondo 100% blanco */
+    width: 100% !important;
+    padding: 60px 0 !important; /* Espacio para que respire arriba y abajo */
+    margin: 0 !important;
+    
+    /* LA LÍNEA GRIS DIVISORIA ESTILO CASA DEL LIBRO */
+    border-bottom: 2px solid #EAEAEA !important;
+}
 
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.6));
+/* Títulos de las secciones limpios para que combinen con el fondo blanco */
+.RecomendacionesColor h2, .Ofertas h2, .Novedades h2 {
+    color: #1A3636 !important; 
+    margin-bottom: 40px !important;
+    text-align: center !important;
+}
+
+/* Como el fondo ahora es blanco, necesitamos que las letras sean oscuras */
+.Recomendaciones h2 {
+    color: #1A3636 !important; /* Verde Bosque para el título */
+}
+
+.Recomendaciones p, .Recomendaciones h3 {
+    color: #333333 !important; /* Gris oscuro para subtítulos */
 }
 
 .Novedades{
@@ -80,7 +90,8 @@
     max-width: 1000px;
     margin-top: 100px;
     width: 80%;
-    text-align: center;   
+    text-align: center; 
+    border-bottom: none;  
 }
 
 .NovedadesColor{
@@ -144,26 +155,26 @@
 .Buscador input[type="search"] {
     width: 220px;
     height: 35px;
-    border: none; /* Quitamos bordes */
-    outline: none; /* Quitamos el borde azul al hacer clic */
+    border: none;
+    outline: none; 
     padding: 0 10px;
     font-size: 14px;
     font-family: 'Marcellus', serif;
     color: #1f3845;
 }
 
-/* El botón ¡Vamos!: Con fondo y sin bordes */
+
 .Buscador input[type="submit"] {
-    height: 35px; /* Misma altura que el input */
+    height: 35px; 
     padding: 0 15px;
     font-size: 13px;
     font-weight: bold;
     font-family: 'Marcellus', serif;
-    color: white; /* Color oscuro para el texto */
-    /* Usamos el color dorado sobrio y plano (sin degradados) */
+    color: white; 
+
     background: #1f3845; 
-    border: none; /* ELIMINA BORDES */
-    border-radius: 0; /* TOTALMENTE CUADRADO */
+    border: none;
+    border-radius: 0; 
     cursor: pointer;
     text-transform: uppercase;
     transition: all 0.3s ease;
@@ -205,4 +216,33 @@
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
+}
+
+
+/* 1. La barra de navegación superior */
+.BarraDeActividadesMargen {
+    background-color: #1A3636 !important;
+    width: 100% !important; 
+    margin-top: 0; 
+    padding: 15px 0; 
+    position: relative; 
+    z-index: 10;
+}
+
+/* 2. El título de la librería en la barra */
+.BarraDeActividades h3 {
+    color: #D4AF37 !important; 
+}
+
+/* 3. Los enlaces del menú */
+.BarraDeActividades a {
+    color: #FCFCFC !important; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+/* 4. Efecto al pasar el ratón por el menú */
+.BarraDeActividades a:hover {
+    color: #D4AF37 !important; 
 }

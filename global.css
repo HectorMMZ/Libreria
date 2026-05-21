@@ -52,17 +52,64 @@ body{
 }
 
 .TarjetaLibro{
-    background-color: white;
-    height: auto;
-    width: 135px;
-    padding: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+    border: 1px solid #EAEAEA; 
+    border-radius: 1px;
+    width: 230px; 
+    padding: 15px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+ /*Para darle un mejor efecto a las tarjetas*/
+.TarjetaLibro:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.06);
 }
 
 /*Para evitar que la imagen del libro se desborde*/
-.TarjetaLibro img{
+.TarjetaLibro img {
     width: 100%;
     height: auto;
+    border-radius: 1px;
+    margin-bottom: 12px;
+}
+
+/* --- TEXTOS CON SU SOMBRA RESTAURADA --- */
+
+.TarjetaLibro h3, .TarjetaLibro h4, .TarjetaLibro .Titulo {
+    font-size: 1.1rem !important;
+    color: #1A3636 !important; /* Verde oscuro */
+    margin: 15px 15px 5px 15px !important;
+    text-align: left !important;
+    
+    /* Le devolvemos una sombra oscura a los títulos */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4) !important; 
+}
+
+.TarjetaLibro p, .TarjetaLibro .Autor {
+    font-size: 0.9rem !important;
+    color: #666666 !important;
+    margin: 0 15px 10px 15px !important;
+    text-align: left !important;
+    
+    /* Sombra ligeramente más suave para el texto pequeño */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3) !important;
+}
+
+.TarjetaLibro .precio-libro, .TarjetaLibro .Precio, .TarjetaLibro p:last-of-type {
+    font-size: 1.2rem !important;
+    font-weight: bold !important;
+    color: #D4AF37 !important; /* Dorado Quimera */
+    margin: 10px 15px 20px 15px !important;
+    text-align: left !important;
+    
+    /* Sombra para que el precio resalte bien */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3) !important;
 }
 
 .VentanaCarrusel{
@@ -105,4 +152,59 @@ body{
 /* Cambia al rojo de tu paleta cuando le pasas el mouse por encima [cite: 1] */
 .BotonTarjetas button:hover {
     background-color: #E15244; 
+}
+
+/*Banner entre las secciones*/
+.BannerIntermedio {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto; 
+    display: flex;
+    justify-content: center;
+}
+
+.BannerIntermedio img {
+    width: 100%;
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.BannerIntermedio img:hover {
+    transform: scale(1.01);
+}
+
+/* =======================================================
+   1. LIMPIEZA TOTAL: ADIÓS CAJITAS Y FONDOS OSCUROS
+   ======================================================= */
+
+/* Forzamos a TODOS los contenedores a ser blancos y ocupar el 100% */
+.RecomendacionesColor, .Recomendaciones,
+.OfertasColor, .Ofertas,
+.NovedadesColor, .Novedades {
+    background-color: #FFFFFF !important;
+    max-width: 100% !important; 
+    width: 100% !important; 
+    margin: 0 !important; 
+    box-shadow: none !important; /* Elimina el efecto de cajita flotante */
+    border-radius: 0 !important; 
+}
+
+/* Espacio interior y la línea gris estilo Casa del Libro */
+.RecomendacionesColor, .OfertasColor, .Ofertas, .NovedadesColor, .Novedades {
+    padding: 40px 0 !important;
+    border-bottom: 2px solid #EAEAEA !important;
+}
+
+/* Le quitamos la línea a la última sección */
+.NovedadesColor, .Novedades {
+    border-bottom: none !important;
+}
+
+/* Aseguramos que solo los carruseles de libros se centren a 90% */
+.ContenedorTarjetas, .carousel, .fila-libros {
+    width: 90% !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
 }
