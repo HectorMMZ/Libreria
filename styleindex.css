@@ -176,3 +176,33 @@
     /* Le quitamos cualquier sombra residual */
     text-shadow: none; 
 }
+
+/* Acomodamos el formulario en una sola línea */
+.Buscador form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+/* La barra para escribir */
+.Buscador input[type="search"] {
+    padding: 12px 20px;
+    width: 60%;
+    border: 2px solid #D4AF37; /* Borde dorado */
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+}
+
+/* El botón dorado */
+.Buscador input[type="submit"] {
+    padding: 12px 30px;
+    background-color: #D4AF37; /* Fondo dorado */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
