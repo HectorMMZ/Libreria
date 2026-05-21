@@ -1,23 +1,48 @@
 .LibreriaIMG{
     background-image: url('Libros2.jpg');
-    height: 101vh;
+    height: 60vh;
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
-} 
+    background-repeat: repeat-x;
+    animation: moverFondo 40s linear infinite;
+    /* background-position: center; */
+}
+
+@keyframes moverFondo{
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: -2000px;
+    }
+}
 
 
 .EncuentraLibro{
-    margin-left: auto;   
+    background: linear-gradient(90deg, transparent 0%, rgba(252, 252, 252, 0.95) 20%, rgba(252, 252, 252, 0.95) 80%, transparent 100%);
+    
+    width: 80%;
+    height: 100%;
+    max-width: 900px;
+    padding: 0 40px;
+    margin: 0 auto; 
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+
+    /* margin-left: auto;   
     margin-right: auto;  
     width: 70%;          
     max-width: 1000px;
     margin-top: 230px;
     margin-bottom: 335px;
-    text-align: left; 
-    
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.6));
+    text-align: left;  */
+
+    /* text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.6)); */
 }
 
 .Recomendaciones{
@@ -78,7 +103,6 @@
     filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.6));
 }
 
-
 .DerechosDeAutor {
    
     width: 100%; 
@@ -134,4 +158,42 @@
     cursor: pointer;
     text-transform: uppercase;
     transition: all 0.3s ease;
+}
+
+.TituloBanner {
+    color: #1A3636; /* Verde Bosque Oscuro de tu nueva paleta */
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    /* Le quitamos cualquier sombra residual */
+    text-shadow: none; 
+}
+
+/* Acomodamos el formulario en una sola línea */
+.Buscador form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+/* La barra para escribir */
+.Buscador input[type="search"] {
+    padding: 12px 20px;
+    width: 60%;
+    border: 2px solid #D4AF37; /* Borde dorado */
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+}
+
+/* El botón dorado */
+.Buscador input[type="submit"] {
+    padding: 12px 30px;
+    background-color: #D4AF37; /* Fondo dorado */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
 }
