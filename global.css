@@ -13,8 +13,17 @@ body{
     margin-right: auto;
     max-width: 1000px;
     font-size: 1.1rem;
- 
-    
+}
+
+
+.logo{
+   
+   border-radius: 100%;
+    width: 60px;
+    position: relative;
+    left: 30px;
+     justify-content: space-between; 
+  
 }
 
 .BarraDeActividades a{ /*Que hace esto? Esto hace que no este subrayado el link o sea lo quita y le pone el color blanco*/
@@ -68,6 +77,7 @@ body{
 .VentanaCarrusel{
     overflow: hidden; 
     width: 100%;
+
 }
 
 .ContenedorTarjetas{
@@ -76,7 +86,8 @@ body{
     gap: 20px;
     flex-wrap: nowrap;
     padding: 20px;
-    transition: transform 0.5s ease-in-out;   
+    transition: transform 0.5s ease-in-out;
+    overflow: hidden;   
 }
 
 /* Centra el contenedor de los botones debajo de las tarjetas */
