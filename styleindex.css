@@ -1,185 +1,47 @@
+/* =======================================================
+   ESTILOS ESPECÍFICOS - INDEX (PÁGINA PRINCIPAL)
+   ======================================================= */
+
+/* --- BANNER ANIMADO PRINCIPAL --- */
+
 .LibreriaIMG {
-    background-image: url('libros2.jpg'); /* O tu tira de imágenes */
-    
-    /* 1. La altura correcta que ya habíamos logrado */
+    background-image: url('libros2.jpg'); 
     height: 60vh; 
-    
-    /* 2. Ajustamos el tamaño de la imagen para que encaje con la nueva altura */
     background-size: auto 60vh; 
-    
-    /* 3. Las propiedades mágicas de la animación que se nos perdieron */
     background-repeat: repeat-x; 
     animation: moverFondo 40s linear infinite; 
 }
 
-@keyframes moverFondo{
-    0%{
-        background-position: 0 0;
-    }
-    100%{
-        background-position: -2000px;
-    }
+@keyframes moverFondo {
+    0% { background-position: 0 0; }
+    100% { background-position: -2000px; }
 }
 
-
-.EncuentraLibro{
+/* El cuadro blanco difuminado sobre la animación */
+.EncuentraLibro {
     background: linear-gradient(90deg, transparent 0%, rgba(252, 252, 252, 0.95) 20%, rgba(252, 252, 252, 0.95) 80%, transparent 100%);
-    
     width: 80%;
     max-width: 900px;
     height: 100%;
-    padding: 0 40px;
+    padding: 100px 40px 0 40px; /* Padding superior para bajar el texto (ajusta el 100px si necesitas) */
     margin: 0 auto;
-    
-    /*Acomodo Interno (Flexbox) para centrar perfectamente todo el contenido inside the box */
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: flex-start; /* Cambiado a flex-start para que el padding-top funcione correctamente */
     align-items: center; 
     text-align: center; 
 }
 
-.Recomendaciones{
-    margin-left: auto;   
-    margin-right: auto;  
-    max-width: 1000px;
-    margin-top: 100px;
-    width: 80%;
-    text-align: center; 
-
-}
-
-.RecomendacionesColor .Ofertas .Novedades {
-    background-color: #FFFFFF !important; /* Fondo 100% blanco */
-    width: 100% !important;
-    padding: 60px 0 !important; /* Espacio para que respire arriba y abajo */
-    margin: 0 !important;
-    
-    /* LA LÍNEA GRIS DIVISORIA ESTILO CASA DEL LIBRO */
-    border-bottom: 2px solid #EAEAEA !important;
-}
-
-/* Títulos de las secciones limpios para que combinen con el fondo blanco */
-.RecomendacionesColor h2, .Ofertas h2, .Novedades h2 {
-    color: #1A3636 !important; 
-    margin-bottom: 40px !important;
-    text-align: center !important;
-}
-
-/* Como el fondo ahora es blanco, necesitamos que las letras sean oscuras */
-.Recomendaciones h2 {
-    color: #1A3636 !important; /* Verde Bosque para el título */
-}
-
-.Recomendaciones p, .Recomendaciones h3 {
-    color: #333333 !important; /* Gris oscuro para subtítulos */
-}
-
-.Novedades{
-    margin-left: auto;   
-    margin-right: auto;  
-    max-width: 1000px;
-    margin-top: 100px;
-    width: 80%;
-    text-align: center; 
-    border-bottom: none;  
-}
-
-.NovedadesColor{
-    width: 70%;
-    padding: 30px 0;
-    background-color: white/* #7B8253*/;
-    margin: 0 auto;
-
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.6));
-}
-
-.Ofertas{
-    margin-left: auto;   
-    margin-right: auto;  
-    max-width: 1000px;
-    margin-top: 100px;
-    width: 80%;
-    text-align: center;   
-}
-
-.OfertasColor{
-    width: 70%;
-    padding: 30px 0;
-    background-color: #1f3541/* #7B8253*/;
-    margin: 0 auto;
-
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.6));
-}
-
-.DerechosDeAutor {
-   
-    width: 100%; 
-    background-color: white;
-    margin-top: 100px;
-    padding: 40px 0; 
-    margin: 0 auto;
-    
-}
-
-.DerechosDeAutor p, .DerechosDeAutor ul, .DerechosDeAutor a{
-    
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px; 
-    text-align: left;
-
-    text-decoration: none; 
-    color: black;
-
-    transition: all 0.3s ease; 
-    position: relative;
-
-}
-
-/* DALE LAS GRACIAS A GEMINI :P */
-
-/* El cuadro de búsqueda */
-.Buscador input[type="search"] {
-    width: 220px;
-    height: 35px;
-    border: none;
-    outline: none; 
-    padding: 0 10px;
-    font-size: 14px;
-    font-family: 'Marcellus', serif;
-    color: #1f3845;
-}
-
-
-.Buscador input[type="submit"] {
-    height: 35px; 
-    padding: 0 15px;
-    font-size: 13px;
-    font-weight: bold;
-    font-family: 'Marcellus', serif;
-    color: white; 
-
-    background: #1f3845; 
-    border: none;
-    border-radius: 0; 
-    cursor: pointer;
-    text-transform: uppercase;
-    transition: all 0.3s ease;
-}
-
 .TituloBanner {
-    color: #1A3636; /* Verde Bosque Oscuro de tu nueva paleta */
+    color: #1A3636; 
     font-size: 2.5rem;
     margin-bottom: 30px;
-    /* Le quitamos cualquier sombra residual */
     text-shadow: none; 
 }
 
-/* Acomodamos el formulario en una sola línea */
+/* --- BUSCADOR DEL BANNER --- */
+
 .Buscador form {
     display: flex;
     justify-content: center;
@@ -187,53 +49,31 @@
     width: 100%;
 }
 
-/* La barra para escribir */
 .Buscador input[type="search"] {
     padding: 12px 20px;
     width: 60%;
-    border: 2px solid #D4AF37; /* Borde dorado */
+    border: 2px solid #D4AF37; 
     border-radius: 5px;
     font-size: 1rem;
     outline: none;
+    font-family: 'Marcellus', serif;
+    color: #1A3636;
 }
 
-/* El botón dorado */
 .Buscador input[type="submit"] {
     padding: 12px 30px;
-    background-color: #D4AF37; /* Fondo dorado */
+    background-color: #D4AF37; 
     color: white;
     border: none;
     border-radius: 5px;
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
+    font-family: 'Marcellus', serif;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
 }
 
-
-/* 1. La barra de navegación superior */
-.BarraDeActividadesMargen {
-    background-color: #1A3636 !important;
-    width: 100% !important; 
-    margin-top: 0; 
-    padding: 15px 0; 
-    position: relative; 
-    z-index: 10;
-}
-
-/* 2. El título de la librería en la barra */
-.BarraDeActividades h3 {
-    color: #D4AF37 !important; 
-}
-
-/* 3. Los enlaces del menú */
-.BarraDeActividades a {
-    color: #FCFCFC !important; 
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-/* 4. Efecto al pasar el ratón por el menú */
-.BarraDeActividades a:hover {
-    color: #D4AF37 !important; 
+.Buscador input[type="submit"]:hover {
+    background-color: #1A3636;
 }

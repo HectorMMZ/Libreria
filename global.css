@@ -1,141 +1,182 @@
-body{
-    background-color:whitesmoke;
+/* =======================================================
+   ESTILOS GLOBALES - QUIMERA LIBRERÍA
+   ======================================================= */
+
+body {
+    background-color: #FFFFFF; /* Cambiado a blanco para mantener la consistencia de tienda online */
     font-family: "Marcellus", serif;
     padding: 0;
     margin: 0;
 }
 
-.BarraDeActividades{
+/* --- BARRA DE NAVEGACIÓN --- */
+
+.BarraDeActividadesMargen {
+    background-color: #1A3636;
+    width: 100%; 
+    padding: 15px 0; 
+    position: relative; 
+    z-index: 10;
+}
+
+.BarraDeActividades {
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
     margin-left: auto;
     margin-right: auto;
-   max-width: 1200px;  
+    max-width: 1200px;  
     width: 90%;         
     padding: 0 40px;
     font-size: 1.1rem;
-  
 }
 
-.logo{
+.logo {
     width: 130px;
 }
 
-.BarraDeActividades a{ 
+.BarraDeActividades h3 {
+    color: #D4AF37; 
+}
+
+.BarraDeActividades a { 
     text-decoration: none; 
-    color: white;
+    color: #FCFCFC;
+    font-weight: bold;
     transition: all 0.3s ease; 
     padding: 10px 20px;     
     display: inline-flex;   
     align-items: center;    
-
-    
 }
-
 
 .BarraDeActividades a:hover {
-    color: #ffb347; 
+    color: #D4AF37; 
     transform: translateY(-2px); 
-    text-shadow: 0px 4px 8px rgba(0,0,0,0.3); 
 }
 
-.BarraDeActividadesMargen{
-    width: 100%;
-    padding-top: 20px !important;
-    padding-bottom: 20px;
-    
-    background: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 100%);
-}
-
- /* Css del carro para que sea mas grande */
-.BotonCarro i{
+/* Iconos de la barra */
+.BotonCarro i, .BotonUsuario i {
     font-size: 20px;
 }
 
-/* Css del inicio de sesion */
-.BotonUsuario i{
-    font-size: 20px;
+/* --- SECCIONES PRINCIPALES (Recomendaciones, Ofertas, Novedades) --- */
+
+.RecomendacionesColor, .Recomendaciones,
+.OfertasColor, .Ofertas,
+.NovedadesColor, .Novedades {
+    background-color: #FFFFFF;
+    max-width: 100%; 
+    width: 100%; 
+    margin: 0; 
+    box-shadow: none; 
+    border-radius: 0; 
+    padding: 40px 0;
+    text-align: center;
 }
 
-.TarjetaLibro{
+/* Línea divisoria gris */
+.RecomendacionesColor, .OfertasColor, .NovedadesColor {
+    border-bottom: 2px solid #EAEAEA;
+}
+
+/* Quitar la línea en la última sección */
+.NovedadesColor {
+    border-bottom: none;
+}
+
+/* Títulos de las secciones */
+.RecomendacionesColor h2, .Recomendaciones h2, 
+.OfertasColor h2, .Ofertas h2, 
+.NovedadesColor h2, .Novedades h2 {
+    color: #1A3636 !important;
+    margin-bottom: 40px;
+}
+
+/* Subtítulos de secciones */
+.Recomendaciones p, .Recomendaciones h3 {
+    color: #333333 !important;
+}
+
+/* --- TARJETAS DE LIBROS --- */
+
+.TarjetaLibro {
     background-color: #FFFFFF;
     border: 1px solid #EAEAEA; 
     border-radius: 1px;
-    width: 230px; 
     padding: 15px;
     
+    /* EL CANDADO DE TAMAÑO: Forzamos el tamaño pequeño estándar */
+    width: 190px !important; 
+    min-width: 190px !important;
+    max-width: 190px !important; 
+    flex: 0 0 190px !important;  
+    
+    /* Mantenemos el resto de estilos limpios */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     text-align: left;
-    
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-sizing: border-box; /* Asegura que el padding no agrande la tarjeta */
 }
- /*Para darle un mejor efecto a las tarjetas*/
+
 .TarjetaLibro:hover {
     transform: translateY(-4px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.06);
 }
 
-/*Para evitar que la imagen del libro se desborde*/
 .TarjetaLibro img {
-    width: 100%;
-    height: auto;
+    width: 100% !important;
+    height: 220px !important; 
+    object-fit: cover !important; 
     border-radius: 1px;
     margin-bottom: 12px;
 }
 
-/* --- TEXTOS CON SU SOMBRA RESTAURADA --- */
-
+/* Textos de las Tarjetas (Con su sombra restaurada) */
 .TarjetaLibro h3, .TarjetaLibro h4, .TarjetaLibro .Titulo {
-    font-size: 1.1rem !important;
-    color: #1A3636 !important; /* Verde oscuro */
-    margin: 15px 15px 5px 15px !important;
-    text-align: left !important;
-    
-    /* Le devolvemos una sombra oscura a los títulos */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4) !important; 
+    font-size: 1.1rem;
+    color: #1A3636; 
+    margin: 15px 15px 5px 15px;
+    text-align: left;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
 }
 
 .TarjetaLibro p, .TarjetaLibro .Autor {
-    font-size: 0.9rem !important;
-    color: #666666 !important;
-    margin: 0 15px 10px 15px !important;
-    text-align: left !important;
-    
-    /* Sombra ligeramente más suave para el texto pequeño */
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3) !important;
+    font-size: 0.9rem;
+    color: #666666;
+    margin: 0 15px 10px 15px;
+    text-align: left;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 .TarjetaLibro .precio-libro, .TarjetaLibro .Precio, .TarjetaLibro p:last-of-type {
-    font-size: 1.2rem !important;
-    font-weight: bold !important;
-    color: #D4AF37 !important; /* Dorado Quimera */
-    margin: 10px 15px 20px 15px !important;
-    text-align: left !important;
-    
-    /* Sombra para que el precio resalte bien */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3) !important;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #D4AF37; 
+    margin: 10px 15px 20px 15px;
+    text-align: left;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.VentanaCarrusel{
-    overflow: hidden; 
-    width: 100%;
+/* --- CARRUSELES Y CONTENEDORES --- */
 
-}
-
-.ContenedorTarjetas{
+.ContenedorTarjetas, .carousel, .fila-libros {
     display: flex;
     justify-content: center;
     gap: 20px;
-    flex-wrap: nowrap;
+    flex-wrap: wrap !important; /* CRÍTICO: Permite que los libros bajen si no caben */
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 20px;
-    transition: transform 0.5s ease-in-out;
-    overflow: hidden;   
 }
 
-/* Centra el contenedor de los botones debajo de las tarjetas */
+.VentanaCarrusel {
+    overflow: hidden; 
+    width: 100%;
+}
+
 .BotonTarjetas {
     display: flex;
     justify-content: center; 
@@ -144,12 +185,11 @@ body{
     padding-bottom: 20px; 
 }
 
-/* Le damos estilo a los botones para que combinen con la librería */
 .BotonTarjetas button {
     padding: 10px 25px;
     font-size: 18px;
     font-weight: bold;
-    background-color: #F8A348; 
+    background-color: #D4AF37; /* Cambiado al dorado de tu paleta */
     color: white;
     border: none;
     border-radius: 5px;
@@ -157,12 +197,12 @@ body{
     transition: background-color 0.3s ease; 
 }
 
-/* Cambia al rojo de tu paleta cuando le pasas el mouse por encima [cite: 1] */
 .BotonTarjetas button:hover {
-    background-color: #E15244; 
+    background-color: #1A3636; /* Cambiado al verde bosque al pasar el mouse */
 }
 
-/*Banner entre las secciones*/
+/* --- BANNER INTERMEDIO ESTATICO --- */
+
 .BannerIntermedio {
     width: 90%;
     max-width: 1200px;
@@ -183,36 +223,24 @@ body{
     transform: scale(1.01);
 }
 
-/* =======================================================
-   1. LIMPIEZA TOTAL: ADIÓS CAJITAS Y FONDOS OSCUROS
-   ======================================================= */
+/* --- FOOTER / DERECHOS DE AUTOR --- */
 
-/* Forzamos a TODOS los contenedores a ser blancos y ocupar el 100% */
-.RecomendacionesColor, .Recomendaciones,
-.OfertasColor, .Ofertas,
-.NovedadesColor, .Novedades {
-    background-color: #FFFFFF !important;
-    max-width: 100% !important; 
-    width: 100% !important; 
-    margin: 0 !important; 
-    box-shadow: none !important; /* Elimina el efecto de cajita flotante */
-    border-radius: 0 !important; 
+.DerechosDeAutor {
+    width: 100%; 
+    background-color: #FFFFFF;
+    padding: 40px 0; 
+    margin: 0 auto;
+    border-top: 2px solid #EAEAEA; /* Línea separadora para el footer */
 }
 
-/* Espacio interior y la línea gris estilo Casa del Libro */
-.RecomendacionesColor, .OfertasColor, .Ofertas, .NovedadesColor, .Novedades {
-    padding: 40px 0 !important;
-    border-bottom: 2px solid #EAEAEA !important;
-}
-
-/* Le quitamos la línea a la última sección */
-.NovedadesColor, .Novedades {
-    border-bottom: none !important;
-}
-
-/* Aseguramos que solo los carruseles de libros se centren a 90% */
-.ContenedorTarjetas, .carousel, .fila-libros {
-    width: 90% !important;
-    max-width: 1200px !important;
-    margin: 0 auto !important;
+.DerechosDeAutor p, .DerechosDeAutor ul, .DerechosDeAutor a {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px; 
+    text-align: left;
+    text-decoration: none; 
+    color: #333333;
+    transition: all 0.3s ease; 
+    position: relative;
 }
