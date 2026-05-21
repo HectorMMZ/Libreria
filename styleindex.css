@@ -1,7 +1,8 @@
 .LibreriaIMG{
     background-image: url('Libros2.jpg');
-    height: 101vh;
-    background-size: auto 100vh;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
     background-repeat: repeat-x;
     animation: moverFondo 40s linear infinite;
     /* background-position: center; */
@@ -27,16 +28,30 @@
 }
 
 .EncuentraLibro{
-    margin-left: auto;   
+    background: linear-gradient(90deg, transparent 0%, rgba(252, 252, 252, 0.95) 20%, rgba(252, 252, 252, 0.95) 80%, transparent 100%);
+    
+    width: 80%;
+    height: 100%;
+    max-width: 900px;
+    padding: 0 40px;
+    margin: 0 auto; 
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+
+    /* margin-left: auto;   
     margin-right: auto;  
     width: 70%;          
     max-width: 1000px;
     margin-top: 230px;
     margin-bottom: 335px;
-    text-align: left; 
-    
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.6));
+    text-align: left;  */
+
+    /* text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.6)); */
 }
 
 .Recomendaciones{
@@ -152,4 +167,12 @@
     cursor: pointer;
     text-transform: uppercase;
     transition: all 0.3s ease;
+}
+
+.TituloBanner {
+    color: #1A3636; /* Verde Bosque Oscuro de tu nueva paleta */
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    /* Le quitamos cualquier sombra residual */
+    text-shadow: none; 
 }
