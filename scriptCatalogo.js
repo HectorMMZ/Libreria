@@ -1,4 +1,17 @@
 const LibrosArray = [
+    // Libros de clasicos ------------------------------------------------------------------------------------------
+    {
+    id: "libroClasico-01", //Su id del libro
+        titulo:"Besos de Canelo y Hielo", //Este es el nombre que aparecera la pagina
+        imagen: "./img/libro.jpg", //Aqui la imagen
+        categoria:{
+            nombre:  "Libros Clasicos",  //Esto es necesario para que se pueda separar por generos
+            id:"clasicos"
+        },
+        precio: 299, //El precio
+    }, 
+
+
 
     // Libros de romance ------------------------------------------------------------------------------------------
     {
