@@ -23,28 +23,40 @@
 
    <div class="ColorBarraDeActividades">
         <div class="BarraDeActividadesMargen">
-                <div class="BarraDeActividades">
-                    <img src="LechuzaLogo.png" class="logo">
-                       <a>
-                        <h3 style="color: white">Libreria <br> Quimera</h3>
+               <div class="FilaSuperior">
+                    <div class="LogoYTitulo">
+                        <img src="LechuzaLogo.png" class="logo">
+                        <a>    
+                            <h3 style="color: white"> Libreria <br> Quimera</h3>
                         </a>
-                        
-                        <a href="index.html" >Inicio</a>
-                        <a href="ofertas.html" style="color: rgb(188, 2, 2);" ><strong>¡Ofertas!</strong></a>
+                    </div>
+
+                    <div class="BuscadorHeader">
+                        <form>
+                            <input type="search" name="q" placeholder="Título, Autor o ISBN">
+                            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+
+                    <div class="AccionesUsuario">
+                        <a href="usuario.html" class="BotonUsuario">
+                            <i class="fa-solid fa-user"> </i> <span style="margin-left: 10px;">Mi cuenta</span>
+                        </a>
+
+                        <a href="carrito.html" class="BotonCarro">
+                            <i class="fa-solid fa-cart-arrow-down"> </i> <span style="margin-left: 10px;">Mis Libros</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="FilaInferior">
+                    <nav class="BarraDeActividades">
+                        <a href="index.html">Inicio</a>
+                        <a href="ofertas.html" style="color: rgb(188, 2, 2);"><strong>¡Ofertas!</strong></a>
                         <a href="catalogo.html">Catalogo</a>
                         <a href="novedades.html">Novedades</a>
                         <a href="conocenosmas.html">Conocenos Mas</a>
-                       
-
-                        <!-- AQUI ESTA EL ICONO DEL USUARIO -->
-                        <a href="usuario.html" class="BotonUsuario">
-                            <i class="fa-solid fa-user"></i>
-                        </a>
-
-                        <!-- AQUI ESTA EL ICONO DEL CARRO -->
-                        <a href="carrito.html" class="BotonCarro">
-                            <i class="fa-solid fa-cart-arrow-down"></i>
-                        </a>
+                    </nav>
                 </div>
         </div>
     </div>  
@@ -59,7 +71,7 @@
                     <input type="email" placeholder="Correo">
                     <input type="password" placeholder="Contraseña">
                     
-                    <button>Ingresar</button>
+                    <button class="ingresar">Ingresar</button>
                     
                     <p>¿Aun no tienes cuenta?
                         <span id="Registrate">Registrate</span>
@@ -75,7 +87,7 @@
                     <input type="password" placeholder="Contraseña">
                     <input type="tel" placeholder="Numero Telefonico">
                     
-                    <button>Crear cuenta</button>
+                    <button class="crear-cuenta">Crear cuenta</button>
                     
                     <p>¿Todo listo?
                         <span id="RegistroNuevo">Iniciar sesion</span>

@@ -6,7 +6,7 @@
 
 .LibreriaIMG {
     background-image: url('libros2.jpg'); 
-    height: 60vh; 
+    height: 80vh; 
     background-size: auto 60vh; 
     background-repeat: repeat-x; 
     animation: moverFondo 40s linear infinite; 
@@ -23,12 +23,12 @@
     width: 80%;
     max-width: 900px;
     height: 100%;
-    padding: 100px 40px 0 40px; /* Padding superior para bajar el texto (ajusta el 100px si necesitas) */
+    padding: 100px 40px 0 40px; 
     margin: 0 auto;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* Cambiado a flex-start para que el padding-top funcione correctamente */
+    justify-content: flex-start; 
     align-items: center; 
     text-align: center; 
 }
@@ -69,11 +69,60 @@
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
-    font-family: 'Marcellus', serif;
+   
     text-transform: uppercase;
     transition: background-color 0.3s ease;
 }
 
 .Buscador input[type="submit"]:hover {
     background-color: #1A3636;
+}
+
+
+/* SECCIÓN DE ANUNCIO DE ENVÍO */
+
+.ContenedorAnuncioEnvio {
+    width: 100%;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    font-family: 'Marcellus', serif;
+    box-sizing: border-box;
+    background-color: white; 
+    border-radius: 10px; 
+
+    margin-top: -50px;
+}
+
+.BloqueEnvioGratis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 15px;
+}
+
+.BloqueEnvioGratis .icono-camion-envio {
+    font-size: 2.5rem;
+    color: #1A3636; 
+}
+
+.TextoEnvioGratis h2 {
+    margin: 0 !important;
+    font-size: 1.8rem;
+    color: #1A3636 !important;
+    font-weight: normal;
+}
+
+.TextoEnvioGratis .ResalteWebQuimera {
+    color: #6C82B3; 
+    font-weight: bold;
+}
+
+.TextoEnvioGratis .AclaracionEnvio {
+    margin: 3px 0 0 0 !important;
+    font-size: 0.85rem;
+    color: #666666 !important;
+    text-shadow: none !important; 
 }

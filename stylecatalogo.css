@@ -69,7 +69,7 @@ aside {
     position: relative;
 }
 
-/* Para poner contenedores, basicamente esot hacer el borde redondedeado que tiene el cuadro de todos los titulos que esta pegado al main */
+/* Para poner contenedores, basicamente esto hacer el borde redondedeado que tiene el cuadro de todos los titulos que esta pegado al main */
 .boton-menu.active::before{
     content: '';
     position: absolute;

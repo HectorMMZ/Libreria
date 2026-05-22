@@ -11,35 +11,114 @@ body {
 
 /* --- BARRA DE NAVEGACIÓN --- */
 
+
+/* Contenedor principal que ahora alberga las dos filas */
 .BarraDeActividadesMargen {
     background-color: #1A3636;
     width: 100%; 
-    padding: 15px 0; 
     position: relative; 
     z-index: 10;
+    display: flex;
+    flex-direction: column;
 }
+
+/* FILA SUPERIOR: Logo, Buscador nuevo y Botones */
+.FilaSuperior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 40px;
+}
+
+.LogoYTitulo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.BarraDeActividadesMargen h3 {
+    color: #D4AF37; 
+    margin: 0;
+}
+
+/* NUEVO BUSCADOR ESTILO PLAZA DEL LIBRO */
+.BuscadorHeader {
+    flex: 1;
+    max-width: 550px;
+    margin: 0 30px;
+}
+
+.BuscadorHeader form {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.BuscadorHeader input[type="search"] {
+    width: 100%;
+    padding: 10px 50px 10px 20px;
+    border: none;
+    border-radius: 25px; 
+    font-size: 0.95rem;
+    outline: none;
+    color: #1A3636;
+    background-color: #FFFFFF;
+}
+
+.BuscadorHeader button {
+    position: absolute ;  
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 50px;
+    background-color: #6C82B3; /* Color azul de la lupa */
+    border: none;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+    transition: background-color 0.2s ease;
+}
+
+.BuscadorHeader button:hover {
+    background-color: #D4AF37;
+}
+
+.AccionesUsuario {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+/* FILA INFERIOR: Fondo Azul Celeste para tus enlaces */
+.FilaInferior {
+    background-color: #6C82B3; 
+    width: 100%;
+}
+
 
 .BarraDeActividades {
     display: flex; 
-    justify-content: space-between; 
+   justify-content: center;
     align-items: center; 
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;  
     width: 90%;         
-    padding: 0 40px;
+    padding: 5px 40px;
     font-size: 1.1rem;
+    gap: 10px;
 }
 
 .logo {
     width: 130px;
 }
 
-.BarraDeActividades h3 {
-    color: #D4AF37; 
-}
-
-.BarraDeActividades a { 
+.BarraDeActividadesMargen a { 
     text-decoration: none; 
     color: #FCFCFC;
     font-weight: bold;
@@ -49,15 +128,16 @@ body {
     align-items: center;    
 }
 
-.BarraDeActividades a:hover {
+.BarraDeActividadesMargen a:hover {
     color: #D4AF37; 
     transform: translateY(-2px); 
 }
 
 /* Iconos de la barra */
 .BotonCarro i, .BotonUsuario i {
-    font-size: 20px;
+    font-size: 18px;
 }
+
 
 /* --- SECCIONES PRINCIPALES (Recomendaciones, Ofertas, Novedades) --- */
 
