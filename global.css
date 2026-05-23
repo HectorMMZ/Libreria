@@ -39,6 +39,10 @@ body {
     gap: 15px;
 }
 
+.LogoYTitulo a{
+    margin-right: 18px !important;
+}
+
 .BarraDeActividadesMargen h3 {
     color: #D4AF37; 
     margin: 0;

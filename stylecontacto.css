@@ -1,0 +1,49 @@
+.ColorBarraDeActividades{
+    background-color: #9DAA75/* #7B8253*/;
+}
+
+.TituloRecomendado{
+   margin-left: auto;   
+    margin-right: auto;  
+    width: 70%;          
+    max-width: 1000px;
+    margin-top: 100px;
+    margin-bottom: 275px;
+    text-align: left;  
+    background-color: white;
+
+}
+
+.TituloRecomendadoColor{
+    width: 100%;
+    padding: 30px 0;
+    background-color: #9DAA75/* #7B8253*/;
+}
+
+table {
+    margin-top: 70px;
+
+}
+
+table p {
+    margin-bottom: 5px;
+}
+
+/* Los cuadritos de texto estándar */
+ td input[type="text"], textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+}
+
+form input[type="submit"] {
+    background-color: #93A269;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
