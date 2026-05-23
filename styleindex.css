@@ -19,7 +19,7 @@
 
 /* El cuadro blanco difuminado sobre la animación */
 .EncuentraLibro {
-    background: linear-gradient(90deg, transparent 0%, rgba(252, 252, 252, 0.95) 20%, rgba(252, 252, 252, 0.95) 80%, transparent 100%);
+    background: linear-gradient(90deg, transparent 0%, rgba(252, 252, 252, 0.95) 50%, rgba(252, 252, 252, 0.95) 50%, transparent 100%);
     width: 80%;
     max-width: 900px;
     height: 100%;

@@ -14,7 +14,7 @@ body {
 
 /* Contenedor principal que ahora alberga las dos filas */
 .BarraDeActividadesMargen {
-    background-color: #1A3636;
+    background-color: #93A269 /*#1A3636*/;
     width: 100%; 
     position: relative; 
     z-index: 10;
@@ -65,7 +65,7 @@ body {
     font-size: 0.95rem;
     outline: none;
     color: #1A3636;
-    background-color: #FFFFFF;
+    background-color: #e4edd0;
 }
 
 .BuscadorHeader button {
@@ -74,12 +74,12 @@ body {
     top: 0;
     height: 100%;
     width: 50px;
-    background-color: #6C82B3; /* Color azul de la lupa */
+    background-color: #e4edd0/*#6C82B3*/; /* Color azul de la lupa */
     border: none;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     cursor: pointer;
-    color: white;
+    color: black;
     font-size: 1rem;
     transition: background-color 0.2s ease;
 }
@@ -96,7 +96,7 @@ body {
 
 /* FILA INFERIOR: Fondo Azul Celeste para tus enlaces */
 .FilaInferior {
-    background-color: #6C82B3; 
+    background-color:#e4edd0/* #6C82B3*/; 
     width: 100%;
 }
 
@@ -120,7 +120,7 @@ body {
 
 .BarraDeActividadesMargen a { 
     text-decoration: none; 
-    color: #FCFCFC;
+    color: black/*#FCFCFC*/;
     font-weight: bold;
     transition: all 0.3s ease; 
     padding: 10px 20px;     
@@ -135,7 +135,7 @@ body {
 
 /* Iconos de la barra */
 .BotonCarro i, .BotonUsuario i {
-    font-size: 18px;
+    font-size: 19px;
 }
 
 
