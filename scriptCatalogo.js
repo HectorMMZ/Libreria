@@ -238,7 +238,15 @@ function cargarLibros(LibrosElegido)
 
     }
     
-cargarLibros(LibrosArray);
+// CONDICIONAL INTELIGENTE:
+// Si el contenedor dinámico existe, dibuja los libros (Catálogo).
+if (contenedorProductos) {
+    cargarLibros(LibrosArray);
+} else {
+    // Si no existe (estamos en el Index), no dibujes nada, 
+    // pero activa los escuchadores para tus tarjetas estáticas.
+    actualizarBotonesAgregar();
+}
 
 
 //Esto hace que cuando le de click a las categorias solo llame a las id que tiene por categoria
@@ -258,12 +266,12 @@ botonesCategorias.forEach(boton =>{
         cargarLibros(productosBoton);
 
         }
-        else{
-
-        tituloPrincipal.innertText = "Todos los libros";
-        cargarLibros(LibrosArray);
-
-        }
+        else {
+            if (tituloPrincipal) {
+                tituloPrincipal.innerText = "Todos los libros";
+            }
+                cargarLibros(LibrosArray);
+            }
     })
 
 });
@@ -317,5 +325,9 @@ function agregarAlCarrito(e){
 
 function actulizarNumerito(){
     let nuevoNumerito = LibrosEnCarrito.reduce((acc,producto) => acc + producto.cantidad, 0);
-    numerito.innerText = nuevoNumerito;
+    
+    // Solo intenta escribir el número si el elemento '#numerito' existe en el HTML actual
+    if (numerito) {
+        numerito.innerText = nuevoNumerito;
+    }
 }
