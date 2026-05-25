@@ -2,20 +2,22 @@ body, header, nav, form, h1 {
     box-sizing: border-box;
 }
 
-
 .CuerpoDelInicioDeSesion{
-    min-height: 110vh; 
+    min-height: 90vh; 
     display: flex;
     flex-direction: column; 
     align-items: center; 
     background:  #9DAA75;
     font-family: "Marcellus", serif;
     padding-top: 20px;
+
+    background-image: url('fondoLibro.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   position: relative;
 }
 
-.ColorBarraDeActividades{
-    background-color: #9DAA75;
-}
 
 .Contenido {
     width: 420px;
@@ -37,7 +39,7 @@ body, header, nav, form, h1 {
     width: 420px;
     padding: 45px 35px;
     text-align: center;
-    background: #1f3845;
+    background: #9DAA75;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,7 +57,7 @@ body, header, nav, form, h1 {
 }
 
 h2 {
-    color: #fff;
+    color: black;
     font-size: 28px;
     margin-bottom: 30px;
 }
@@ -68,7 +70,7 @@ h2 {
     border-radius: 50px;
     font-size: 16px;
     cursor: pointer;
-    background: linear-gradient(to right, #ffd36a, #ffb347);
+    background: linear-gradient(to right, #1f3845b4, #1f3845);
     margin-top: 10px;
     transition: 0.3s;
 }
@@ -97,7 +99,7 @@ p {
 }
 
 .Formato p span {
-    color: #ffe600;
+    color: rgb(191, 63, 63);
     cursor: pointer;
     font-weight: 600;
 }

@@ -133,8 +133,8 @@ body {
 }
 
 .BarraDeActividadesMargen a:hover {
-    color: #D4AF37; 
-    transform: translateY(-2px); 
+    /* color: #D4AF37;  */
+    transform: translateY(-4px); 
 }
 
 /* Iconos de la barra */
