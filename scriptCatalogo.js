@@ -168,6 +168,7 @@ const LibrosArray = [
         id: "libroCienciaFiccion-03", //Su id del libro
         titulo:"Delirio", //Este es el nombre que aparecera la pagina
         imagen: "./img/libro13.jpg", //Aqui la imagen
+        autor: "Mario chan",
         categoria:{
             nombre:  "Libros Ciencia Ficcion",  //Esto es necesario para que se pueda separar por generos
             id:"cienciaficcion"
@@ -209,7 +210,7 @@ const tituloPrincipal = document.querySelector("#titulo-principal");
 let botonesAgregar = document.querySelectorAll(".producto-agregar");
 const numerito = document.querySelector("#numerito");
 
-
+ 
 //Esto llama a los todos los libros
 function cargarLibros(LibrosElegido)
     {
@@ -224,6 +225,7 @@ function cargarLibros(LibrosElegido)
                             <img class="producto-img" src="${producto.imagen}" alt="${producto.titulo}">
                              <div class="producto-detalles">
                                  <h3 class="producto-titulo">${producto.titulo}</h3>
+                                 <h4 class = "producto-autor" style="color: #5d5a5a;">${producto.autor}</h4>
                                  <p class="producto-precio">$${producto.precio}</p>
                                  <button class="producto-agregar" id="${producto.id}">Agregar</button>
                              </div>
@@ -277,7 +279,7 @@ function actualizarBotonesAgregar(){
 }
 
 
-//Esto hace que el carrito se actulize cuando agregas un libro con JSON con el almacenamiento local
+//Esto hace que el carrito se actualize cuando agregas un libro con JSON con el almacenamiento local
 let LibrosEnCarrito;
 
 let LibrosEnCarritoLS = localStorage.getItem("libros-en-carrito");

@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Libreria Quimera</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+
 
     <link rel="stylesheet" href="styleindex.css">
 
@@ -18,46 +19,72 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <!-- ---------------------------- -->
 
+     <!-- MAS ICONOS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+
 </head>
     <body>
         <div class="LibreriaIMG"> 
             <div class="BarraDeActividadesMargen">
-                <div class="BarraDeActividades">
+                
+                <div class="FilaSuperior">
+                    <div class="LogoYTitulo">
                         <img src="LechuzaLogo.png" class="logo">
                         <a>    
-                        <h3 style="color: white"> Libreria <br> Quimera</h3>
+                            <h3 style="color: white"> Libreria <br> Quimera</h3>
                         </a>
-                        
-                        <a href="index.html" >Inicio</a>
-                        <a href="ofertas.html" style="color: rgb(188, 2, 2);" ><strong>¡Ofertas!</strong></a>
+                    </div>
+
+                    <div class="BuscadorHeader">
+                        <form>
+                            <input type="search" name="q" placeholder="Título, Autor o ISBN">
+                            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+
+                    <div class="AccionesUsuario">
+                        <a href="usuario.html" class="BotonUsuario">
+                            <i class="fa-solid fa-user"> </i> <span style="margin-left: 10px;">Mi cuenta</span>
+                        </a>
+
+                        <a href="carrito.html" class="BotonCarro">
+                            <i class="fa-solid fa-cart-arrow-down"> </i> <span style="margin-left: 10px;">Mis libros </span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="FilaInferior">
+                    <nav class="BarraDeActividades">
+                        <a href="index.html">Inicio</a>
+                        <a href="ofertas.html" style="color: rgb(188, 2, 2);"><strong>¡Ofertas!</strong></a>
                         <a href="catalogo.html">Catalogo</a>
                         <a href="novedades.html">Novedades</a>
-                        <a href="conocenosmas.html">Conocenos Mas</a>
-                       
-
-                        <!-- AQUI ESTA EL ICONO DEL USUARIO -->
-                        <a href="usuario.html" class="BotonUsuario">
-                            <i class="fa-solid fa-user"></i>
-                        </a>
-
-                        <!-- AQUI ESTA EL ICONO DEL CARRO -->
-                        <a href="carrito.html" class="BotonCarro">
-                            <i class="fa-solid fa-cart-arrow-down"></i>
-                        </a>
+                        <a href="contacto.html">Contacto</a>
+                    </nav>
                 </div>
+
             </div>
 
             <div class="EncuentraLibro">
-                <!-- <h1> <span style="color: #ffb347;">ENCUENTRA</span> <span style="color: white;"> TU <br> PRÓXIMA HISTORIA </span></h1> -->
                 <h1 class="TituloBanner">ENCUENTRA TU <br> PRÓXIMA HISTORIA</h1>
-                    <div class="Buscador">
-                        <form>
-                        <input type="search" name="q" placeholder="Buscar">
-                        <input type="submit" value="Buscar">
-                        </form>
-                    </div>
+                   
             </div> 
         </div>
+
+
+            <div class="ContenedorAnuncioEnvio">
+                <div class="BloqueEnvioGratis">
+                    <i class="fa-solid fa-truck icono-camion-envio"></i>
+                    <div class="TextoEnvioGratis">
+                        <h2>¡En <span class="ResalteWebQuimera">LibreriaQuimera.com</span> tu envío es Gratis! *</h2>
+                        <p class="AclaracionEnvio">*A partir de un monto mínimo de compra. Consulta Términos y Condiciones.</p>
+                    </div>
+                </div>
+            </div>
+       
+       
+
      <div class="RecomendacionesColor">
         <div class="Recomendaciones">
 
@@ -220,18 +247,58 @@
             </div> 
         </div>
      </div>
-            
 
-     <div class="DerechosDeAutor" >
+
+           <div style="padding: 30px; ">
+
+    <table width="750" align="center" border="0">
+        <tr>
+            
+            <td width="50%" valign="top">
+                <h2>Librería Quimera</h2>
+                <br>
+                <a href="https://facebook.com"><i class="bi bi-facebook"></i></a> &nbsp;&nbsp;
+                <a href="https://x.com"><i class="bi bi-twitter-x"></i></a> &nbsp;&nbsp;
+                <a href="https://instagram.com"><i class="bi bi-instagram"></i></a> &nbsp;&nbsp;
+            </td>
+
+            <td width="50%" valign="top">
+                <br>
+                <b>PÁGINAS LEGALES</b>
+                <br>
+                <a href="#">Política de Privacidad</a><br>
+                <a href="#">Términos y condiciones</a><br>
+                <a href="contacto.html">Contacto</a><br>
+                <a href="#">FAQ</a>
+            </td>
+
+        </tr>
+        
+        <tr>
+            <td colspan="2">
+                <br><hr>
+                <p style="font-size: 12px;">© Librería Quimera 2026. Todos los derechos reservados.</p>
+            </td>
+        </tr>
+    </table>
+
+</div>
+
+
+     <!-- <div class="DerechosDeAutor" >
         <footer>
             <p>&copy; Libreria Quimera 2026. Todos los derechos reservados.</p>
             <ul >
                 <li><a href="#">Politica de Privacidad</a></li>
+                <li><a href="#">Terminos y condiciones</a></li>
                 <li><a href="#">Contacto</a></li>
                 <li><a href="#">FAQ</a></li>
+
             </ul>
         </footer>
-     </div>
+     </div> -->
+
+
      <script src="scriptBotonTarjetas.js"></script>
     </body>
 </html>

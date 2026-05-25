@@ -26,7 +26,7 @@ aside {
     
     padding: 1rem;
     padding-right: 0;
-    color: #1f3845;
+    color: #e4edd0;
   
     top: 0;
     height: 95vh;
@@ -62,14 +62,14 @@ aside {
 }
 
 .boton-menu.active{
-    background-color: #1f3845;
-    color: white;
+    background-color: #e4edd0;
+    color: black;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
     position: relative;
 }
 
-/* Para poner contenedores, basicamente esot hacer el borde redondedeado que tiene el cuadro de todos los titulos que esta pegado al main */
+/* Para poner contenedores, basicamente esto hacer el borde redondedeado que tiene el cuadro de todos los titulos que esta pegado al main */
 .boton-menu.active::before{
     content: '';
     position: absolute;
@@ -79,7 +79,7 @@ aside {
     right: 0;
     background-color: transparent;
     border-bottom-right-radius: .5rem;
-    box-shadow: 0 1rem 0 #1f3845;
+    box-shadow: 0 1rem 0 #e4edd0;
 }
 
 /* Lo mismo pero con el borde de abajo */
@@ -92,7 +92,7 @@ aside {
     right: 0;
     background-color: transparent;
     border-top-right-radius: .5rem;
-    box-shadow: 0 -1rem 0 #1f3845;
+    box-shadow: 0 -1rem 0 #e4edd0;
 }
 
 /* Para que se separe el boton de carrito */
@@ -110,7 +110,7 @@ aside {
 
 .boton-carrito.active .numerito{
     background-color: white ;
-    color: #1f3845;
+    color: #e4edd0;
 }
 
 /* Derechos de autor */
@@ -120,7 +120,7 @@ aside {
 }
 
 main{
-    background-color: #1f3845;
+    background-color: #e4edd0;
     margin: 1rem;
     border-radius: .5rem;
     margin-left: 0;
@@ -128,7 +128,7 @@ main{
 }
 
 .titulo-principal{
-    color: white;
+    color: black;
 }
 
 .contenedor-productos{
@@ -140,10 +140,12 @@ main{
 .producto-img{
     max-width: 100%;
     border-radius: 1rem;
+    /* box-shadow: 1px 0px 15px 2px rgba(.05, 0.5, 0.5, 0.5); */
+     box-shadow: 0px -4px 10px -2px rgba(0, 0, 0, 0.5);
 }
 
 .producto-detalles{
-    background-color: white;
+    background-color: #e4edd0;
     color: black;
     padding: .5rem;
     margin-top: -2rem;
@@ -151,6 +153,10 @@ main{
     display: flex;
     flex-direction: column;
     gap: .25rem;
+    border-radius: 0px 0px 15px 15px;
+
+    box-shadow: 1px 0px 15px 2px rgba(.05, 0.5, 0.5, 0.5);
+
 }
 
 .producto-titulo{
@@ -165,6 +171,7 @@ main{
     text-transform: uppercase;
     border: 2px solid #1f3845;
     transition: background-color .25s, color .25s;
+    border-radius: 15px;
 }
 
 .producto-agregar:hover{
@@ -181,7 +188,7 @@ main{
 }
 
 .carrito-vacio, .carrito-comprado{
-    color: white;
+    color: black;
 
 }
 
@@ -195,7 +202,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:#55717db9 ;
+    background-color:#36708983 ;
     color: white;
     padding: .5rem;
     padding-right: 1.5rem;
@@ -224,7 +231,7 @@ main{
 
 .carrito-acciones-vaciar{
     border: 0;
-    background-color: #55717db9;
+    background-color: #36708983;
     padding: 1rem;
     border-radius: 1rem;
     color: white;
@@ -238,7 +245,7 @@ main{
 
 .carrito-acciones-total{
     display: flex;
-    background-color: #55717db9;
+    background-color: #36708983;
     padding: 1rem;
     color: white;
     text-transform: uppercase;
