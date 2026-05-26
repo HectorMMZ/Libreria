@@ -105,18 +105,18 @@
 
 .BloqueEnvioGratis .icono-camion-envio {
     font-size: 2.5rem;
-    color: #1A3636; 
+    color: #1f3845; 
 }
 
 .TextoEnvioGratis h2 {
     margin: 0 !important;
     font-size: 1.8rem;
-    color: #1A3636 !important;
+    color: #1f3845 !important;
     font-weight: normal;
 }
 
 .TextoEnvioGratis .ResalteWebQuimera {
-    color: #6C82B3; 
+    color: #1f3845; 
     font-weight: bold;
 }
 
