@@ -379,3 +379,19 @@ body {
 .Boton-Cerrar:hover {
     background-color: #1A3636;
 }
+
+.producto-agregar{
+    border: 0;
+    background-color: #1f3845;
+    color: white;
+    padding: .5rem;
+    text-transform: uppercase;
+    border: 2px solid #1f3845;
+    transition: background-color .25s, color .25s;
+    border-radius: 15px
+}
+
+.producto-agregar:hover{
+    background-color: white; /* Cambia el fondo a blanco */
+    color: #1f3845;
+}
