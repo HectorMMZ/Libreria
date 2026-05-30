@@ -5,11 +5,12 @@
 /* --- BANNER ANIMADO PRINCIPAL --- */
 
 .LibreriaIMG {
-    background-image: url('libros2.jpg'); 
+    background-image: url('Libros2.jpg'); 
     height: 80vh; 
-    background-size: auto 60vh; 
+    background-size: auto 80vh; 
     background-repeat: repeat-x; 
-    animation: moverFondo 40s linear infinite; 
+    animation: moverFondo 100s linear infinite;
+    position: relative; 
 }
 
 @keyframes moverFondo {
@@ -17,14 +18,17 @@
     100% { background-position: -2000px; }
 }
 
-/* El cuadro blanco difuminado sobre la animación */
 .EncuentraLibro {
-    background: linear-gradient(90deg, transparent 0%, rgba(252, 252, 252, 0.95) 50%, rgba(252, 252, 252, 0.95) 50%, transparent 100%);
-    width: 80%;
-    max-width: 900px;
-    height: 100%;
-    padding: 100px 40px 0 40px; 
-    margin: 0 auto;
+    background: linear-gradient(90deg, transparent 0%, rgba(252, 252, 252, 0.95) 45%, rgba(252, 252, 252, 0.95) 55%, transparent 100%);
+    width: 100%; 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+
+    transform: translateX(-50%); /* Lo centra perfectamente */
+
+    padding: 300px 40px 0 40px; 
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -77,6 +81,54 @@
 .Buscador input[type="submit"]:hover {
     background-color: #1A3636;
 }
+
+ /* SECCION DE QUIENES SOMOS */
+
+
+.quienes-somos {
+  background-color: #e4edd0;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: sans-serif;
+
+  margin-top: 150px;
+}
+
+.quienes-somos .icono-camion-envio{
+    font-size: 2.5rem;
+    color: #1f3845; 
+    margin-bottom: 25px;
+    color: #555555;
+}
+
+.somos {
+  max-width: 300px;
+}
+
+
+.somos img {
+  width: 55px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.somos h2 {
+  font-size: 26px;
+  color: #4a5559;
+  margin: 0 0 12px 0; 
+}
+
+
+.somos p {
+  font-size: 14.5px;
+  color: #555555;
+  line-height: 1.5;
+  margin: 0;
+}
+
 
 
 /* SECCIÓN DE ANUNCIO DE ENVÍO */

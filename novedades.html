@@ -3,21 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Novedades</title>
+    <title>Novedades - Librería Quimera</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="stylenovedades.css">
 
-    <!-- Css global -->
-    <link rel="stylesheet" href="global.css">
-
-    <!-- Y CON ESTO SE PUEDO "VER" LOS ICONOS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <!-- ---------------------------- -->
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 <body>
     
@@ -61,61 +57,119 @@
         </div>
     </div>  
 
-    <div class="ColorCuerpo">
+    <div class="zona-novedades">
+        
+        <header class="banner-bienvenida">
+            <h1>Recién Llegados</h1>
+            <p>Descubre las últimas joyas literarias que se integran a nuestra estantería este mes.</p>
+        </header>
 
-       <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+        <section class="seccion-presentacion-grande">
+            <h3 class="subtitulo-seccion">Lanzamientos de la Semana</h3>
+            
+            <div class="carrusel-lanzamientos-contenedor">
+                <button class="flecha-carrusel izquierdo" onclick="cambiarLanzamiento(-1)"><i class="bi bi-chevron-left"></i></button>
+                
+                <div class="bloque-destacado">
+                    
+                    <div class="tarjeta-destacada-horizontal activa">
+                        <div class="contenedor-foto-destacada">
+                            <img src="Domitila2.jpeg" alt="Libro 1">
+                        </div>
+                        <div class="detalles-grandes">
+                            <span class="insignia-novedad"><i class="bi bi-star-fill"></i> ¡Edición Especial!</span>
+                            <h3 class="titulo-libro">Besos de Canela y Hielo</h3>
+                            <p class="autor-libro">Estela Bescós</p>
+                            <p class="sinopsis-libro">Una cautivadora historia recién llegada a Librería Quimera que está atrapando a todos los lectores.</p>
+                            <p class="precio-libro">$399.00</p>
+                            <button class="producto-agregar" id="libroRomance-08">AGREGAR</button>
+                        </div>
+                    </div>
+
+                    <div class="tarjeta-destacada-horizontal">
+                        <div class="contenedor-foto-destacada">
+                            <img src="Domitila2.jpeg" alt="Libro 2">
+                        </div>
+                        <div class="detalles-grandes">
+                            <span class="insignia-novedad"><i class="bi bi-lightning-fill"></i> ¡Más Vendido!</span>
+                            <h3 class="titulo-libro">Bajo las Estrellas de Campeche</h3>
+                            <p class="autor-libro">Ana Martínez</p>
+                            <p class="sinopsis-libro">Una novela histórica fascinante que te llevará a recorrer los secretos mejor guardados de las murallas.</p>
+                            <p class="precio-libro">$310.00</p>
+                            <button class="producto-agregar" id="libroNovelas-02">AGREGAR</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="flecha-carrusel derecho" onclick="cambiarLanzamiento(1)"><i class="bi bi-chevron-right"></i></button>
+            </div>
+        </section>
+
+        <section class="seccion-tendencias">
+            <h3 class="subtitulo-seccion">Los Más Buscados de la Quincena</h3>
+            
+            <div class="contenedor-ranking">
+                
+                <div class="fila-ranking">
+                    <div class="numero-ranking">01</div>
+                    <img src="Domitila2.jpeg" alt="Top 1" class="foto-ranking">
+                    <div class="info-ranking">
+                        <h4>Besos de Canela y Hielo</h4>
+                        <p class="autor-libro">Estela Bescós</p>
+                        <span class="categoria-tag">Romance</span>
+                    </div>
+                    <div class="precio-ranking">$399.00</div>
+                    <a href="catalogo.html#libroRomance-08" class="boton-ver-mas">Ver detalles</a>
+                </div>
+
+                <div class="fila-ranking">
+                    <div class="numero-ranking">02</div>
+                    <img src="Domitila2.jpeg" alt="Top 2" class="foto-ranking">
+                    <div class="info-ranking">
+                        <h4>Bajo las Estrellas de Campeche</h4>
+                        <p class="autor-libro">Ana Martínez</p>
+                        <span class="categoria-tag">Novela</span>
+                    </div>
+                    <div class="precio-ranking">$310.00</div>
+                    <a href="catalogo.html#libroNovelas-02" class="boton-ver-mas">Ver detalles</a>
+                </div>
+
+                <div class="fila-ranking elemento-oculto">
+                    <div class="numero-ranking">03</div>
+                    <img src="Domitila2.jpeg" alt="Top 3" class="foto-ranking">
+                    <div class="info-ranking">
+                        <h4>Secretos del Pasado</h4>
+                        <p class="autor-libro">J. L. Gómez</p>
+                        <span class="categoria-tag">Historia</span>
+                    </div>
+                    <div class="precio-ranking">$245.00</div>
+                    <a href="catalogo.html#libroHistoria-01" class="boton-ver-mas">Ver detalles</a>
+                </div>
+
+            </div>
+
+            <div class="contenedor-ver-mas-top">
+                <button class="boton-cargar-top" id="boton-tendencias" onclick="mostrarMasTendencias()">Ver más tendencias <i class="bi bi-arrow-down-short"></i></button>
+            </div>
+        </section>
+
+        <section class="seccion-autor">
+            <div class="bloque-autor">
+                <div class="texto-autor">
+                    <span class="etiqueta-autor">Autor del Mes</span>
+                    <h2>Detrás de las Páginas: Estela Bescós</h2>
+                    <p>Platicamos con la autora de nuestra novedad estrella. Nos cuenta cómo se inspiró en la calidez de los pequeños momentos cotidianos para dar vida a esta entrañable historia.</p>
+                    <a href="contacto.html" class="boton-contacto-autor">Leer entrevista</a>
+                </div>
+                <div class="imagen-autor">
+                    <div class="circulo-avatar"><i class="bi bi-journal-bookmark-fill"></i></div>
+                </div>
+            </div>
+        </section>
 
     </div>
-
+    <script src="scriptCatalogo.js"></script>
+    <script src="scriptNovedades.js"></script>
 </body>
 </html>

@@ -1,7 +1,303 @@
-.ColorBarraDeActividades{
-    background-color: #9DAA75/* #7B8253*/;
+/* =======================================================
+   ESTILOS EXCLUSIVOS DE LA PÁGINA NOVEDADES
+   ======================================================= */
+
+.zona-novedades {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #FFFFFF;
 }
 
-.ColorCuerpo{
-    background-color: #9DAA75/* #7B8253*/;
+.banner-bienvenida {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #9DAA75;
+    border-radius: 12px;
+    color: white;
+    margin-bottom: 50px;
 }
+
+.banner-bienvenida h1 {
+    font-size: 2.5rem;
+    margin: 0 0 10px 0;
+    font-family: "Marcellus", serif;
+}
+
+
+.subtitulo-seccion {
+    font-size: 1.6rem;
+    color: #1A3636;
+    border-bottom: 2px solid #e4edd0;
+    padding-bottom: 8px;
+    margin-bottom: 30px;
+}
+
+/* --- SECCIÓN DE LANZAMIENTOS --- */
+.carrusel-lanzamientos-contenedor {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.bloque-destacado {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+
+.tarjeta-destacada-horizontal {
+    display: none; /* Se oculta para que actúe el JS */
+    flex-direction: row;
+    width: 100%;
+    max-width: 800px;
+    background-color: #f7f9f3;
+    border: 1px solid #e4edd0;
+    border-radius: 12px;
+    padding: 30px;
+    gap: 40px;
+    align-items: center;
+}
+
+
+.tarjeta-destacada-horizontal.activa {
+    display: flex;
+}
+
+.contenedor-foto-destacada {
+    flex: 0 0 200px;
+}
+
+.contenedor-foto-destacada img {
+    width: 100%;
+    height: auto;
+    max-height: 280px;
+    object-fit: contain;
+    border-radius: 6px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.detalles-grandes {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.insignia-novedad {
+    background-color: #D4AF37;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    width: max-content;
+    margin-bottom: 12px;
+}
+
+.sinopsis-libro {
+    font-size: 0.95rem;
+    color: #444444;
+    line-height: 1.6;
+    margin: 0 0 15px 0;
+}
+
+/* Flechas de navegación del carrusel */
+.flecha-carrusel {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    background-color: #FFFFFF;
+    border: 1px solid #e4edd0;
+    color: #1A3636;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    z-index: 5;
+}
+
+.flecha-carrusel:hover {
+    background-color: #9DAA75;
+    color: #FFFFFF;
+    border-color: #9DAA75;
+}
+
+.flecha-carrusel.izquierdo { left: 0; }
+.flecha-carrusel.derecho { right: 0; }
+
+
+/* --- SECCIÓN RANKING  --- */
+.seccion-tendencias {
+    margin-bottom: 60px;
+}
+
+.contenedor-ranking {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.fila-ranking {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 8px;
+    padding: 15px 30px;
+    gap: 25px;
+}
+
+/* Ocultar puestos extras para el botón de cargar más */
+.elemento-oculto {
+    display: none !important;
+}
+
+.numero-ranking {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #9DAA75;
+    flex: 0 0 50px;
+}
+
+.foto-ranking {
+    width: 50px;
+    height: 70px;
+    object-fit: contain;
+}
+
+.info-ranking {
+    flex: 1;
+    text-align: left;
+}
+
+.info-ranking h4 {
+    font-size: 1.2rem;
+    color: #1A3636;
+    margin: 0 0 4px 0;
+}
+
+.categoria-tag {
+    display: inline-block;
+    font-size: 0.75rem;
+    background-color: #e4edd0;
+    color: #1A3636;
+    padding: 2px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.precio-ranking {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #1A3636;
+}
+
+.boton-ver-mas {
+    color: #9DAA75;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 1px dashed #9DAA75;
+}
+
+
+/* --- BOTÓN MÁS TENDENCIAS --- */
+.contenedor-ver-mas-top {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.boton-cargar-top {
+    background-color: transparent;
+    color: #1A3636;
+    border: 2px solid #e4edd0;
+    padding: 10px 24px;
+    font-family: "Marcellus", serif;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.boton-cargar-top:hover {
+    background-color: #e4edd0;
+}
+
+
+/* --- SECCION ENTREVISTAR AL AUTOR --- */
+.seccion-autor {
+    margin-bottom: 40px;
+}
+
+.bloque-autor {
+    display: flex;
+    background-color: #1A3636;
+    color: white;
+    padding: 40px;
+    border-radius: 12px;
+    align-items: center;
+    gap: 40px;
+}
+
+.texto-autor {
+    flex: 2;
+    text-align: left;
+}
+
+.etiqueta-autor {
+    color: #D4AF37;
+    font-size: 0.85rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.texto-autor h2 {
+    font-size: 2rem;
+    margin: 0 0 15px 0;
+}
+
+.texto-autor p {
+    line-height: 1.6;
+    opacity: 0.9;
+    margin-bottom: 25px;
+}
+
+.boton-contacto-autor {
+    display: inline-block;
+    background-color: #D4AF37;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.imagen-autor {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.circulo-avatar {
+    width: 120px;
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: #e4edd0;
+    border: 2px dashed #9DAA75;
+}
+
