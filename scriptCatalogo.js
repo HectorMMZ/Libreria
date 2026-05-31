@@ -640,7 +640,8 @@ const LibrosArray = [
             nombre:  "Libros Ciencia Ficcion",  //Esto es necesario para que se pueda separar por generos
             id:"cienciaficcion"
         },
-        precio: 189, //El precio
+        precioViejo: 189, //El precio
+        precio: 160.65,
 
     },
     
@@ -665,7 +666,8 @@ const LibrosArray = [
             nombre:  "Libros Ciencia Ficcion",  //Esto es necesario para que se pueda separar por generos
             id:"cienciaficcion"
         },
-        precio: 159, //El precio
+        precio: 135.15, //El precio
+        precioViejo:159,
 
     },
     

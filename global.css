@@ -3,18 +3,17 @@
    ======================================================= */
 
 body {
-    background-color: #FFFFFF; /* Cambiado a blanco para mantener la consistencia de tienda online */
+    background-color: #FFFFFF;
     font-family: "Marcellus", serif;
     padding: 0;
     margin: 0;
 }
 
-/* --- BARRA DE NAVEGACIÓN --- */
-
-
-/* Contenedor principal que ahora alberga las dos filas */
+/* =======================================================
+   1. BARRA DE NAVEGACIÓN Y HEADER
+   ======================================================= */
 .BarraDeActividadesMargen {
-    background-color: #93A269 /*#1A3636*/;
+    background-color: #93A269;
     width: 100%; 
     position: relative; 
     z-index: 10;
@@ -22,7 +21,6 @@ body {
     flex-direction: column;
 }
 
-/* FILA SUPERIOR: Logo, Buscador nuevo y Botones */
 .FilaSuperior {
     display: flex;
     justify-content: space-between;
@@ -39,7 +37,7 @@ body {
     gap: 15px;
 }
 
-.LogoYTitulo a{
+.LogoYTitulo a {
     margin-right: 18px !important;
 }
 
@@ -48,7 +46,6 @@ body {
     margin: 0;
 }
 
-/* NUEVO BUSCADOR ESTILO PLAZA DEL LIBRO */
 .BuscadorHeader {
     flex: 1;
     max-width: 550px;
@@ -78,7 +75,7 @@ body {
     top: 0;
     height: 100%;
     width: 50px;
-    background-color: #e4edd0/*#6C82B3*/; /* Color azul de la lupa */
+    background-color: #e4edd0; 
     border: none;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -98,16 +95,14 @@ body {
     align-items: center;
 }
 
-/* FILA INFERIOR: Fondo Azul Celeste para tus enlaces */
 .FilaInferior {
-    background-color:#e4edd0/* #6C82B3*/; 
+    background-color:#e4edd0; 
     width: 100%;
 }
 
-
 .BarraDeActividades {
     display: flex; 
-   justify-content: center;
+    justify-content: center;
     align-items: center; 
     margin-left: auto;
     margin-right: auto;
@@ -124,7 +119,7 @@ body {
 
 .BarraDeActividadesMargen a { 
     text-decoration: none; 
-    color: black/*#FCFCFC*/;
+    color: black;
     font-weight: bold;
     transition: all 0.3s ease; 
     padding: 10px 20px;     
@@ -133,42 +128,29 @@ body {
 }
 
 .BarraDeActividadesMargen a:hover {
-    /* color: #D4AF37;  */
     transform: translateY(-4px); 
 }
 
-/* Iconos de la barra */
 .BotonCarro i, .BotonUsuario i {
     font-size: 19px;
 }
 
-
-/* --- SECCIONES PRINCIPALES (Recomendaciones, Ofertas, Novedades) --- */
-
+/* =======================================================
+   2. SECCIONES PRINCIPALES (Recomendaciones, Novedades, etc)
+   ======================================================= */
 .RecomendacionesColor, .Recomendaciones,
 .OfertasColor, .Ofertas,
 .NovedadesColor, .Novedades {
     background-color: #FFFFFF;
-    max-width: 100%; 
     width: 100%; 
-    margin: 0; 
-    box-shadow: none; 
-    border-radius: 0; 
     padding: 40px 0;
     text-align: center;
 }
 
-/* Línea divisoria gris */
-.RecomendacionesColor, .OfertasColor, .NovedadesColor {
+.RecomendacionesColor, .OfertasColor {
     border-bottom: 2px solid #EAEAEA;
 }
 
-/* Quitar la línea en la última sección */
-.NovedadesColor {
-    border-bottom: none;
-}
-
-/* Títulos de las secciones */
 .RecomendacionesColor h2, .Recomendaciones h2, 
 .OfertasColor h2, .Ofertas h2, 
 .NovedadesColor h2, .Novedades h2 {
@@ -176,117 +158,178 @@ body {
     margin-bottom: 40px;
 }
 
-/* Subtítulos de secciones */
 .Recomendaciones p, .Recomendaciones h3 {
     color: #D4AF37;
 }
 
-/* --- TARJETAS DE LIBROS --- */
-
-.TarjetaLibro {
-    background-color: #FFFFFF;
-    border: 1px solid #EAEAEA; 
-    border-radius: 1px;
-    padding: 15px;
-    
-    /* EL CANDADO DE TAMAÑO: Forzamos el tamaño pequeño estándar */
-    width: 190px !important; 
-    min-width: 190px !important;
-    max-width: 190px !important; 
-    flex: 0 0 190px !important;  
-    
-    /* Mantenemos el resto de estilos limpios */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: left;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    box-sizing: border-box; /* Asegura que el padding no agrande la tarjeta */
-}
-
-.TarjetaLibro:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.06);
-}
-
-.TarjetaLibro img {
-    width: 100% !important;
-    height: 220px !important; 
-    object-fit: cover !important; 
-    border-radius: 1px;
-    margin-bottom: 12px;
-}
-
-/* Textos de las Tarjetas (Con su sombra restaurada) */
-.TarjetaLibro h3, .TarjetaLibro h4, .TarjetaLibro .Titulo {
-    font-size: 1.1rem;
-    color: #1A3636; 
-    margin: 15px 15px 5px 15px;
-    text-align: left;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
-}
-
-.TarjetaLibro p, .TarjetaLibro .Autor {
-    font-size: 0.9rem;
-    color: #666666;
-    margin: 0 15px 10px 15px;
-    text-align: left;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
-}
-
-.TarjetaLibro .precio-libro, .TarjetaLibro .Precio, .TarjetaLibro p:last-of-type {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #D4AF37; 
-    margin: 10px 15px 20px 15px;
-    text-align: left;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-}
-
-/* --- CARRUSELES Y CONTENEDORES --- */
-
+/* Contenedores de Cuadrículas Generales */
 .ContenedorTarjetas, .carousel, .fila-libros {
     display: flex;
     justify-content: center;
+    align-items: stretch;
     gap: 20px;
-    flex-wrap: wrap !important; /* CRÍTICO: Permite que los libros bajen si no caben */
+    flex-wrap: wrap !important;
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
-.VentanaCarrusel {
-    overflow: hidden; 
-    width: 100%;
-}
+/* =======================================================
+   3. ARQUITECTURA MAESTRA DE TARJETAS (Refactorizado)
+   ======================================================= */
 
-.BotonTarjetas {
+/* A. EL CONTENEDOR PADRE UNIVERSAL */
+.TarjetaLibro, .TarjetaOferta, .producto {
+    background-color: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 4px;
+    padding: 15px;
     display: flex;
-    justify-content: center; 
-    gap: 30px;               
-    margin-top: 20px;        
-    padding-bottom: 20px; 
+    flex-direction: column;
+    justify-content: space-between; /* El secreto para empujar el botón al fondo */
+    height: auto; /* Forzar simetría en las filas */
+    box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative; /* Crítico para las etiquetas flotantes de oferta */
+    text-align: left;
 }
 
-.BotonTarjetas button {
-    padding: 10px 25px;
-    font-size: 18px;
+/* Excepción de ancho estricto solo para las tarjetas del Index */
+.TarjetaLibro {
+    width: 190px !important; 
+    min-width: 190px !important;
+    max-width: 190px !important; 
+    flex: 0 0 190px !important;  
+}
+
+/* Efecto hover unificado */
+.TarjetaLibro:hover, .TarjetaOferta:hover, .producto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+/* B. PORTADAS ESTANDARIZADAS */
+.TarjetaLibro img, .Oferta-Img, .producto-img {
+    width: 100% !important;
+    height: 240px !important; /* Altura perfecta e inamovible */
+    object-fit: cover !important; /* Recorte inteligente */
+    object-position: center top !important; 
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+/* C. CONTENEDORES INTERNOS (Para que los textos largos no rompan el diseño) */
+.Oferta-Info, .producto-detalles {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Ocupa el espacio que sobre */
+}
+
+/* D. TIPOGRAFÍA INTERNA UNIFICADA */
+.TarjetaLibro h3, .TarjetaLibro h4, .TarjetaLibro .Titulo,
+.TarjetaOferta .titulo-libro {
+    font-size: 1.1rem;
+    color: #1A3636; 
+    margin: 10px 0 5px 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); 
+}
+
+.TarjetaLibro p, .TarjetaLibro .Autor,
+.TarjetaOferta .autor-libro, .FormatoLibro {
+    font-size: 0.9rem;
+    color: #666666;
+    margin: 0 0 10px 0;
+}
+
+.TarjetaLibro .precio-libro, .TarjetaLibro .Precio, .TarjetaLibro p:last-of-type {
+    font-size: 1.2rem;
     font-weight: bold;
-    background-color: #D4AF37; /* Cambiado al dorado de tu paleta */
+    color: #D4AF37; 
+    margin: 10px 0 20px 0;
+}
+
+/* E. EL BOTÓN UNIVERSAL */
+.producto-agregar {
+    border: 2px solid #1f3845;
+    background-color: #1f3845;
     color: white;
-    border: none;
-    border-radius: 5px;
+    padding: .6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 15px;
     cursor: pointer;
-    transition: background-color 0.3s ease; 
+    width: 100%;
+    margin-top: auto; /* Esta es la instrucción que clava el botón al piso */
+    transition: background-color .25s, color .25s, transform .1s;
 }
 
-.BotonTarjetas button:hover {
-    background-color: #1A3636; /* Cambiado al verde bosque al pasar el mouse */
+.producto-agregar:hover {
+    background-color: white;
+    color: #1f3845;
 }
 
-/* --- BANNER INTERMEDIO ESTATICO --- */
+/* =======================================================
+   4. ELEMENTOS EXCLUSIVOS DE OFERTAS
+   ======================================================= */
+.ContenedorOfertas {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
 
+.TituloOfertas {
+    color: #1A3636; 
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    border-bottom: 2px solid #D4AF37;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.GridOfertas {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 30px;
+    align-items: start;
+}
+
+.EtiquetaDescuento {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #c9302c; 
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 0.85rem;
+    border-radius: 4px;
+    z-index: 10; 
+}
+
+.PreciosContenedor {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    margin: 15px 0;
+}
+
+.PrecioViejo {
+    text-decoration: line-through; 
+    color: #999;
+    font-size: 0.95rem;
+}
+
+.PrecioNuevo {
+    color: #c9302c; 
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+/* =======================================================
+   5. OTROS COMPONENTES (Modales, Banners, Footer)
+   ======================================================= */
 .BannerIntermedio {
     width: 90%;
     max-width: 1200px;
@@ -307,14 +350,36 @@ body {
     transform: scale(1.01);
 }
 
-/* --- FOOTER / DERECHOS DE AUTOR --- */
+.BotonTarjetas {
+    display: flex;
+    justify-content: center; 
+    gap: 30px;               
+    margin-top: 20px;        
+    padding-bottom: 20px; 
+}
+
+.BotonTarjetas button {
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #D4AF37;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.BotonTarjetas button:hover {
+    background-color: #1A3636;
+}
 
 .DerechosDeAutor {
     width: 100%; 
     background-color: #FFFFFF;
     padding: 40px 0; 
     margin: 0 auto;
-    border-top: 2px solid #EAEAEA; /* Línea separadora para el footer */
+    border-top: 2px solid #EAEAEA; 
 }
 
 .DerechosDeAutor p, .DerechosDeAutor ul, .DerechosDeAutor a {
@@ -329,18 +394,17 @@ body {
     position: relative;
 }
 
-/*Pop-Up de Ofertas*/
 .Modal-Overlay {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo negro semitransparente */
-    display: none; /* Oculto por defecto, JS lo mostrará */
+    background-color: rgba(0, 0, 0, 0.7); 
+    display: none; 
     justify-content: center;
     align-items: center;
-    z-index: 9999; /* Para que quede por encima de todo */
+    z-index: 9999; 
 }
 
 .Modal-Contenido {
@@ -364,7 +428,7 @@ body {
     position: absolute;
     top: -15px;
     right: -15px;
-    background-color: #D4AF37; /* Tu dorado */
+    background-color: #D4AF37; 
     color: white;
     border: none;
     border-radius: 50%;
@@ -378,124 +442,4 @@ body {
 
 .Boton-Cerrar:hover {
     background-color: #1A3636;
-}
-
-.producto-agregar{
-    border: 0;
-    background-color: #1f3845;
-    color: white;
-    padding: .5rem;
-    text-transform: uppercase;
-    border: 2px solid #1f3845;
-    transition: background-color .25s, color .25s;
-    border-radius: 15px
-}
-
-.producto-agregar:hover{
-    background-color: white; /* Cambia el fondo a blanco */
-    color: #1f3845;
-}
-
-/* Parte de Ofertas */
-
-.ContenedorOfertas {
-    width: 90%;
-    max-width: 1200px;
-    margin: 40px auto;
-}
-
-.TituloOfertas {
-    color: #1A3636; 
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 2rem;
-    border-bottom: 2px solid #D4AF37;
-    padding-bottom: 10px;
-    display: inline-block;
-}
-
-
-.GridOfertas {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 30px;
-    align-items: start;
-}
-
-
-.TarjetaOferta {
-    background-color: #ffffff;
-    border-radius: 1px;
-    padding: 15px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    position: relative; /*Permite que la etiqueta flote sobre la imagen */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: left;
-}
-
-.TarjetaOferta:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-}
-
-/* La Etiqueta de Descuento flotante */
-.EtiquetaDescuento {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background-color: #c9302c; /* Rojo de oferta tipo Casa del Libro */
-    color: white;
-    padding: 5px 10px;
-    font-weight: bold;
-    font-size: 0.85rem;
-    border-radius: 4px;
-    z-index: 10; 
-}
-
-/* Imagen de la oferta */
-.Oferta-Img {
-    width: 100%;
-    max-width: 160px;
-    height: auto;
-    object-fit: cover;
-    margin-bottom: 15px;
-}
-
-/* Info del libro */
-.Oferta-Info {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.FormatoLibro {
-    color: #666;
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    margin-bottom: 5px;
-}
-
-/* Los*/
-.PreciosContenedor {
-    display: flex;
-    align-items: center;
-    gap: 10px; /* Espacio entre el precio viejo y el nuevo */
-    margin: 15px 0;
-}
-
-/* Esto hace la línea tachada */
-.PrecioViejo {
-    text-decoration: line-through; 
-    color: #999;
-    font-size: 0.95rem;
-}
-
-/* Rojo para destacar el ahorro */
-.PrecioNuevo {
-    color: #c9302c; 
-    font-size: 1.3rem;
-    font-weight: bold;
 }
