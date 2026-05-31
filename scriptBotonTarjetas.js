@@ -33,3 +33,4 @@ function anterior(idContenedor) {
         banner.style.transform = "translateX(0)";
     }, 10);
 }
+

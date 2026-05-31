@@ -425,7 +425,7 @@ body {
 
 .TarjetaOferta {
     background-color: #ffffff;
-    border-radius: 8px;
+    border-radius: 1px;
     padding: 15px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.05);
     position: relative; /*Permite que la etiqueta flote sobre la imagen */
