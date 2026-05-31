@@ -2832,7 +2832,8 @@ const LibrosArray = [
             nombre: "Libros Negocios",
             id: "negocios"
         },
-        precio: 220,
+        precio: 187,
+        precioViejo: 220
     },
     {
         id: "libroNegocios-19",
