@@ -395,3 +395,107 @@ body {
     background-color: white; /* Cambia el fondo a blanco */
     color: #1f3845;
 }
+
+/* Parte de Ofertas */
+
+.ContenedorOfertas {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.TituloOfertas {
+    color: #1A3636; 
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    border-bottom: 2px solid #D4AF37;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+
+.GridOfertas {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 30px;
+    align-items: start;
+}
+
+
+.TarjetaOferta {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    position: relative; /*Permite que la etiqueta flote sobre la imagen */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.TarjetaOferta:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* La Etiqueta de Descuento flotante */
+.EtiquetaDescuento {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #c9302c; /* Rojo de oferta tipo Casa del Libro */
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 0.85rem;
+    border-radius: 4px;
+    z-index: 10; 
+}
+
+/* Imagen de la oferta */
+.Oferta-Img {
+    width: 100%;
+    max-width: 160px;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* Info del libro */
+.Oferta-Info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.FormatoLibro {
+    color: #666;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+/* Los*/
+.PreciosContenedor {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espacio entre el precio viejo y el nuevo */
+    margin: 15px 0;
+}
+
+/* Esto hace la línea tachada */
+.PrecioViejo {
+    text-decoration: line-through; 
+    color: #999;
+    font-size: 0.95rem;
+}
+
+/* Rojo para destacar el ahorro */
+.PrecioNuevo {
+    color: #c9302c; 
+    font-size: 1.3rem;
+    font-weight: bold;
+}

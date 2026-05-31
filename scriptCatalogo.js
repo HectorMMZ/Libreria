@@ -71,7 +71,7 @@ const LibrosArray = [
         precio: 240,
     },
     {
-        id: "libroClasico-08",
+        id: "ibroClasico-08l",
         titulo: "Moby Dick",
         imagen: "./img/libro.jpg",
         categoria: {
@@ -2842,7 +2842,8 @@ const LibrosArray = [
             nombre: "Libros Negocios",
             id: "negocios"
         },
-        precio: 240,
+        precio: 180,
+        precioViejo: 240
     },
     {
         id: "libroNegocios-20",
@@ -2855,11 +2856,12 @@ const LibrosArray = [
         precio: 315,
     }
 
-    
+// Ofertas----------------------------------------------------------------------------
+
 ]
 
 
-// ----------------------------------------------------------------------------
+
 // ----------------------------------------------------------------------------
 // ----------------------------------------------------------------------------
 
@@ -2990,3 +2992,63 @@ function actulizarNumerito(){
         numerito.innerText = nuevoNumerito;
     }
 }
+
+
+// AUTO-RELLENADO UNIVERSAL DE TARJETAS
+
+function sincronizarTarjetasEstaticas() {
+    const tarjetas = document.querySelectorAll('.TarjetaLibro, .TarjetaOferta');
+
+    tarjetas.forEach(tarjeta => {
+        const botonAgregar = tarjeta.querySelector('.producto-agregar');
+        
+        if (botonAgregar) {
+            const idDelLibro = botonAgregar.id;
+            const libro = LibrosArray.find(producto => producto.id === idDelLibro);
+            
+            if (libro) {
+                const titulo = tarjeta.querySelector('.titulo-libro');
+                const autor = tarjeta.querySelector('.autor-libro');
+                const imagen = tarjeta.querySelector('img');
+
+                //  Inyectamos Título y Autor
+                if (titulo) titulo.innerText = libro.titulo;
+                if (autor && libro.autor) autor.innerText = libro.autor;
+
+                // 2. Inyectamos la Imagen
+                if (imagen && libro.imagen) {
+                    imagen.src = libro.imagen;
+                    imagen.alt = `Portada de ${libro.titulo}`;
+                }
+                
+                // Buscamos qué tipo de contenedor de precio tiene esta tarjeta
+                const precioNormal = tarjeta.querySelector('.precio-libro'); // Para el Index
+                const precioViejoOferta = tarjeta.querySelector('.PrecioViejo'); // Para Ofertas
+                const precioNuevoOferta = tarjeta.querySelector('.PrecioNuevo'); // Para Ofertas
+
+                // ESCENARIO A: Si estamos en el Index o Recomendaciones
+                if (precioNormal) {
+                    if (libro.precioViejo) {
+                        precioNormal.innerHTML = `<span style="text-decoration: line-through; color: #999; font-size: 0.85em; margin-right: 8px;">$${libro.precioViejo}</span> <span style="color: #c9302c; font-weight: bold;">$${libro.precio}</span>`;
+                    } else {
+                        precioNormal.innerText = `$${libro.precio}`;
+                    }
+                }
+
+                // ESCENARIO B: Si estamos en la página de Ofertas
+                if (precioViejoOferta && precioNuevoOferta) {
+                    if (libro.precioViejo) {
+                        precioViejoOferta.innerText = `$${libro.precioViejo}`;
+                        precioNuevoOferta.innerText = `$${libro.precio}`;
+                    } else {
+                        // Por si pones un libro sin descuento aquí por error
+                        precioViejoOferta.innerText = "";
+                        precioNuevoOferta.innerText = `$${libro.precio}`;
+                    }
+                }
+            }
+        }
+    });
+}
+
+sincronizarTarjetasEstaticas();
