@@ -1156,7 +1156,7 @@ const LibrosArray = [
             nombre: "Libros de Aventura",
             id: "aventura"
         },
-        precio: 195,
+        precio: 124,
     },
     {
         id: "libroAventura-02",
@@ -1167,7 +1167,7 @@ const LibrosArray = [
             nombre: "Libros Aventura",
             id: "aventura"
         },
-        precio: 210,
+        precio: 109,
     },
     {
         id: "libroAventura-03",
@@ -1178,7 +1178,7 @@ const LibrosArray = [
             nombre: "Libros Aventura",
             id: "aventura"
         },
-        precio: 180,
+        precio: 139,
     },
     {
         id: "libroAventura-04",
@@ -1189,7 +1189,7 @@ const LibrosArray = [
             nombre: "Libros Aventura",
             id: "aventura"
         },
-        precio: 165,
+        precio: 199,
     },
     {
         id: "libroAventura-05",
@@ -1200,13 +1200,13 @@ const LibrosArray = [
             nombre: "Libros Aventura",
             id: "aventura"
         },
-        precio: 220,
+        precio: 399,
     },
     {
         id: "libroAventura-06",
         titulo: "Veinte Mil Leguas de Viaje Submarino",
         imagen: "./img/libro106.jpg",
-        autor: "Julio Verne",
+        autor: "Jules Verne",
         categoria: {
             nombre: "Libros Aventura",
             id: "aventura"
@@ -1222,7 +1222,7 @@ const LibrosArray = [
             nombre: "Libros Aventura",
             id: "aventura"
         },
-        precio: 175,
+        precio: 345,
     },
     {
         id: "libroAventura-08",
@@ -1233,7 +1233,7 @@ const LibrosArray = [
             nombre: "Libros Aventura",
             id: "aventura"
         },
-        precio: 340,
+        precio: 313,
     },
     {
         id: "libroAventura-09",
@@ -1244,7 +1244,7 @@ const LibrosArray = [
             nombre: "Libros Aventura",
             id: "aventura"
         },
-        precio: 230,
+        precio: 109,
     },
     {
         id: "libroAventura-10",
@@ -1255,7 +1255,7 @@ const LibrosArray = [
             nombre: "Libros Aventura",
             id: "aventura"
         },
-        precio: 199,
+        precio: 88,
     },
     {
         id: "libroAventura-11",
@@ -1266,7 +1266,7 @@ const LibrosArray = [
             nombre: "Libros Aventura",
             id: "aventura"
         },
-        precio: 480,
+        precio: 529,
     },
     {
         id: "libroAventura-12",
@@ -1277,7 +1277,7 @@ const LibrosArray = [
             nombre: "Libros Aventura",
             id: "aventura"
         },
-        precio: 185,
+        precio: 228,
     },
     {
         id: "libroAventura-13",
@@ -1288,7 +1288,7 @@ const LibrosArray = [
             nombre: "Libros Aventura",
             id: "aventura"
         },
-        precio: 215,
+        precio: 299,
     },
     {
         id: "libroAventura-14",
@@ -1299,7 +1299,7 @@ const LibrosArray = [
             nombre: "Libros Aventura",
             id: "aventura"
         },
-        precio: 350,
+        precio: 149,
     },
     {
         id: "libroAventura-15",
@@ -1310,7 +1310,7 @@ const LibrosArray = [
             nombre: "Libros Aventura",
             id: "aventura"
         },
-        precio: 240,
+        precio: 189,
     },
     {
         id: "libroAventura-16",
@@ -1321,7 +1321,7 @@ const LibrosArray = [
             nombre: "Libros Aventura",
             id: "aventura"
         },
-        precio: 225,
+        precio: 256,
     },
     {
         id: "libroAventura-17",
@@ -1332,7 +1332,7 @@ const LibrosArray = [
             nombre: "Libros Aventura",
             id: "aventura"
         },
-        precio: 150,
+        precio: 272,
     },
     {
         id: "libroAventura-18",
@@ -1343,7 +1343,7 @@ const LibrosArray = [
             nombre: "Libros Aventura",
             id: "aventura"
         },
-        precio: 205,
+        precio:318,
     },
     {
         id: "libroAventura-19",
@@ -1354,7 +1354,7 @@ const LibrosArray = [
             nombre: "Libros Aventura",
             id: "aventura"
         },
-        precio: 190,
+        precio: 420,
     },
     {
         id: "libroAventura-20",
@@ -1365,7 +1365,7 @@ const LibrosArray = [
             nombre: "Libros Aventura",
             id: "aventura"
         },
-        precio: 235,
+        precio: 104,
     },
     //Cocina ----------------------------------------------------------------------------------------------------
     {
@@ -1377,7 +1377,7 @@ const LibrosArray = [
             nombre: "Libros de Cocina",
             id: "cocina"
         },
-        precio: 520,
+        precio: 749,
     },
     {
         id: "libroCocina-02",
@@ -1388,7 +1388,7 @@ const LibrosArray = [
             nombre: "Libros Cocina",
             id: "cocina"
         },
-        precio: 340,
+        precio: 204,
     },
     {
         id: "libroCocina-03",
@@ -1399,7 +1399,7 @@ const LibrosArray = [
             nombre: "Libros Cocina",
             id: "cocina"
         },
-        precio: 650,
+        precio: 340,
     },
     {
         id: "libroCocina-04",
@@ -1410,7 +1410,7 @@ const LibrosArray = [
             nombre: "Libros Cocina",
             id: "cocina"
         },
-        precio: 1200,
+        precio: 3442,
     },
     {
         id: "libroCocina-05",
@@ -1421,7 +1421,7 @@ const LibrosArray = [
             nombre: "Libros Cocina",
             id: "cocina"
         },
-        precio: 420,
+        precio: 729,
     },
     {
         id: "libroCocina-06",
@@ -1432,7 +1432,7 @@ const LibrosArray = [
             nombre: "Libros Cocina",
             id: "cocina"
         },
-        precio: 290,
+        precio: 343,
     },
     {
         id: "libroCocina-07",
@@ -1809,1334 +1809,1336 @@ const LibrosArray = [
         },
         precio: 175,
     },
+
+
     //Salud ----------------------------------------------------------------------------------------------------
-    {
-        id: "libroSalud-01",
-        titulo: "El Cerebro de Pan",
-        imagen: "./img/libro161.jpg",
-        autor: "David Perlmutter",
-        categoria: {
-            nombre: "Libros para la Salud",
-            id: "salud"
-        },
-        precio: 289,
-    },
-    {
-        id: "libroSalud-02",
-        titulo: "Anatomía del Yoga",
-        imagen: "./img/libro162.jpg",
-        autor: "Leslie Kaminoff",
-        categoria: {
-            nombre: "Libros Salud",
-            id: "salud"
-        },
-        precio: 340,
-    },
-    {
-        id: "libroSalud-03",
-        titulo: "El Mito de la Normalidad",
-        imagen: "./img/libro163.jpg",
-        autor: "Gabor Maté",
-        categoria: {
-            nombre: "Libros Salud",
-            id: "salud"
-        },
-        precio: 399,
-    },
-    {
-        id: "libroSalud-04",
-        titulo: "El Mono Obeso",
-        imagen: "./img/libro164.jpg",
-        autor: "José Enrique Campillo Álvarez",
-        categoria: {
-            nombre: "Libros Salud",
-            id: "salud"
-        },
-        precio: 250,
-    },
-    {
-        id: "libroSalud-05",
-        titulo: "Inmune",
-        imagen: "./img/libro165.jpg",
-        autor: "Philipp Dettmer",
-        categoria: {
-            nombre: "Libros Salud",
-            id: "salud"
-        },
-        precio: 320,
-    },
-    {
-        id: "libroSalud-06",
-        titulo: "La Revolución de la Glucosa",
-        imagen: "./img/libro166.jpg",
-        autor: "Jessie Inchauspé",
-        categoria: {
-            nombre: "Libros Salud",
-            id: "salud"
-        },
-        precio: 299,
-    },
-    {
-        id: "libroSalud-07",
-        titulo: "Destroza este Diario con Salud",
-        imagen: "./img/libro167.jpg",
-        autor: "Keri Smith",
-        categoria: {
-            nombre: "Libros Salud",
-            id: "salud"
-        },
-        precio: 180,
-    },
-    {
-        id: "libroSalud-08",
-        titulo: "El Segundo Cerebro",
-        imagen: "./img/libro168.jpg",
-        autor: "Michael D. Gershon",
-        categoria: {
-            nombre: "Libros Salud",
-            id: "salud"
-        },
-        precio: 275,
-    },
-    {
-        id: "libroSalud-09",
-        titulo: "Muchas Vidas, Muchos Maestros",
-        imagen: "./img/libro169.jpg",
-        autor: "Brian Weiss",
-        categoria: {
-            nombre: "Libros Salud",
-            id: "salud"
-        },
-        precio: 210,
-    },
-    {
-        id: "libroSalud-10",
-        titulo: "La Milagrosa Enzima Prodigiosa",
-        imagen: "./img/libro170.jpg",
-        autor: "Hiromi Shinya",
-        categoria: {
-            nombre: "Libros Salud",
-            id: "salud"
-        },
-        precio: 260,
-    },
-    {
-        id: "libroSalud-11",
-        titulo: "Vivir con Abundancia",
-        imagen: "./img/libro171.jpg",
-        autor: "Sergio Fernández",
-        categoria: {
-            nombre: "Libros Salud",
-            id: "salud"
-        },
-        precio: 245,
-    },
-    {
-        id: "libroSalud-12",
-        titulo: "El Poder del Metabolismo",
-        imagen: "./img/libro172.jpg",
-        autor: "Frank Suárez",
-        categoria: {
-            nombre: "Libros Salud",
-            id: "salud"
-        },
-        precio: 350,
-    },
-    {
-        id: "libroSalud-13",
-        titulo: "Hábitos Atómicos",
-        imagen: "./img/libro173.jpg",
-        autor: "James Clear",
-        categoria: {
-            nombre: "Libros Salud",
-            id: "salud"
-        },
-        precio: 329,
-    },
-    {
-        id: "libroSalud-14",
-        titulo: "Por qué Dormimos",
-        imagen: "./img/libro174.jpg",
-        autor: "Matthew Walker",
-        categoria: {
-            nombre: "Libros Salud",
-            id: "salud"
-        },
-        precio: 315,
-    },
-    {
-        id: "libroSalud-15",
-        titulo: "El Cuerpo Lleva la Cuenta",
-        imagen: "./img/libro175.jpg",
-        autor: "Bessel van der Kolk",
-        categoria: {
-            nombre: "Libros Salud",
-            id: "salud"
-        },
-        precio: 380,
-    },
-    {
-        id: "libroSalud-16",
-        titulo: "La Mente es la Medicina",
-        imagen: "./img/libro176.jpg",
-        autor: "Lissa Rankin",
-        categoria: {
-            nombre: "Libros Salud",
-            id: "salud"
-        },
-        precio: 230,
-    },
-    {
-        id: "libroSalud-17",
-        titulo: "Ayuno Consciente",
-        imagen: "./img/libro177.jpg",
-        autor: "Endika Montiel",
-        categoria: {
-            nombre: "Libros Salud",
-            id: "salud"
-        },
-        precio: 195,
-    },
-    {
-        id: "libroSalud-18",
-        titulo: "Medicina Eterna",
-        imagen: "./img/libro178.jpg",
-        autor: "Deepak Chopra",
-        categoria: {
-            nombre: "Libros Salud",
-            id: "salud"
-        },
-        precio: 290,
-    },
-    {
-        id: "libroSalud-19",
-        titulo: "El Pequeño Libro de la Nutrición",
-        imagen: "./img/libro179.jpg",
-        autor: "Áitor Sánchez",
-        categoria: {
-            nombre: "Libros Salud",
-            id: "salud"
-        },
-        precio: 160,
-    },
-    {
-        id: "libroSalud-20",
-        titulo: "Encuentra tu Persona Vitamina",
-        imagen: "./img/libro180.jpg",
-        autor: "Marian Rojas Estapé",
-        categoria: {
-            nombre: "Libros Salud",
-            id: "salud"
-        },
-        precio: 345,
-    },
-   //Deportes ----------------------------------------------------------------------------------------------------
-    {
-        id: "libroDeportes-01",
-        titulo: "Open: Mi Historia",
-        imagen: "./img/libro181.jpg",
-        autor: "Andre Agassi",
-        categoria: {
-            nombre: "Libros de Deportes",
-            id: "deportes"
-        },
-        precio: 350,
-    },
-    {
-        id: "libroDeportes-02",
-        titulo: "Legado: Lo que los All Blacks pueden enseñarnos",
-        imagen: "./img/libro182.jpg",
-        autor: "James Kerr",
-        categoria: {
-            nombre: "Libros Deportes",
-            id: "deportes"
-        },
-        precio: 299,
-    },
-    {
-        id: "libroDeportes-03",
-        titulo: "Mentalidad Mamba",
-        imagen: "./img/libro183.jpg",
-        autor: "Kobe Bryant",
-        categoria: {
-            nombre: "Libros Deportes",
-            id: "deportes"
-        },
-        precio: 450,
-    },
-    {
-        id: "libroDeportes-04",
-        titulo: "De qué hablo cuando hablo de correr",
-        imagen: "./img/libro184.jpg",
-        autor: "Haruki Murakami",
-        categoria: {
-            nombre: "Libros Deportes",
-            id: "deportes"
-        },
-        precio: 240,
-    },
-    {
-        id: "libroDeportes-05",
-        titulo: "Liderazgo",
-        imagen: "./img/libro185.jpg",
-        autor: "Alex Ferguson",
-        categoria: {
-            nombre: "Libros Deportes",
-            id: "deportes"
-        },
-        precio: 280,
-    },
-    {
-        id: "libroDeportes-06",
-        titulo: "Nacidos para Correr",
-        imagen: "./img/libro186.jpg",
-        autor: "Christopher McDougall",
-        categoria: {
-            nombre: "Libros Deportes",
-            id: "deportes"
-        },
-        precio: 270,
-    },
-    {
-        id: "libroDeportes-07",
-        titulo: "Herr Pep",
-        imagen: "./img/libro187.jpg",
-        autor: "Martí Perarnau",
-        categoria: {
-            nombre: "Libros Deportes",
-            id: "deportes"
-        },
-        precio: 310,
-    },
-    {
-        id: "libroDeportes-08",
-        titulo: "El Oro Prometido",
-        imagen: "./img/libro188.jpg",
-        autor: "Mikel Zuza",
-        categoria: {
-            nombre: "Libros Deportes",
-            id: "deportes"
-        },
-        precio: 195,
-    },
-    {
-        id: "libroDeportes-09",
-        titulo: "Malba Tahan: El hombre que calculaba en el deporte",
-        imagen: "./img/libro189.jpg",
-        autor: "Malba Tahan",
-        categoria: {
-            nombre: "Libros Deportes",
-            id: "deportes"
-        },
-        precio: 180,
-    },
-    {
-        id: "libroDeportes-10",
-        titulo: "La pelota no se mancha",
-        imagen: "./img/libro190.jpg",
-        autor: "Diego Armando Maradona",
-        categoria: {
-            nombre: "Libros Deportes",
-            id: "deportes"
-        },
-        precio: 220,
-    },
-    {
-        id: "libroDeportes-11",
-        titulo: "Fiebre en las gradas",
-        imagen: "./img/libro191.jpg",
-        autor: "Nick Hornby",
-        categoria: {
-            nombre: "Libros Deportes",
-            id: "deportes"
-        },
-        precio: 230,
-    },
-    {
-        id: "libroDeportes-12",
-        titulo: "El factor Jordan",
-        imagen: "./img/libro192.jpg",
-        autor: "Sam Smith",
-        categoria: {
-            nombre: "Libros Deportes",
-            id: "deportes"
-        },
-        precio: 260,
-    },
-    {
-        id: "libroDeportes-13",
-        titulo: "Jugar con el corazón",
-        imagen: "./img/libro193.jpg",
-        autor: "Xesco Espar",
-        categoria: {
-            nombre: "Libros Deportes",
-            id: "deportes"
-        },
-        precio: 215,
-    },
-    {
-        id: "libroDeportes-14",
-        titulo: "Ajedrez para campeones",
-        imagen: "./img/libro194.jpg",
-        autor: "Garri Kaspárov",
-        categoria: {
-            nombre: "Libros Deportes",
-            id: "deportes"
-        },
-        precio: 190,
-    },
-    {
-        id: "libroDeportes-15",
-        titulo: "Bajo el aro",
-        imagen: "./img/libro195.jpg",
-        autor: "Pau Gasol",
-        categoria: {
-            nombre: "Libros Deportes",
-            id: "deportes"
-        },
-        precio: 250,
-    },
-    {
-        id: "libroDeportes-16",
-        titulo: "El efecto Simeone",
-        imagen: "./img/libro196.jpg",
-        autor: "Diego Simeone",
-        categoria: {
-            nombre: "Libros Deportes",
-            id: "deportes"
-        },
-        precio: 245,
-    },
-    {
-        id: "libroDeportes-17",
-        titulo: "Todo por una banda",
-        imagen: "./img/libro197.jpg",
-        autor: "Alexandre Juving-Brunet",
-        categoria: {
-            nombre: "Libros Deportes",
-            id: "deportes"
-        },
-        precio: 175,
-    },
-    {
-        id: "libroDeportes-18",
-        titulo: "Pedaleando por un sueño",
-        imagen: "./img/libro198.jpg",
-        autor: "Rigoberto Urán",
-        categoria: {
-            nombre: "Libros Deportes",
-            id: "deportes"
-        },
-        precio: 205,
-    },
-    {
-        id: "libroDeportes-19",
-        titulo: "La mente del atleta",
-        imagen: "./img/libro199.jpg",
-        autor: "Afremow Jim",
-        categoria: {
-            nombre: "Libros Deportes",
-            id: "deportes"
-        },
-        precio: 285,
-    },
-    {
-        id: "libroDeportes-20",
-        titulo: "Estrategias del fútbol moderno",
-        imagen: "./img/libro200.jpg",
-        autor: "Alessandro Zauli",
-        categoria: {
-            nombre: "Libros Deportes",
-            id: "deportes"
-        },
-        precio: 330,
-    },
-   //Historia ----------------------------------------------------------------------------------------------------
-    {
-        id: "libroHistoria-01",
-        titulo: "Sapiens: De animales a dioses",
-        imagen: "./img/libro201.jpg",
-        autor: "Yuval Noah Harari",
-        categoria: {
-            nombre: "Libros de Historia",
-            id: "historia"
-        },
-        precio: 399,
-    },
-    {
-        id: "libroHistoria-02",
-        titulo: "El infinito en un junco",
-        imagen: "./img/libro202.jpg",
-        autor: "Irene Vallejo",
-        categoria: {
-            nombre: "Libros Historia",
-            id: "historia"
-        },
-        precio: 340,
-    },
-    {
-        id: "libroHistoria-03",
-        titulo: "Breve historia del tiempo",
-        imagen: "./img/libro203.jpg",
-        autor: "Stephen Hawking",
-        categoria: {
-            nombre: "Libros Historia",
-            id: "historia"
-        },
-        precio: 250,
-    },
-    {
-        id: "libroHistoria-04",
-        titulo: "Los enemies del comercio",
-        imagen: "./img/libro204.jpg",
-        autor: "Antonio Escohotado",
-        categoria: {
-            nombre: "Libros Historia",
-            id: "historia"
-        },
-        precio: 450,
-    },
-    {
-        id: "libroHistoria-05",
-        titulo: "Armas, gérmenes y acero",
-        imagen: "./img/libro205.jpg",
-        autor: "Jared Diamond",
-        categoria: {
-            nombre: "Libros Historia",
-            id: "historia"
-        },
-        precio: 380,
-    },
-    {
-        id: "libroHistoria-06",
-        titulo: "La Segunda Guerra Mundial",
-        imagen: "./img/libro206.jpg",
-        autor: "Winston Churchill",
-        categoria: {
-            nombre: "Libros Historia",
-            id: "historia"
-        },
-        precio: 499,
-    },
-    {
-        id: "libroHistoria-07",
-        titulo: "Historia de dos ciudades",
-        imagen: "./img/libro207.jpg",
-        autor: "Charles Dickens",
-        categoria: {
-            nombre: "Libros Historia",
-            id: "historia"
-        },
-        precio: 195,
-    },
-    {
-        id: "libroHistoria-08",
-        titulo: "El diario de Ana Frank",
-        imagen: "./img/libro208.jpg",
-        autor: "Ana Frank",
-        categoria: {
-            nombre: "Libros Historia",
-            id: "historia"
-        },
-        precio: 180,
-    },
-    {
-        id: "libroHistoria-09",
-        titulo: "Las venas abiertas de América Latina",
-        imagen: "./img/libro209.jpg",
-        autor: "Eduardo Galeano",
-        categoria: {
-            nombre: "Libros Historia",
-            id: "historia"
-        },
-        precio: 290,
-    },
-    {
-        id: "libroHistoria-10",
-        titulo: "Breve historia universal",
-        imagen: "./img/libro210.jpg",
-        autor: "Ricardo Krebs",
-        categoria: {
-            nombre: "Libros Historia",
-            id: "historia"
-        },
-        precio: 220,
-    },
-    {
-        id: "libroHistoria-11",
-        titulo: "La caída de los gigantes",
-        imagen: "./img/libro211.jpg",
-        autor: "Ken Follett",
-        categoria: {
-            nombre: "Libros Historia",
-            id: "historia"
-        },
-        precio: 420,
-    },
-    {
-        id: "libroHistoria-12",
-        titulo: "El laberinto de la soledad",
-        imagen: "./img/libro212.jpg",
-        autor: "Octavio Paz",
-        categoria: {
-            nombre: "Libros Historia",
-            id: "historia"
-        },
-        precio: 160,
-    },
-    {
-        id: "libroHistoria-13",
-        titulo: "Los pilares de la Tierra",
-        imagen: "./img/libro213.jpg",
-        autor: "Ken Follett",
-        categoria: {
-            nombre: "Libros Historia",
-            id: "historia"
-        },
-        precio: 480,
-    },
-    {
-        id: "libroHistoria-14",
-        titulo: "Imperiofobia y leyenda negra",
-        imagen: "./img/libro214.jpg",
-        autor: "María Elvira Roca Barea",
-        categoria: {
-            nombre: "Libros Historia",
-            id: "historia"
-        },
-        precio: 310,
-    },
-    {
-        id: "libroHistoria-15",
-        titulo: "El nacimiento del mundo moderno",
-        imagen: "./img/libro215.jpg",
-        autor: "Christopher Alan Bayly",
-        categoria: {
-            nombre: "Libros Historia",
-            id: "historia"
-        },
-        precio: 360,
-    },
-    {
-        id: "libroHistoria-16",
-        titulo: "Postguerra: Una historia de Europa desde 1945",
-        imagen: "./img/libro216.jpg",
-        autor: "Tony Judt",
-        categoria: {
-            nombre: "Libros Historia",
-            id: "historia"
-        },
-        precio: 550,
-    },
-    {
-        id: "libroHistoria-17",
-        titulo: "La ruta de la seda",
-        imagen: "./img/libro217.jpg",
-        autor: "Peter Frankopan",
-        categoria: {
-            nombre: "Libros Historia",
-            id: "historia"
-        },
-        precio: 330,
-    },
-    {
-        id: "libroHistoria-18",
-        titulo: "Colapso: Por qué unas sociedades perduran y otras desaparecen",
-        imagen: "./img/libro218.jpg",
-        autor: "Jared Diamond",
-        categoria: {
-            nombre: "Libros Historia",
-            id: "historia"
-        },
-        precio: 375,
-    },
-    {
-        id: "libroHistoria-19",
-        titulo: "Breve historia de la Revolución Francesa",
-        imagen: "./img/libro219.jpg",
-        autor: "Albert Soboul",
-        categoria: {
-            nombre: "Libros Historia",
-            id: "historia"
-        },
-        precio: 215,
-    },
-    {
-        id: "libroHistoria-20",
-        titulo: "La invención de la naturaleza",
-        imagen: "./img/libro220.jpg",
-        autor: "Andrea Wulf",
-        categoria: {
-            nombre: "Libros Historia",
-            id: "historia"
-        },
-        precio: 299,
-    },
-   //K-books ----------------------------------------------------------------------------------------------------
-    {
-        id: "libroKBooks-01",
-        titulo: "Almendra",
-        imagen: "./img/libro221.jpg",
-        autor: "Won-pyung Sohn",
-        categoria: {
-            nombre: "Libros K-Books",
-            id: "k-books"
-        },
-        precio: 280,
-    },
-    {
-        id: "libroKBooks-02",
-        titulo: "La dependienta",
-        imagen: "./img/libro222.jpg",
-        autor: "Sayaka Murata",
-        categoria: {
-            nombre: "Libros K-Books",
-            id: "k-books"
-        },
-        precio: 240,
-    },
-    {
-        id: "libroKBooks-03",
-        titulo: "Kim Ji-young, nacida en 1982",
-        imagen: "./img/libro223.jpg",
-        autor: "Cho Nam-joo",
-        categoria: {
-            nombre: "Libros K-Books",
-            id: "k-books"
-        },
-        precio: 260,
-    },
-    {
-        id: "libroKBooks-04",
-        titulo: "Bienvenidos a la Librería Hyunam-dong",
-        imagen: "./img/libro224.jpg",
-        autor: "Hwang Bo-reum",
-        categoria: {
-            nombre: "Libros K-Books",
-            id: "k-books"
-        },
-        precio: 310,
-    },
-    {
-        id: "libroKBooks-05",
-        titulo: "La Gran Despensa de los Deseos",
-        imagen: "./img/libro225.jpg",
-        autor: "Lee Sun-young",
-        categoria: {
-            nombre: "Libros K-Books",
-            id: "k-books"
-        },
-        precio: 295,
-    },
-    {
-        id: "libroKBooks-06",
-        titulo: "La vegetariana",
-        imagen: "./img/libro226.jpg",
-        autor: "Han Kang",
-        categoria: {
-            nombre: "Libros K-Books",
-            id: "k-books"
-        },
-        precio: 270,
-    },
-    {
-        id: "libroKBooks-07",
-        titulo: "La Lavandería de los Sueños Marigold",
-        imagen: "./img/libro227.jpg",
-        autor: "Yun Jung-eun",
-        categoria: {
-            nombre: "Libros K-Books",
-            id: "k-books"
-        },
-        precio: 289,
-    },
-    {
-        id: "libroKBooks-08",
-        titulo: "El Gran Almacén de los Sueños de Dallerut",
-        imagen: "./img/libro228.jpg",
-        autor: "Mi-ye Lee",
-        categoria: {
-            nombre: "Libros K-Books",
-            id: "k-books"
-        },
-        precio: 325,
-    },
-    {
-        id: "libroKBooks-09",
-        titulo: "Quiero morir, pero también quiero comer tteokbokki",
-        imagen: "./img/libro229.jpg",
-        autor: "Baek Sehee",
-        categoria: {
-            nombre: "Libros K-Books",
-            id: "k-books"
-        },
-        precio: 250,
-    },
-    {
-        id: "libroKBooks-10",
-        titulo: "Actos humanos",
-        imagen: "./img/libro230.jpg",
-        autor: "Han Kang",
-        categoria: {
-            nombre: "Libros K-Books",
-            id: "k-books"
-        },
-        precio: 299,
-    },
-    {
-        id: "libroKBooks-11",
-        titulo: "La asombrosa tienda de la tía Yeonnam",
-        imagen: "./img/libro231.jpg",
-        autor: "Kim Ho-yeon",
-        categoria: {
-            nombre: "Libros K-Books",
-            id: "k-books"
-        },
-        precio: 280,
-    },
-    {
-        id: "libroKBooks-12",
-        titulo: "El pozo de los deseos de Yeonnam-dong",
-        imagen: "./img/libro232.jpg",
-        autor: "Kko-bi Lee",
-        categoria: {
-            nombre: "Libros K-Books",
-            id: "k-books"
-        },
-        precio: 275,
-    },
-    {
-        id: "libroKBooks-13",
-        titulo: "Aquí lo que se cura es el corazón",
-        imagen: "./img/libro233.jpg",
-        autor: "Kim Jae-sik",
-        categoria: {
-            nombre: "Libros K-Books",
-            id: "k-books"
-        },
-        precio: 290,
-    },
-    {
-        id: "libroKBooks-14",
-        titulo: "Blanco",
-        imagen: "./img/libro234.jpg",
-        autor: "Han Kang",
-        categoria: {
-            nombre: "Libros K-Books",
-            id: "k-books"
-        },
-        precio: 230,
-    },
-    {
-        id: "libroKBooks-15",
-        titulo: "Apesta a amor",
-        imagen: "./img/libro235.jpg",
-        autor: "Magnus Mist",
-        categoria: {
-            nombre: "Libros K-Books",
-            id: "k-books"
-        },
-        precio: 245,
-    },
-    {
-        id: "libroKBooks-16",
-        titulo: "Pachinko",
-        imagen: "./img/libro236.jpg",
-        autor: "Min Jin Lee",
-        categoria: {
-            nombre: "Libros K-Books",
-            id: "k-books"
-        },
-        precio: 380,
-    },
-    {
-        id: "libroKBooks-17",
-        titulo: "La hija única",
-        imagen: "./img/libro237.jpg",
-        autor: "Seo Mi-ae",
-        categoria: {
-            nombre: "Libros K-Books",
-            id: "k-books"
-        },
-        precio: 265,
-    },
-    {
-        id: "libroKBooks-18",
-        titulo: "El buen hijo",
-        imagen: "./img/libro238.jpg",
-        autor: "You-jeong Jeong",
-        categoria: {
-            nombre: "Libros K-Books",
-            id: "k-books"
-        },
-        precio: 285,
-    },
-    {
-        id: "libroKBooks-19",
-        titulo: "Atrapando luciérnagas",
-        imagen: "./img/libro239.jpg",
-        autor: "Kim Ex-hyun",
-        categoria: {
-            nombre: "Libros K-Books",
-            id: "k-books"
-        },
-        precio: 220,
-    },
-    {
-        id: "libroKBooks-20",
-        titulo: "Lecciones de griego",
-        imagen: "./img/libro240.jpg",
-        autor: "Han Kang",
-        categoria: {
-            nombre: "Libros K-Books",
-            id: "k-books"
-        },
-        precio: 270,
-    },
-   //Anime ----------------------------------------------------------------------------------------------------
-    {
-        id: "libroAnime-01",
-        titulo: "Your Name",
-        imagen: "./img/libro241.jpg",
-        autor: "Makoto Shinkai",
-        categoria: {
-            nombre: "Libros Anime",
-            id: "anime"
-        },
-        precio: 299,
-    },
-    {
-        id: "libroAnime-02",
-        titulo: "El Increíble Castillo Vagabundo",
-        imagen: "./img/libro242.jpg",
-        autor: "Diana Wynne Jones",
-        categoria: {
-            nombre: "Libros Anime",
-            id: "anime"
-        },
-        precio: 280,
-    },
-    {
-        id: "libroAnime-03",
-        titulo: "Quiero Comerme tu Páncreas",
-        imagen: "./img/libro243.jpg",
-        autor: "Yoru Sumino",
-        categoria: {
-            nombre: "Libros Anime",
-            id: "anime"
-        },
-        precio: 260,
-    },
-    {
-        id: "libroAnime-04",
-        titulo: "El Tiempo Contigo",
-        imagen: "./img/libro244.jpg",
-        autor: "Makoto Shinkai",
-        categoria: {
-            nombre: "Libros Anime",
-            id: "anime"
-        },
-        precio: 310,
-    },
-    {
-        id: "libroAnime-05",
-        titulo: "Suzume",
-        imagen: "./img/libro245.jpg",
-        autor: "Makoto Shinkai",
-        categoria: {
-            nombre: "Libros Anime",
-            id: "anime"
-        },
-        precio: 325,
-    },
-    {
-        id: "libroAnime-06",
-        titulo: "A Silent Voice",
-        imagen: "./img/libro246.jpg",
-        autor: "Yoshitoki Ōima",
-        categoria: {
-            nombre: "Libros Anime",
-            id: "anime"
-        },
-        precio: 270,
-    },
-    {
-        id: "libroAnime-07",
-        titulo: "Sword Art Online: Aincrad",
-        imagen: "./img/libro247.jpg",
-        autor: "Reki Kawahara",
-        categoria: {
-            nombre: "Libros Anime",
-            id: "anime"
-        },
-        precio: 290,
-    },
-    {
-        id: "libroAnime-08",
-        titulo: "Naruto: La Historia de Innocent Heart",
-        imagen: "./img/libro248.jpg",
-        autor: "Masashi Kishimoto",
-        categoria: {
-            nombre: "Libros Anime",
-            id: "anime"
-        },
-        precio: 210,
-    },
-    {
-        id: "libroAnime-09",
-        titulo: "Ataque a los Titanes: Antes de la Caída",
-        imagen: "./img/libro249.jpg",
-        autor: "Ryō Suzukaze",
-        categoria: {
-            nombre: "Libros Anime",
-            id: "anime"
-        },
-        precio: 245,
-    },
-    {
-        id: "libroAnime-10",
-        titulo: "Guardianes de la Noche: La Flor de la Felicidad",
-        imagen: "./img/libro250.jpg",
-        autor: "Koyoharu Gotōge",
-        categoria: {
-            nombre: "Libros Anime",
-            id: "anime"
-        },
-        precio: 220,
-    },
-    {
-        id: "libroAnime-11",
-        titulo: "Jujutsu Kaisen: Caminos de Espinas al Amanecer",
-        imagen: "./img/libro251.jpg",
-        autor: "Ballad Kitaguni",
-        categoria: {
-            nombre: "Libros Anime",
-            id: "anime"
-        },
-        precio: 230,
-    },
-    {
-        id: "libroAnime-12",
-        titulo: "El Jardín de las Palabras",
-        imagen: "./img/libro252.jpg",
-        autor: "Makoto Shinkai",
-        categoria: {
-            nombre: "Libros Anime",
-            id: "anime"
-        },
-        precio: 250,
-    },
-    {
-        id: "libroAnime-13",
-        titulo: "Overlord: El Rey No Muerto",
-        imagen: "./img/libro253.jpg",
-        autor: "Kugane Maruyama",
-        categoria: {
-            nombre: "Libros Anime",
-            id: "anime"
-        },
-        precio: 340,
-    },
-    {
-        id: "libroAnime-14",
-        titulo: "One Piece: Novela de Ace",
-        imagen: "./img/libro254.jpg",
-        autor: "Sho Hinata",
-        categoria: {
-            nombre: "Libros Anime",
-            id: "anime"
-        },
-        precio: 285,
-    },
-    {
-        id: "libroAnime-15",
-        titulo: "Bungo Stray Dogs: El Examen de Admisión de Osamu Dazai",
-        imagen: "./img/libro255.jpg",
-        autor: "Kafka Asagiri",
-        categoria: {
-            nombre: "Libros Anime",
-            id: "anime"
-        },
-        precio: 275,
-    },
-    {
-        id: "libroAnime-16",
-        titulo: "Tokyo Ghoul: Días",
-        imagen: "./img/libro256.jpg",
-        autor: "Shin Towada",
-        categoria: {
-            nombre: "Libros Anime",
-            id: "anime"
-        },
-        precio: 240,
-    },
-    {
-        id: "libroAnime-17",
-        titulo: "Mirai, mi Hermana Pequeña",
-        imagen: "./img/libro257.jpg",
-        autor: "Mamoru Hosoda",
-        categoria: {
-            nombre: "Libros Anime",
-            id: "anime"
-        },
-        precio: 199,
-    },
-    {
-        id: "libroAnime-18",
-        titulo: "El Niño y la Beast",
-        imagen: "./img/libro258.jpg",
-        autor: "Mamoru Hosoda",
-        categoria: {
-            nombre: "Libros Anime",
-            id: "anime"
-        },
-        precio: 215,
-    },
-    {
-        id: "libroAnime-19",
-        titulo: "5 Centímetros por Segundo",
-        imagen: "./img/libro259.jpg",
-        autor: "Makoto Shinkai",
-        categoria: {
-            nombre: "Libros Anime",
-            id: "anime"
-        },
-        precio: 180,
-    },
-    {
-        id: "libroAnime-20",
-        titulo: "Perfect Blue",
-        imagen: "./img/libro260.jpg",
-        autor: "Yoshikazu Takeuchi",
-        categoria: {
-            nombre: "Libros Anime",
-            id: "anime"
-        },
-        precio: 295,
-    },
-   //Negocios ----------------------------------------------------------------------------------------------------
-    {
-        id: "libroNegocios-01",
-        titulo: "Padre Rico, Padre Pobre",
-        imagen: "./img/libro261.jpg",
-        autor: "Robert Kiyosaki",
-        categoria: {
-            nombre: "Libros de Negocios",
-            id: "negocios"
-        },
-        precio: 299,
-    },
-    {
-        id: "libroNegocios-02",
-        titulo: "El Método Lean Startup",
-        imagen: "./img/libro262.jpg",
-        autor: "Eric Ries",
-        categoria: {
-            nombre: "Libros Negocios",
-            id: "negocios"
-        },
-        precio: 345,
-    },
-    {
-        id: "libroNegocios-03",
-        titulo: "De Cero a Uno",
-        imagen: "./img/libro263.jpg",
-        autor: "Peter Thiel",
-        categoria: {
-            nombre: "Libros Negocios",
-            id: "negocios"
-        },
-        precio: 280,
-    },
-    {
-        id: "libroNegocios-04",
-        titulo: "La Vaca Púrpura",
-        imagen: "./img/libro264.jpg",
-        autor: "Seth Godin",
-        categoria: {
-            nombre: "Libros Negocios",
-            id: "negocios"
-        },
-        precio: 250,
-    },
-    {
-        id: "libroNegocios-05",
-        titulo: "La Semana Laboral de 4 Horas",
-        imagen: "./img/libro265.jpg",
-        autor: "Timothy Ferriss",
-        categoria: {
-            nombre: "Libros Negocios",
-            id: "negocios"
-        },
-        precio: 320,
-    },
-    {
-        id: "libroNegocios-06",
-        titulo: "Los 7 Hábitos de la Gente Altamente Efectiva",
-        imagen: "./img/libro266.jpg",
-        autor: "Stephen Covey",
-        categoria: {
-            nombre: "Libros Negocios",
-            id: "negocios"
-        },
-        precio: 290,
-    },
-    {
-        id: "libroNegocios-07",
-        titulo: "Principios",
-        imagen: "./img/libro267.jpg",
-        autor: "Ray Dalio",
-        categoria: {
-            nombre: "Libros Negocios",
-            id: "negocios"
-        },
-        precio: 450,
-    },
-    {
-        id: "libroNegocios-08",
-        titulo: "El Inversor Inteligente",
-        imagen: "./img/libro268.jpg",
-        autor: "Benjamin Graham",
-        categoria: {
-            nombre: "Libros Negocios",
-            id: "negocios"
-        },
-        precio: 499,
-    },
-    {
-        id: "libroNegocios-09",
-        titulo: "Empieza con el Porqué",
-        imagen: "./img/libro269.jpg",
-        autor: "Simon Sinek",
-        categoria: {
-            nombre: "Libros Negocios",
-            id: "negocios"
-        },
-        precio: 275,
-    },
-    {
-        id: "libroNegocios-10",
-        titulo: "La Psicología del Dinero",
-        imagen: "./img/libro270.jpg",
-        autor: "Morgan Housel",
-        categoria: {
-            nombre: "Libros Negocios",
-            id: "negocios"
-        },
-        precio: 310,
-    },
-    {
-        id: "libroNegocios-11",
-        titulo: "El Dilema de los Innovadores",
-        imagen: "./img/libro271.jpg",
-        autor: "Clayton Christensen",
-        categoria: {
-            nombre: "Libros Negocios",
-            id: "negocios"
-        },
-        precio: 360,
-    },
-    {
-        id: "libroNegocios-12",
-        titulo: "Vendes o Vendes",
-        imagen: "./img/libro272.jpg",
-        autor: "Grant Cardone",
-        categoria: {
-            nombre: "Libros Negocios",
-            id: "negocios"
-        },
-        precio: 260,
-    },
-    {
-        id: "libroNegocios-13",
-        titulo: "Nunca Dividas la Diferencia",
-        imagen: "./img/libro273.jpg",
-        autor: "Chris Voss",
-        categoria: {
-            nombre: "Libros Negocios",
-            id: "negocios"
-        },
-        precio: 330,
-    },
-    {
-        id: "libroNegocios-14",
-        titulo: "El Alquimista de las Finanzas",
-        imagen: "./img/libro274.jpg",
-        autor: "George Soros",
-        categoria: {
-            nombre: "Libros Negocios",
-            id: "negocios"
-        },
-        precio: 380,
-    },
-    {
-        id: "libroNegocios-15",
-        titulo: "Estrategia del Océano Azul",
-        imagen: "./img/libro275.jpg",
-        autor: "W. Chan Kim",
-        categoria: {
-            nombre: "Libros Negocios",
-            id: "negocios"
-        },
-        precio: 350,
-    },
-    {
-        id: "libroNegocios-16",
-        titulo: "Piensa y Hágase Rico",
-        imagen: "./img/libro276.jpg",
-        autor: "Napoleon Hill",
-        categoria: {
-            nombre: "Libros Negocios",
-            id: "negocios"
-        },
-        precio: 199,
-    },
-    {
-        id: "libroNegocios-17",
-        titulo: "Enganchado (Hooked)",
-        imagen: "./img/libro277.jpg",
-        autor: "Nir Eyal",
-        categoria: {
-            nombre: "Libros Negocios",
-            id: "negocios"
-        },
-        precio: 285,
-    },
-    {
-        id: "libroNegocios-18",
-        titulo: "El Monje que Vendió su Ferrari",
-        imagen: "./img/libro278.jpg",
-        autor: "Robin Sharma",
-        categoria: {
-            nombre: "Libros Negocios",
-            id: "negocios"
-        },
-        precio: 160.6,
-        precioViejo: 189
-    },
-    {
-        id: "libroNegocios-19",
-        titulo: "Queremos que seas Rico",
-        imagen: "./img/libro279.jpg",
-        autor: "Donald Trump",
-        categoria: {
-            nombre: "Libros Negocios",
-            id: "negocios"
-        },
-        precio: 490.4,
-        precioViejo: 577
-    },
-    {
-        id: "libroNegocios-20",
-        titulo: "Creatividad, S.A.",
-        imagen: "./img/libro280.jpg",
-        autor: "Ed Catmull",
-        categoria: {
-            nombre: "Libros Negocios",
-            id: "negocios"
-        },
-        precio: 315,
-    }
+//     {
+//         id: "libroSalud-01",
+//         titulo: "El Cerebro de Pan",
+//         imagen: "./img/libro161.jpg",
+//         autor: "David Perlmutter",
+//         categoria: {
+//             nombre: "Libros para la Salud",
+//             id: "salud"
+//         },
+//         precio: 289,
+//     },
+//     {
+//         id: "libroSalud-02",
+//         titulo: "Anatomía del Yoga",
+//         imagen: "./img/libro162.jpg",
+//         autor: "Leslie Kaminoff",
+//         categoria: {
+//             nombre: "Libros Salud",
+//             id: "salud"
+//         },
+//         precio: 340,
+//     },
+//     {
+//         id: "libroSalud-03",
+//         titulo: "El Mito de la Normalidad",
+//         imagen: "./img/libro163.jpg",
+//         autor: "Gabor Maté",
+//         categoria: {
+//             nombre: "Libros Salud",
+//             id: "salud"
+//         },
+//         precio: 399,
+//     },
+//     {
+//         id: "libroSalud-04",
+//         titulo: "El Mono Obeso",
+//         imagen: "./img/libro164.jpg",
+//         autor: "José Enrique Campillo Álvarez",
+//         categoria: {
+//             nombre: "Libros Salud",
+//             id: "salud"
+//         },
+//         precio: 250,
+//     },
+//     {
+//         id: "libroSalud-05",
+//         titulo: "Inmune",
+//         imagen: "./img/libro165.jpg",
+//         autor: "Philipp Dettmer",
+//         categoria: {
+//             nombre: "Libros Salud",
+//             id: "salud"
+//         },
+//         precio: 320,
+//     },
+//     {
+//         id: "libroSalud-06",
+//         titulo: "La Revolución de la Glucosa",
+//         imagen: "./img/libro166.jpg",
+//         autor: "Jessie Inchauspé",
+//         categoria: {
+//             nombre: "Libros Salud",
+//             id: "salud"
+//         },
+//         precio: 299,
+//     },
+//     {
+//         id: "libroSalud-07",
+//         titulo: "Destroza este Diario con Salud",
+//         imagen: "./img/libro167.jpg",
+//         autor: "Keri Smith",
+//         categoria: {
+//             nombre: "Libros Salud",
+//             id: "salud"
+//         },
+//         precio: 180,
+//     },
+//     {
+//         id: "libroSalud-08",
+//         titulo: "El Segundo Cerebro",
+//         imagen: "./img/libro168.jpg",
+//         autor: "Michael D. Gershon",
+//         categoria: {
+//             nombre: "Libros Salud",
+//             id: "salud"
+//         },
+//         precio: 275,
+//     },
+//     {
+//         id: "libroSalud-09",
+//         titulo: "Muchas Vidas, Muchos Maestros",
+//         imagen: "./img/libro169.jpg",
+//         autor: "Brian Weiss",
+//         categoria: {
+//             nombre: "Libros Salud",
+//             id: "salud"
+//         },
+//         precio: 210,
+//     },
+//     {
+//         id: "libroSalud-10",
+//         titulo: "La Milagrosa Enzima Prodigiosa",
+//         imagen: "./img/libro170.jpg",
+//         autor: "Hiromi Shinya",
+//         categoria: {
+//             nombre: "Libros Salud",
+//             id: "salud"
+//         },
+//         precio: 260,
+//     },
+//     {
+//         id: "libroSalud-11",
+//         titulo: "Vivir con Abundancia",
+//         imagen: "./img/libro171.jpg",
+//         autor: "Sergio Fernández",
+//         categoria: {
+//             nombre: "Libros Salud",
+//             id: "salud"
+//         },
+//         precio: 245,
+//     },
+//     {
+//         id: "libroSalud-12",
+//         titulo: "El Poder del Metabolismo",
+//         imagen: "./img/libro172.jpg",
+//         autor: "Frank Suárez",
+//         categoria: {
+//             nombre: "Libros Salud",
+//             id: "salud"
+//         },
+//         precio: 350,
+//     },
+//     {
+//         id: "libroSalud-13",
+//         titulo: "Hábitos Atómicos",
+//         imagen: "./img/libro173.jpg",
+//         autor: "James Clear",
+//         categoria: {
+//             nombre: "Libros Salud",
+//             id: "salud"
+//         },
+//         precio: 329,
+//     },
+//     {
+//         id: "libroSalud-14",
+//         titulo: "Por qué Dormimos",
+//         imagen: "./img/libro174.jpg",
+//         autor: "Matthew Walker",
+//         categoria: {
+//             nombre: "Libros Salud",
+//             id: "salud"
+//         },
+//         precio: 315,
+//     },
+//     {
+//         id: "libroSalud-15",
+//         titulo: "El Cuerpo Lleva la Cuenta",
+//         imagen: "./img/libro175.jpg",
+//         autor: "Bessel van der Kolk",
+//         categoria: {
+//             nombre: "Libros Salud",
+//             id: "salud"
+//         },
+//         precio: 380,
+//     },
+//     {
+//         id: "libroSalud-16",
+//         titulo: "La Mente es la Medicina",
+//         imagen: "./img/libro176.jpg",
+//         autor: "Lissa Rankin",
+//         categoria: {
+//             nombre: "Libros Salud",
+//             id: "salud"
+//         },
+//         precio: 230,
+//     },
+//     {
+//         id: "libroSalud-17",
+//         titulo: "Ayuno Consciente",
+//         imagen: "./img/libro177.jpg",
+//         autor: "Endika Montiel",
+//         categoria: {
+//             nombre: "Libros Salud",
+//             id: "salud"
+//         },
+//         precio: 195,
+//     },
+//     {
+//         id: "libroSalud-18",
+//         titulo: "Medicina Eterna",
+//         imagen: "./img/libro178.jpg",
+//         autor: "Deepak Chopra",
+//         categoria: {
+//             nombre: "Libros Salud",
+//             id: "salud"
+//         },
+//         precio: 290,
+//     },
+//     {
+//         id: "libroSalud-19",
+//         titulo: "El Pequeño Libro de la Nutrición",
+//         imagen: "./img/libro179.jpg",
+//         autor: "Áitor Sánchez",
+//         categoria: {
+//             nombre: "Libros Salud",
+//             id: "salud"
+//         },
+//         precio: 160,
+//     },
+//     {
+//         id: "libroSalud-20",
+//         titulo: "Encuentra tu Persona Vitamina",
+//         imagen: "./img/libro180.jpg",
+//         autor: "Marian Rojas Estapé",
+//         categoria: {
+//             nombre: "Libros Salud",
+//             id: "salud"
+//         },
+//         precio: 345,
+//     },
+//    //Deportes ----------------------------------------------------------------------------------------------------
+//     {
+//         id: "libroDeportes-01",
+//         titulo: "Open: Mi Historia",
+//         imagen: "./img/libro181.jpg",
+//         autor: "Andre Agassi",
+//         categoria: {
+//             nombre: "Libros de Deportes",
+//             id: "deportes"
+//         },
+//         precio: 350,
+//     },
+//     {
+//         id: "libroDeportes-02",
+//         titulo: "Legado: Lo que los All Blacks pueden enseñarnos",
+//         imagen: "./img/libro182.jpg",
+//         autor: "James Kerr",
+//         categoria: {
+//             nombre: "Libros Deportes",
+//             id: "deportes"
+//         },
+//         precio: 299,
+//     },
+//     {
+//         id: "libroDeportes-03",
+//         titulo: "Mentalidad Mamba",
+//         imagen: "./img/libro183.jpg",
+//         autor: "Kobe Bryant",
+//         categoria: {
+//             nombre: "Libros Deportes",
+//             id: "deportes"
+//         },
+//         precio: 450,
+//     },
+//     {
+//         id: "libroDeportes-04",
+//         titulo: "De qué hablo cuando hablo de correr",
+//         imagen: "./img/libro184.jpg",
+//         autor: "Haruki Murakami",
+//         categoria: {
+//             nombre: "Libros Deportes",
+//             id: "deportes"
+//         },
+//         precio: 240,
+//     },
+//     {
+//         id: "libroDeportes-05",
+//         titulo: "Liderazgo",
+//         imagen: "./img/libro185.jpg",
+//         autor: "Alex Ferguson",
+//         categoria: {
+//             nombre: "Libros Deportes",
+//             id: "deportes"
+//         },
+//         precio: 280,
+//     },
+//     {
+//         id: "libroDeportes-06",
+//         titulo: "Nacidos para Correr",
+//         imagen: "./img/libro186.jpg",
+//         autor: "Christopher McDougall",
+//         categoria: {
+//             nombre: "Libros Deportes",
+//             id: "deportes"
+//         },
+//         precio: 270,
+//     },
+//     {
+//         id: "libroDeportes-07",
+//         titulo: "Herr Pep",
+//         imagen: "./img/libro187.jpg",
+//         autor: "Martí Perarnau",
+//         categoria: {
+//             nombre: "Libros Deportes",
+//             id: "deportes"
+//         },
+//         precio: 310,
+//     },
+//     {
+//         id: "libroDeportes-08",
+//         titulo: "El Oro Prometido",
+//         imagen: "./img/libro188.jpg",
+//         autor: "Mikel Zuza",
+//         categoria: {
+//             nombre: "Libros Deportes",
+//             id: "deportes"
+//         },
+//         precio: 195,
+//     },
+//     {
+//         id: "libroDeportes-09",
+//         titulo: "Malba Tahan: El hombre que calculaba en el deporte",
+//         imagen: "./img/libro189.jpg",
+//         autor: "Malba Tahan",
+//         categoria: {
+//             nombre: "Libros Deportes",
+//             id: "deportes"
+//         },
+//         precio: 180,
+//     },
+//     {
+//         id: "libroDeportes-10",
+//         titulo: "La pelota no se mancha",
+//         imagen: "./img/libro190.jpg",
+//         autor: "Diego Armando Maradona",
+//         categoria: {
+//             nombre: "Libros Deportes",
+//             id: "deportes"
+//         },
+//         precio: 220,
+//     },
+//     {
+//         id: "libroDeportes-11",
+//         titulo: "Fiebre en las gradas",
+//         imagen: "./img/libro191.jpg",
+//         autor: "Nick Hornby",
+//         categoria: {
+//             nombre: "Libros Deportes",
+//             id: "deportes"
+//         },
+//         precio: 230,
+//     },
+//     {
+//         id: "libroDeportes-12",
+//         titulo: "El factor Jordan",
+//         imagen: "./img/libro192.jpg",
+//         autor: "Sam Smith",
+//         categoria: {
+//             nombre: "Libros Deportes",
+//             id: "deportes"
+//         },
+//         precio: 260,
+//     },
+//     {
+//         id: "libroDeportes-13",
+//         titulo: "Jugar con el corazón",
+//         imagen: "./img/libro193.jpg",
+//         autor: "Xesco Espar",
+//         categoria: {
+//             nombre: "Libros Deportes",
+//             id: "deportes"
+//         },
+//         precio: 215,
+//     },
+//     {
+//         id: "libroDeportes-14",
+//         titulo: "Ajedrez para campeones",
+//         imagen: "./img/libro194.jpg",
+//         autor: "Garri Kaspárov",
+//         categoria: {
+//             nombre: "Libros Deportes",
+//             id: "deportes"
+//         },
+//         precio: 190,
+//     },
+//     {
+//         id: "libroDeportes-15",
+//         titulo: "Bajo el aro",
+//         imagen: "./img/libro195.jpg",
+//         autor: "Pau Gasol",
+//         categoria: {
+//             nombre: "Libros Deportes",
+//             id: "deportes"
+//         },
+//         precio: 250,
+//     },
+//     {
+//         id: "libroDeportes-16",
+//         titulo: "El efecto Simeone",
+//         imagen: "./img/libro196.jpg",
+//         autor: "Diego Simeone",
+//         categoria: {
+//             nombre: "Libros Deportes",
+//             id: "deportes"
+//         },
+//         precio: 245,
+//     },
+//     {
+//         id: "libroDeportes-17",
+//         titulo: "Todo por una banda",
+//         imagen: "./img/libro197.jpg",
+//         autor: "Alexandre Juving-Brunet",
+//         categoria: {
+//             nombre: "Libros Deportes",
+//             id: "deportes"
+//         },
+//         precio: 175,
+//     },
+//     {
+//         id: "libroDeportes-18",
+//         titulo: "Pedaleando por un sueño",
+//         imagen: "./img/libro198.jpg",
+//         autor: "Rigoberto Urán",
+//         categoria: {
+//             nombre: "Libros Deportes",
+//             id: "deportes"
+//         },
+//         precio: 205,
+//     },
+//     {
+//         id: "libroDeportes-19",
+//         titulo: "La mente del atleta",
+//         imagen: "./img/libro199.jpg",
+//         autor: "Afremow Jim",
+//         categoria: {
+//             nombre: "Libros Deportes",
+//             id: "deportes"
+//         },
+//         precio: 285,
+//     },
+//     {
+//         id: "libroDeportes-20",
+//         titulo: "Estrategias del fútbol moderno",
+//         imagen: "./img/libro200.jpg",
+//         autor: "Alessandro Zauli",
+//         categoria: {
+//             nombre: "Libros Deportes",
+//             id: "deportes"
+//         },
+//         precio: 330,
+//     },
+//    //Historia ----------------------------------------------------------------------------------------------------
+//     {
+//         id: "libroHistoria-01",
+//         titulo: "Sapiens: De animales a dioses",
+//         imagen: "./img/libro201.jpg",
+//         autor: "Yuval Noah Harari",
+//         categoria: {
+//             nombre: "Libros de Historia",
+//             id: "historia"
+//         },
+//         precio: 399,
+//     },
+//     {
+//         id: "libroHistoria-02",
+//         titulo: "El infinito en un junco",
+//         imagen: "./img/libro202.jpg",
+//         autor: "Irene Vallejo",
+//         categoria: {
+//             nombre: "Libros Historia",
+//             id: "historia"
+//         },
+//         precio: 340,
+//     },
+//     {
+//         id: "libroHistoria-03",
+//         titulo: "Breve historia del tiempo",
+//         imagen: "./img/libro203.jpg",
+//         autor: "Stephen Hawking",
+//         categoria: {
+//             nombre: "Libros Historia",
+//             id: "historia"
+//         },
+//         precio: 250,
+//     },
+//     {
+//         id: "libroHistoria-04",
+//         titulo: "Los enemies del comercio",
+//         imagen: "./img/libro204.jpg",
+//         autor: "Antonio Escohotado",
+//         categoria: {
+//             nombre: "Libros Historia",
+//             id: "historia"
+//         },
+//         precio: 450,
+//     },
+//     {
+//         id: "libroHistoria-05",
+//         titulo: "Armas, gérmenes y acero",
+//         imagen: "./img/libro205.jpg",
+//         autor: "Jared Diamond",
+//         categoria: {
+//             nombre: "Libros Historia",
+//             id: "historia"
+//         },
+//         precio: 380,
+//     },
+//     {
+//         id: "libroHistoria-06",
+//         titulo: "La Segunda Guerra Mundial",
+//         imagen: "./img/libro206.jpg",
+//         autor: "Winston Churchill",
+//         categoria: {
+//             nombre: "Libros Historia",
+//             id: "historia"
+//         },
+//         precio: 499,
+//     },
+//     {
+//         id: "libroHistoria-07",
+//         titulo: "Historia de dos ciudades",
+//         imagen: "./img/libro207.jpg",
+//         autor: "Charles Dickens",
+//         categoria: {
+//             nombre: "Libros Historia",
+//             id: "historia"
+//         },
+//         precio: 195,
+//     },
+//     {
+//         id: "libroHistoria-08",
+//         titulo: "El diario de Ana Frank",
+//         imagen: "./img/libro208.jpg",
+//         autor: "Ana Frank",
+//         categoria: {
+//             nombre: "Libros Historia",
+//             id: "historia"
+//         },
+//         precio: 180,
+//     },
+//     {
+//         id: "libroHistoria-09",
+//         titulo: "Las venas abiertas de América Latina",
+//         imagen: "./img/libro209.jpg",
+//         autor: "Eduardo Galeano",
+//         categoria: {
+//             nombre: "Libros Historia",
+//             id: "historia"
+//         },
+//         precio: 290,
+//     },
+//     {
+//         id: "libroHistoria-10",
+//         titulo: "Breve historia universal",
+//         imagen: "./img/libro210.jpg",
+//         autor: "Ricardo Krebs",
+//         categoria: {
+//             nombre: "Libros Historia",
+//             id: "historia"
+//         },
+//         precio: 220,
+//     },
+//     {
+//         id: "libroHistoria-11",
+//         titulo: "La caída de los gigantes",
+//         imagen: "./img/libro211.jpg",
+//         autor: "Ken Follett",
+//         categoria: {
+//             nombre: "Libros Historia",
+//             id: "historia"
+//         },
+//         precio: 420,
+//     },
+//     {
+//         id: "libroHistoria-12",
+//         titulo: "El laberinto de la soledad",
+//         imagen: "./img/libro212.jpg",
+//         autor: "Octavio Paz",
+//         categoria: {
+//             nombre: "Libros Historia",
+//             id: "historia"
+//         },
+//         precio: 160,
+//     },
+//     {
+//         id: "libroHistoria-13",
+//         titulo: "Los pilares de la Tierra",
+//         imagen: "./img/libro213.jpg",
+//         autor: "Ken Follett",
+//         categoria: {
+//             nombre: "Libros Historia",
+//             id: "historia"
+//         },
+//         precio: 480,
+//     },
+//     {
+//         id: "libroHistoria-14",
+//         titulo: "Imperiofobia y leyenda negra",
+//         imagen: "./img/libro214.jpg",
+//         autor: "María Elvira Roca Barea",
+//         categoria: {
+//             nombre: "Libros Historia",
+//             id: "historia"
+//         },
+//         precio: 310,
+//     },
+//     {
+//         id: "libroHistoria-15",
+//         titulo: "El nacimiento del mundo moderno",
+//         imagen: "./img/libro215.jpg",
+//         autor: "Christopher Alan Bayly",
+//         categoria: {
+//             nombre: "Libros Historia",
+//             id: "historia"
+//         },
+//         precio: 360,
+//     },
+//     {
+//         id: "libroHistoria-16",
+//         titulo: "Postguerra: Una historia de Europa desde 1945",
+//         imagen: "./img/libro216.jpg",
+//         autor: "Tony Judt",
+//         categoria: {
+//             nombre: "Libros Historia",
+//             id: "historia"
+//         },
+//         precio: 550,
+//     },
+//     {
+//         id: "libroHistoria-17",
+//         titulo: "La ruta de la seda",
+//         imagen: "./img/libro217.jpg",
+//         autor: "Peter Frankopan",
+//         categoria: {
+//             nombre: "Libros Historia",
+//             id: "historia"
+//         },
+//         precio: 330,
+//     },
+//     {
+//         id: "libroHistoria-18",
+//         titulo: "Colapso: Por qué unas sociedades perduran y otras desaparecen",
+//         imagen: "./img/libro218.jpg",
+//         autor: "Jared Diamond",
+//         categoria: {
+//             nombre: "Libros Historia",
+//             id: "historia"
+//         },
+//         precio: 375,
+//     },
+//     {
+//         id: "libroHistoria-19",
+//         titulo: "Breve historia de la Revolución Francesa",
+//         imagen: "./img/libro219.jpg",
+//         autor: "Albert Soboul",
+//         categoria: {
+//             nombre: "Libros Historia",
+//             id: "historia"
+//         },
+//         precio: 215,
+//     },
+//     {
+//         id: "libroHistoria-20",
+//         titulo: "La invención de la naturaleza",
+//         imagen: "./img/libro220.jpg",
+//         autor: "Andrea Wulf",
+//         categoria: {
+//             nombre: "Libros Historia",
+//             id: "historia"
+//         },
+//         precio: 299,
+//     },
+//    //K-books ----------------------------------------------------------------------------------------------------
+//     {
+//         id: "libroKBooks-01",
+//         titulo: "Almendra",
+//         imagen: "./img/libro221.jpg",
+//         autor: "Won-pyung Sohn",
+//         categoria: {
+//             nombre: "Libros K-Books",
+//             id: "k-books"
+//         },
+//         precio: 280,
+//     },
+//     {
+//         id: "libroKBooks-02",
+//         titulo: "La dependienta",
+//         imagen: "./img/libro222.jpg",
+//         autor: "Sayaka Murata",
+//         categoria: {
+//             nombre: "Libros K-Books",
+//             id: "k-books"
+//         },
+//         precio: 240,
+//     },
+//     {
+//         id: "libroKBooks-03",
+//         titulo: "Kim Ji-young, nacida en 1982",
+//         imagen: "./img/libro223.jpg",
+//         autor: "Cho Nam-joo",
+//         categoria: {
+//             nombre: "Libros K-Books",
+//             id: "k-books"
+//         },
+//         precio: 260,
+//     },
+//     {
+//         id: "libroKBooks-04",
+//         titulo: "Bienvenidos a la Librería Hyunam-dong",
+//         imagen: "./img/libro224.jpg",
+//         autor: "Hwang Bo-reum",
+//         categoria: {
+//             nombre: "Libros K-Books",
+//             id: "k-books"
+//         },
+//         precio: 310,
+//     },
+//     {
+//         id: "libroKBooks-05",
+//         titulo: "La Gran Despensa de los Deseos",
+//         imagen: "./img/libro225.jpg",
+//         autor: "Lee Sun-young",
+//         categoria: {
+//             nombre: "Libros K-Books",
+//             id: "k-books"
+//         },
+//         precio: 295,
+//     },
+//     {
+//         id: "libroKBooks-06",
+//         titulo: "La vegetariana",
+//         imagen: "./img/libro226.jpg",
+//         autor: "Han Kang",
+//         categoria: {
+//             nombre: "Libros K-Books",
+//             id: "k-books"
+//         },
+//         precio: 270,
+//     },
+//     {
+//         id: "libroKBooks-07",
+//         titulo: "La Lavandería de los Sueños Marigold",
+//         imagen: "./img/libro227.jpg",
+//         autor: "Yun Jung-eun",
+//         categoria: {
+//             nombre: "Libros K-Books",
+//             id: "k-books"
+//         },
+//         precio: 289,
+//     },
+//     {
+//         id: "libroKBooks-08",
+//         titulo: "El Gran Almacén de los Sueños de Dallerut",
+//         imagen: "./img/libro228.jpg",
+//         autor: "Mi-ye Lee",
+//         categoria: {
+//             nombre: "Libros K-Books",
+//             id: "k-books"
+//         },
+//         precio: 325,
+//     },
+//     {
+//         id: "libroKBooks-09",
+//         titulo: "Quiero morir, pero también quiero comer tteokbokki",
+//         imagen: "./img/libro229.jpg",
+//         autor: "Baek Sehee",
+//         categoria: {
+//             nombre: "Libros K-Books",
+//             id: "k-books"
+//         },
+//         precio: 250,
+//     },
+//     {
+//         id: "libroKBooks-10",
+//         titulo: "Actos humanos",
+//         imagen: "./img/libro230.jpg",
+//         autor: "Han Kang",
+//         categoria: {
+//             nombre: "Libros K-Books",
+//             id: "k-books"
+//         },
+//         precio: 299,
+//     },
+//     {
+//         id: "libroKBooks-11",
+//         titulo: "La asombrosa tienda de la tía Yeonnam",
+//         imagen: "./img/libro231.jpg",
+//         autor: "Kim Ho-yeon",
+//         categoria: {
+//             nombre: "Libros K-Books",
+//             id: "k-books"
+//         },
+//         precio: 280,
+//     },
+//     {
+//         id: "libroKBooks-12",
+//         titulo: "El pozo de los deseos de Yeonnam-dong",
+//         imagen: "./img/libro232.jpg",
+//         autor: "Kko-bi Lee",
+//         categoria: {
+//             nombre: "Libros K-Books",
+//             id: "k-books"
+//         },
+//         precio: 275,
+//     },
+//     {
+//         id: "libroKBooks-13",
+//         titulo: "Aquí lo que se cura es el corazón",
+//         imagen: "./img/libro233.jpg",
+//         autor: "Kim Jae-sik",
+//         categoria: {
+//             nombre: "Libros K-Books",
+//             id: "k-books"
+//         },
+//         precio: 290,
+//     },
+//     {
+//         id: "libroKBooks-14",
+//         titulo: "Blanco",
+//         imagen: "./img/libro234.jpg",
+//         autor: "Han Kang",
+//         categoria: {
+//             nombre: "Libros K-Books",
+//             id: "k-books"
+//         },
+//         precio: 230,
+//     },
+//     {
+//         id: "libroKBooks-15",
+//         titulo: "Apesta a amor",
+//         imagen: "./img/libro235.jpg",
+//         autor: "Magnus Mist",
+//         categoria: {
+//             nombre: "Libros K-Books",
+//             id: "k-books"
+//         },
+//         precio: 245,
+//     },
+//     {
+//         id: "libroKBooks-16",
+//         titulo: "Pachinko",
+//         imagen: "./img/libro236.jpg",
+//         autor: "Min Jin Lee",
+//         categoria: {
+//             nombre: "Libros K-Books",
+//             id: "k-books"
+//         },
+//         precio: 380,
+//     },
+//     {
+//         id: "libroKBooks-17",
+//         titulo: "La hija única",
+//         imagen: "./img/libro237.jpg",
+//         autor: "Seo Mi-ae",
+//         categoria: {
+//             nombre: "Libros K-Books",
+//             id: "k-books"
+//         },
+//         precio: 265,
+//     },
+//     {
+//         id: "libroKBooks-18",
+//         titulo: "El buen hijo",
+//         imagen: "./img/libro238.jpg",
+//         autor: "You-jeong Jeong",
+//         categoria: {
+//             nombre: "Libros K-Books",
+//             id: "k-books"
+//         },
+//         precio: 285,
+//     },
+//     {
+//         id: "libroKBooks-19",
+//         titulo: "Atrapando luciérnagas",
+//         imagen: "./img/libro239.jpg",
+//         autor: "Kim Ex-hyun",
+//         categoria: {
+//             nombre: "Libros K-Books",
+//             id: "k-books"
+//         },
+//         precio: 220,
+//     },
+//     {
+//         id: "libroKBooks-20",
+//         titulo: "Lecciones de griego",
+//         imagen: "./img/libro240.jpg",
+//         autor: "Han Kang",
+//         categoria: {
+//             nombre: "Libros K-Books",
+//             id: "k-books"
+//         },
+//         precio: 270,
+//     },
+//    //Anime ----------------------------------------------------------------------------------------------------
+//     {
+//         id: "libroAnime-01",
+//         titulo: "Your Name",
+//         imagen: "./img/libro241.jpg",
+//         autor: "Makoto Shinkai",
+//         categoria: {
+//             nombre: "Libros Anime",
+//             id: "anime"
+//         },
+//         precio: 299,
+//     },
+//     {
+//         id: "libroAnime-02",
+//         titulo: "El Increíble Castillo Vagabundo",
+//         imagen: "./img/libro242.jpg",
+//         autor: "Diana Wynne Jones",
+//         categoria: {
+//             nombre: "Libros Anime",
+//             id: "anime"
+//         },
+//         precio: 280,
+//     },
+//     {
+//         id: "libroAnime-03",
+//         titulo: "Quiero Comerme tu Páncreas",
+//         imagen: "./img/libro243.jpg",
+//         autor: "Yoru Sumino",
+//         categoria: {
+//             nombre: "Libros Anime",
+//             id: "anime"
+//         },
+//         precio: 260,
+//     },
+//     {
+//         id: "libroAnime-04",
+//         titulo: "El Tiempo Contigo",
+//         imagen: "./img/libro244.jpg",
+//         autor: "Makoto Shinkai",
+//         categoria: {
+//             nombre: "Libros Anime",
+//             id: "anime"
+//         },
+//         precio: 310,
+//     },
+//     {
+//         id: "libroAnime-05",
+//         titulo: "Suzume",
+//         imagen: "./img/libro245.jpg",
+//         autor: "Makoto Shinkai",
+//         categoria: {
+//             nombre: "Libros Anime",
+//             id: "anime"
+//         },
+//         precio: 325,
+//     },
+//     {
+//         id: "libroAnime-06",
+//         titulo: "A Silent Voice",
+//         imagen: "./img/libro246.jpg",
+//         autor: "Yoshitoki Ōima",
+//         categoria: {
+//             nombre: "Libros Anime",
+//             id: "anime"
+//         },
+//         precio: 270,
+//     },
+//     {
+//         id: "libroAnime-07",
+//         titulo: "Sword Art Online: Aincrad",
+//         imagen: "./img/libro247.jpg",
+//         autor: "Reki Kawahara",
+//         categoria: {
+//             nombre: "Libros Anime",
+//             id: "anime"
+//         },
+//         precio: 290,
+//     },
+//     {
+//         id: "libroAnime-08",
+//         titulo: "Naruto: La Historia de Innocent Heart",
+//         imagen: "./img/libro248.jpg",
+//         autor: "Masashi Kishimoto",
+//         categoria: {
+//             nombre: "Libros Anime",
+//             id: "anime"
+//         },
+//         precio: 210,
+//     },
+//     {
+//         id: "libroAnime-09",
+//         titulo: "Ataque a los Titanes: Antes de la Caída",
+//         imagen: "./img/libro249.jpg",
+//         autor: "Ryō Suzukaze",
+//         categoria: {
+//             nombre: "Libros Anime",
+//             id: "anime"
+//         },
+//         precio: 245,
+//     },
+//     {
+//         id: "libroAnime-10",
+//         titulo: "Guardianes de la Noche: La Flor de la Felicidad",
+//         imagen: "./img/libro250.jpg",
+//         autor: "Koyoharu Gotōge",
+//         categoria: {
+//             nombre: "Libros Anime",
+//             id: "anime"
+//         },
+//         precio: 220,
+//     },
+//     {
+//         id: "libroAnime-11",
+//         titulo: "Jujutsu Kaisen: Caminos de Espinas al Amanecer",
+//         imagen: "./img/libro251.jpg",
+//         autor: "Ballad Kitaguni",
+//         categoria: {
+//             nombre: "Libros Anime",
+//             id: "anime"
+//         },
+//         precio: 230,
+//     },
+//     {
+//         id: "libroAnime-12",
+//         titulo: "El Jardín de las Palabras",
+//         imagen: "./img/libro252.jpg",
+//         autor: "Makoto Shinkai",
+//         categoria: {
+//             nombre: "Libros Anime",
+//             id: "anime"
+//         },
+//         precio: 250,
+//     },
+//     {
+//         id: "libroAnime-13",
+//         titulo: "Overlord: El Rey No Muerto",
+//         imagen: "./img/libro253.jpg",
+//         autor: "Kugane Maruyama",
+//         categoria: {
+//             nombre: "Libros Anime",
+//             id: "anime"
+//         },
+//         precio: 340,
+//     },
+//     {
+//         id: "libroAnime-14",
+//         titulo: "One Piece: Novela de Ace",
+//         imagen: "./img/libro254.jpg",
+//         autor: "Sho Hinata",
+//         categoria: {
+//             nombre: "Libros Anime",
+//             id: "anime"
+//         },
+//         precio: 285,
+//     },
+//     {
+//         id: "libroAnime-15",
+//         titulo: "Bungo Stray Dogs: El Examen de Admisión de Osamu Dazai",
+//         imagen: "./img/libro255.jpg",
+//         autor: "Kafka Asagiri",
+//         categoria: {
+//             nombre: "Libros Anime",
+//             id: "anime"
+//         },
+//         precio: 275,
+//     },
+//     {
+//         id: "libroAnime-16",
+//         titulo: "Tokyo Ghoul: Días",
+//         imagen: "./img/libro256.jpg",
+//         autor: "Shin Towada",
+//         categoria: {
+//             nombre: "Libros Anime",
+//             id: "anime"
+//         },
+//         precio: 240,
+//     },
+//     {
+//         id: "libroAnime-17",
+//         titulo: "Mirai, mi Hermana Pequeña",
+//         imagen: "./img/libro257.jpg",
+//         autor: "Mamoru Hosoda",
+//         categoria: {
+//             nombre: "Libros Anime",
+//             id: "anime"
+//         },
+//         precio: 199,
+//     },
+//     {
+//         id: "libroAnime-18",
+//         titulo: "El Niño y la Beast",
+//         imagen: "./img/libro258.jpg",
+//         autor: "Mamoru Hosoda",
+//         categoria: {
+//             nombre: "Libros Anime",
+//             id: "anime"
+//         },
+//         precio: 215,
+//     },
+//     {
+//         id: "libroAnime-19",
+//         titulo: "5 Centímetros por Segundo",
+//         imagen: "./img/libro259.jpg",
+//         autor: "Makoto Shinkai",
+//         categoria: {
+//             nombre: "Libros Anime",
+//             id: "anime"
+//         },
+//         precio: 180,
+//     },
+//     {
+//         id: "libroAnime-20",
+//         titulo: "Perfect Blue",
+//         imagen: "./img/libro260.jpg",
+//         autor: "Yoshikazu Takeuchi",
+//         categoria: {
+//             nombre: "Libros Anime",
+//             id: "anime"
+//         },
+//         precio: 295,
+//     },
+//    //Negocios ----------------------------------------------------------------------------------------------------
+//     {
+//         id: "libroNegocios-01",
+//         titulo: "Padre Rico, Padre Pobre",
+//         imagen: "./img/libro261.jpg",
+//         autor: "Robert Kiyosaki",
+//         categoria: {
+//             nombre: "Libros de Negocios",
+//             id: "negocios"
+//         },
+//         precio: 299,
+//     },
+//     {
+//         id: "libroNegocios-02",
+//         titulo: "El Método Lean Startup",
+//         imagen: "./img/libro262.jpg",
+//         autor: "Eric Ries",
+//         categoria: {
+//             nombre: "Libros Negocios",
+//             id: "negocios"
+//         },
+//         precio: 345,
+//     },
+//     {
+//         id: "libroNegocios-03",
+//         titulo: "De Cero a Uno",
+//         imagen: "./img/libro263.jpg",
+//         autor: "Peter Thiel",
+//         categoria: {
+//             nombre: "Libros Negocios",
+//             id: "negocios"
+//         },
+//         precio: 280,
+//     },
+//     {
+//         id: "libroNegocios-04",
+//         titulo: "La Vaca Púrpura",
+//         imagen: "./img/libro264.jpg",
+//         autor: "Seth Godin",
+//         categoria: {
+//             nombre: "Libros Negocios",
+//             id: "negocios"
+//         },
+//         precio: 250,
+//     },
+//     {
+//         id: "libroNegocios-05",
+//         titulo: "La Semana Laboral de 4 Horas",
+//         imagen: "./img/libro265.jpg",
+//         autor: "Timothy Ferriss",
+//         categoria: {
+//             nombre: "Libros Negocios",
+//             id: "negocios"
+//         },
+//         precio: 320,
+//     },
+//     {
+//         id: "libroNegocios-06",
+//         titulo: "Los 7 Hábitos de la Gente Altamente Efectiva",
+//         imagen: "./img/libro266.jpg",
+//         autor: "Stephen Covey",
+//         categoria: {
+//             nombre: "Libros Negocios",
+//             id: "negocios"
+//         },
+//         precio: 290,
+//     },
+//     {
+//         id: "libroNegocios-07",
+//         titulo: "Principios",
+//         imagen: "./img/libro267.jpg",
+//         autor: "Ray Dalio",
+//         categoria: {
+//             nombre: "Libros Negocios",
+//             id: "negocios"
+//         },
+//         precio: 450,
+//     },
+//     {
+//         id: "libroNegocios-08",
+//         titulo: "El Inversor Inteligente",
+//         imagen: "./img/libro268.jpg",
+//         autor: "Benjamin Graham",
+//         categoria: {
+//             nombre: "Libros Negocios",
+//             id: "negocios"
+//         },
+//         precio: 499,
+//     },
+//     {
+//         id: "libroNegocios-09",
+//         titulo: "Empieza con el Porqué",
+//         imagen: "./img/libro269.jpg",
+//         autor: "Simon Sinek",
+//         categoria: {
+//             nombre: "Libros Negocios",
+//             id: "negocios"
+//         },
+//         precio: 275,
+//     },
+//     {
+//         id: "libroNegocios-10",
+//         titulo: "La Psicología del Dinero",
+//         imagen: "./img/libro270.jpg",
+//         autor: "Morgan Housel",
+//         categoria: {
+//             nombre: "Libros Negocios",
+//             id: "negocios"
+//         },
+//         precio: 310,
+//     },
+//     {
+//         id: "libroNegocios-11",
+//         titulo: "El Dilema de los Innovadores",
+//         imagen: "./img/libro271.jpg",
+//         autor: "Clayton Christensen",
+//         categoria: {
+//             nombre: "Libros Negocios",
+//             id: "negocios"
+//         },
+//         precio: 360,
+//     },
+//     {
+//         id: "libroNegocios-12",
+//         titulo: "Vendes o Vendes",
+//         imagen: "./img/libro272.jpg",
+//         autor: "Grant Cardone",
+//         categoria: {
+//             nombre: "Libros Negocios",
+//             id: "negocios"
+//         },
+//         precio: 260,
+//     },
+//     {
+//         id: "libroNegocios-13",
+//         titulo: "Nunca Dividas la Diferencia",
+//         imagen: "./img/libro273.jpg",
+//         autor: "Chris Voss",
+//         categoria: {
+//             nombre: "Libros Negocios",
+//             id: "negocios"
+//         },
+//         precio: 330,
+//     },
+//     {
+//         id: "libroNegocios-14",
+//         titulo: "El Alquimista de las Finanzas",
+//         imagen: "./img/libro274.jpg",
+//         autor: "George Soros",
+//         categoria: {
+//             nombre: "Libros Negocios",
+//             id: "negocios"
+//         },
+//         precio: 380,
+//     },
+//     {
+//         id: "libroNegocios-15",
+//         titulo: "Estrategia del Océano Azul",
+//         imagen: "./img/libro275.jpg",
+//         autor: "W. Chan Kim",
+//         categoria: {
+//             nombre: "Libros Negocios",
+//             id: "negocios"
+//         },
+//         precio: 350,
+//     },
+//     {
+//         id: "libroNegocios-16",
+//         titulo: "Piensa y Hágase Rico",
+//         imagen: "./img/libro276.jpg",
+//         autor: "Napoleon Hill",
+//         categoria: {
+//             nombre: "Libros Negocios",
+//             id: "negocios"
+//         },
+//         precio: 199,
+//     },
+//     {
+//         id: "libroNegocios-17",
+//         titulo: "Enganchado (Hooked)",
+//         imagen: "./img/libro277.jpg",
+//         autor: "Nir Eyal",
+//         categoria: {
+//             nombre: "Libros Negocios",
+//             id: "negocios"
+//         },
+//         precio: 285,
+//     },
+//     {
+//         id: "libroNegocios-18",
+//         titulo: "El Monje que Vendió su Ferrari",
+//         imagen: "./img/libro278.jpg",
+//         autor: "Robin Sharma",
+//         categoria: {
+//             nombre: "Libros Negocios",
+//             id: "negocios"
+//         },
+//         precio: 160.6,
+//         precioViejo: 189
+//     },
+//     {
+//         id: "libroNegocios-19",
+//         titulo: "Queremos que seas Rico",
+//         imagen: "./img/libro279.jpg",
+//         autor: "Donald Trump",
+//         categoria: {
+//             nombre: "Libros Negocios",
+//             id: "negocios"
+//         },
+//         precio: 490.4,
+//         precioViejo: 577
+//     },
+//     {
+//         id: "libroNegocios-20",
+//         titulo: "Creatividad, S.A.",
+//         imagen: "./img/libro280.jpg",
+//         autor: "Ed Catmull",
+//         categoria: {
+//             nombre: "Libros Negocios",
+//             id: "negocios"
+//         },
+//         precio: 315,
+//     }
 
 
 
