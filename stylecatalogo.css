@@ -187,8 +187,8 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:#36708983 ;
-    color: white;
+    background-color:#2c4d5b83 ;
+    color: rgb(0, 0, 0);
     padding: .5rem;
     padding-right: 1.5rem;
     border-radius: 1rem;
