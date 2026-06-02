@@ -10,6 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styleInicioDeSesion.css">
+    
+    <link rel="stylesheet" href="stylecatalogo.css">
+
 
     <!-- Css global -->
     <link rel="stylesheet" href="global.css">
@@ -18,6 +21,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <!-- ---------------------------- -->
      
+    <link rel="stylesheet" href="stylecontacto.css">
+    
 </head>
 <body>
 
@@ -44,7 +49,7 @@
                         </a>
 
                         <a href="carrito.html" class="BotonCarro">
-                            <i class="fa-solid fa-cart-arrow-down"> </i> <span style="margin-left: 10px;">Mis Libros</span>
+                            <i class="fa-solid fa-cart-arrow-down"> </i> <span style="margin-left: 10px;">Carrito </span> <span id="numerito" class="numerito"> 0 </strong> </span>
                         </a>
                     </div>
                 </div>
@@ -60,47 +65,45 @@
                 </div>
         </div>
     </div>  
+<div class="CuerpoDelInicioDeSesion">
+        <div class="Contenido">
+            <div class="Registro" id="Registro">
 
-   
+                <div class="Formato InicioDeSesion">
+                    <h2>Iniciar sesion</h2>
+                    
+                    <input type="email" id="loginCorreo" placeholder="Correo">
+                    <input type="password" id="loginPassword" placeholder="Contraseña">
+                    
+                    <button class="ingresar" id="btnIngresar" style="color: #fff;">Ingresar</button>
+                    
+                    <p>¿Aun no tienes cuenta?
+                        <span id="Registrate">Registrate</span>
+                    </p>
+                </div>
 
-    <div class="CuerpoDelInicioDeSesion">
-    <div class="Contenido">
-        <div class="Registro" id="Registro">
+                <div class="Formato NuevaCuenta">
+                    <h2>Registra</h2>
+                    
+                    <input type="text" id="regNombre" placeholder="Primer Nombre">
+                    <input type="text" id="regApellido" placeholder="Primer Apellido">
+                    <input type="email" id="regCorreo" placeholder="Correo">
+                    <input type="password" id="regPassword" placeholder="Contraseña">
+                    <input type="tel" id="regTelefono" placeholder="Numero Telefonico">
+                    
+                    <button class="crear-cuenta" id="btnCrearCuenta" style="color: #fff;">Crear cuenta</button>
+                    
+                    <p>¿Todo listo?
+                        <span id="RegistroNuevo">Iniciar sesion</span>
+                    </p>
+                </div>
 
-            <div class="Formato InicioDeSesion">
-                <h2>Iniciar sesion</h2>
-                
-                <input type="email" id="loginCorreo" placeholder="Correo">
-                <input type="password" id="loginPassword" placeholder="Contraseña">
-                
-                <button class="ingresar" id="btnIngresar" style="color: #fff;">Ingresar</button>
-                
-                <p>¿Aun no tienes cuenta?
-                    <span id="Registrate">Registrate</span>
-                </p>
             </div>
-
-            <div class="Formato NuevaCuenta">
-                <h2>Registra</h2>
-                
-                <input type="text" id="regNombre1" placeholder="Primer Nombre">
-                <input type="text" id="regNombre2" placeholder="Segundo Nombre">
-                <input type="email" id="regCorreo" placeholder="Correo">
-                <input type="password" id="regPassword" placeholder="Contraseña">
-                <input type="tel" id="regTelefono" placeholder="Numero Telefonico">
-                
-                <button class="crear-cuenta" id="btnCrearCuenta" style="color: #fff;">Crear cuenta</button>
-                
-                <p>¿Todo listo?
-                    <span id="RegistroNuevo">Iniciar sesion</span>
-                </p>
-            </div>
-
         </div>
     </div>
-</div>
 
-        <script src="scriptIniciarSesion.js"></script>
+       <script src="scriptIniciarSesion.js"></script>
+       <script src="scriptCatalogo.js"></script>
 
     
 </body>

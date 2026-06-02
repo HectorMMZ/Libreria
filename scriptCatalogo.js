@@ -353,7 +353,8 @@ const LibrosArray = [
             nombre: "Libros Romance",
             id: "romance"
         },
-        precio: 320,
+        precio: 288,
+        precioViejo: 320,
     },
     {
         id: "libroRomance-12",
@@ -708,14 +709,15 @@ const LibrosArray = [
     
     {
         id: "libroCienciaFiccion-02", 
-        titulo:"Alas de sangre", 
+        titulo:"La cancion de aquiles", 
         imagen: "./img/libro62.jpg", 
-        autor: "Rebecca Yarros",
+        autor: "Madeline Miller",
         categoria:{
             nombre:  "Libros Ciencia Ficcion",  
             id:"cienciaficcion"
         },
-        precio: 398, 
+        precio: 202, 
+        precioViejo: 270,
 
     },
     
@@ -1100,7 +1102,8 @@ const LibrosArray = [
             nombre: "Libros Novelas",
             id: "novelas"
         },
-        precio: 399,
+        precio: 339,
+        precioViejo: 399,
     },
     {
         id: "libroNovelas-17",
@@ -1388,7 +1391,8 @@ const LibrosArray = [
             nombre: "Libros Cocina",
             id: "cocina"
         },
-        precio: 204,
+        precio: 173,
+        precioViejo: 204,
     },
     {
         id: "libroCocina-03",
@@ -1436,36 +1440,36 @@ const LibrosArray = [
     },
     {
         id: "libroCocina-07",
-        titulo: "Cocina con Firma",
+        titulo: "El Gran Curso De Cocina",
         imagen: "./img/libro127.jpg",
-        autor: "Ferran Adrià",
+        autor: "Ferrandi Paris",
         categoria: {
             nombre: "Libros Cocina",
             id: "cocina"
         },
-        precio: 310,
+        precio: 1441,
     },
     {
         id: "libroCocina-08",
-        titulo: "Pan Casero",
+        titulo: "Libro Pan artesanal en casa",
         imagen: "./img/libro128.jpg",
-        autor: "Ibán Yarza",
+        autor: "Irving Quiroz",
         categoria: {
             nombre: "Libros Cocina",
             id: "cocina"
         },
-        precio: 250,
+        precio: 425,
     },
     {
         id: "libroCocina-09",
-        titulo: "El Bulli: Recetas Clásicas",
+        titulo: "La Comida de La Familia",
         imagen: "./img/libro129.jpg",
         autor: "Ferran Adrià",
         categoria: {
             nombre: "Libros Cocina",
             id: "cocina"
         },
-        precio: 850,
+        precio: 129,
     },
     {
         id: "libroCocina-10",
@@ -1476,7 +1480,7 @@ const LibrosArray = [
             nombre: "Libros Cocina",
             id: "cocina"
         },
-        precio: 590,
+        precio: 2137,
     },
     {
         id: "libroCocina-11",
@@ -1487,7 +1491,7 @@ const LibrosArray = [
             nombre: "Libros Cocina",
             id: "cocina"
         },
-        precio: 380,
+        precio: 343,
     },
     {
         id: "libroCocina-12",
@@ -1498,18 +1502,18 @@ const LibrosArray = [
             nombre: "Libros Cocina",
             id: "cocina"
         },
-        precio: 270,
+        precio: 282,
     },
     {
         id: "libroCocina-13",
-        titulo: "Cocina Italiana de la Nona",
+        titulo: "Nonnas italienische Küche ",
         imagen: "./img/libro133.jpg",
         autor: "Silvia Colloca",
         categoria: {
             nombre: "Libros Cocina",
             id: "cocina"
         },
-        precio: 330,
+        precio: 369,
     },
     {
         id: "libroCocina-14",
@@ -1520,73 +1524,73 @@ const LibrosArray = [
             nombre: "Libros Cocina",
             id: "cocina"
         },
-        precio: 280,
+        precio: 516,
     },
     {
         id: "libroCocina-15",
-        titulo: "Sabor y Sazón Mexicano",
+        titulo: "Cocina Mexicana Auténtica: Sabores Que Enamoran",
         imagen: "./img/libro135.jpg",
         autor: "Diana Kennedy",
         categoria: {
             nombre: "Libros Cocina",
             id: "cocina"
         },
-        precio: 299,
+        precio: 112,
     },
     {
         id: "libroCocina-16",
-        titulo: "Cocina Vegetariana para Todos",
+        titulo: "Cocina Vegetariana",
         imagen: "./img/libro136.jpg",
         autor: "Deborah Madison",
         categoria: {
             nombre: "Libros Cocina",
             id: "cocina"
         },
-        precio: 240,
+        precio: 349,
     },
     {
         id: "libroCocina-17",
-        titulo: "Tapas y Pinchos",
+        titulo: "Recetas de Tapas Y Pinchos",
         imagen: "./img/libro137.jpg",
-        autor: "Karlos Arguiñano",
+        autor: "Caballero Puig David",
         categoria: {
             nombre: "Libros Cocina",
             id: "cocina"
         },
-        precio: 199,
+        precio: 608,
     },
     {
         id: "libroCocina-18",
-        titulo: "Sushis y Rolls Japoneses",
+        titulo: "Libro Sushi Chef",
         imagen: "./img/libro138.jpg",
-        autor: "Jiro Ono",
+        autor: "Sukiyabashi Jiro",
         categoria: {
             nombre: "Libros Cocina",
             id: "cocina"
         },
-        precio: 315,
+        precio: 185,
     },
     {
         id: "libroCocina-19",
-        titulo: "Gourmet en Casa",
+        titulo: "Ultimate Home Cooking",
         imagen: "./img/libro139.jpg",
         autor: "Gordon Ramsay",
         categoria: {
             nombre: "Libros Cocina",
             id: "cocina"
         },
-        precio: 410,
+        precio: 969,
     },
     {
         id: "libroCocina-20",
-        titulo: "Postres Saludables",
+        titulo: "Postres Saludables: Las recetas mas fit",
         imagen: "./img/libro140.jpg",
         autor: "Auxy Ordóñez",
         categoria: {
             nombre: "Libros Cocina",
             id: "cocina"
         },
-        precio: 225,
+        precio: 279,
     },
     //Cuentos ----------------------------------------------------------------------------------------------------
     {
@@ -1598,7 +1602,7 @@ const LibrosArray = [
             nombre: "Libros de Cuentos",
             id: "cuentos"
         },
-        precio: 199,
+        precio: 166,
     },
     {
         id: "libroCuentos-02",
@@ -1609,7 +1613,7 @@ const LibrosArray = [
             nombre: "Libros Cuentos",
             id: "cuentos"
         },
-        precio: 240,
+        precio: 169,
     },
     {
         id: "libroCuentos-03",
@@ -1620,7 +1624,7 @@ const LibrosArray = [
             nombre: "Libros Cuentos",
             id: "cuentos"
         },
-        precio: 250,
+        precio: 249,
     },
     {
         id: "libroCuentos-04",
@@ -1631,7 +1635,7 @@ const LibrosArray = [
             nombre: "Libros Cuentos",
             id: "cuentos"
         },
-        precio: 150,
+        precio: 299,
     },
     {
         id: "libroCuentos-05",
@@ -1642,7 +1646,7 @@ const LibrosArray = [
             nombre: "Libros Cuentos",
             id: "cuentos"
         },
-        precio: 210,
+        precio: 364,
     },
     {
         id: "libroCuentos-06",
@@ -1653,7 +1657,7 @@ const LibrosArray = [
             nombre: "Libros Cuentos",
             id: "cuentos"
         },
-        precio: 185,
+        precio: 99,
     },
     {
         id: "libroCuentos-07",
@@ -1664,7 +1668,7 @@ const LibrosArray = [
             nombre: "Libros Cuentos",
             id: "cuentos"
         },
-        precio: 220,
+        precio: 252,
     },
     {
         id: "libroCuentos-08",
@@ -1675,18 +1679,18 @@ const LibrosArray = [
             nombre: "Libros Cuentos",
             id: "cuentos"
         },
-        precio: 170,
+        precio: 109,
     },
     {
         id: "libroCuentos-09",
-        titulo: "Cuentos Completos de Edgar Allan Poe",
+        titulo: "Cuentos Completos",
         imagen: "./img/libro149.jpg",
         autor: "Edgar Allan Poe",
         categoria: {
             nombre: "Libros Cuentos",
             id: "cuentos"
         },
-        precio: 380,
+        precio: 899,
     },
     {
         id: "libroCuentos-10",
@@ -1697,7 +1701,7 @@ const LibrosArray = [
             nombre: "Libros Cuentos",
             id: "cuentos"
         },
-        precio: 135,
+        precio: 89,
     },
     {
         id: "libroCuentos-11",
@@ -1708,7 +1712,7 @@ const LibrosArray = [
             nombre: "Libros Cuentos",
             id: "cuentos"
         },
-        precio: 290,
+        precio: 149,
     },
     {
         id: "libroCuentos-12",
@@ -1719,7 +1723,7 @@ const LibrosArray = [
             nombre: "Libros Cuentos",
             id: "cuentos"
         },
-        precio: 230,
+        precio: 189,
     },
     {
         id: "libroCuentos-13",
@@ -1730,18 +1734,18 @@ const LibrosArray = [
             nombre: "Libros Cuentos",
             id: "cuentos"
         },
-        precio: 340,
+        precio: 139,
     },
     {
         id: "libroCuentos-14",
-        titulo: "Cuentos de Hadas de Hans Christian Andersen",
+        titulo: "Cuentos de Hadas",
         imagen: "./img/libro154.jpg",
         autor: "Hans Christian Andersen",
         categoria: {
             nombre: "Libros Cuentos",
             id: "cuentos"
         },
-        precio: 195,
+        precio: 629,
     },
     {
         id: "libroCuentos-15",
@@ -1752,7 +1756,7 @@ const LibrosArray = [
             nombre: "Libros Cuentos",
             id: "cuentos"
         },
-        precio: 215,
+        precio: 229,
     },
     {
         id: "libroCuentos-16",
@@ -1763,18 +1767,18 @@ const LibrosArray = [
             nombre: "Libros Cuentos",
             id: "cuentos"
         },
-        precio: 120,
+        precio: 90,
     },
     {
         id: "libroCuentos-17",
-        titulo: "La Increíble y Triste Historia de la Cándida Eréndira",
+        titulo: "La Increíble y Triste Historia de la Cándida Eréndira y su abuela desalmada",
         imagen: "./img/libro157.jpg",
         autor: "Gabriel García Márquez",
         categoria: {
             nombre: "Libros Cuentos",
             id: "cuentos"
         },
-        precio: 160,
+        precio: 218,
     },
     {
         id: "libroCuentos-18",
@@ -1785,7 +1789,7 @@ const LibrosArray = [
             nombre: "Libros Cuentos",
             id: "cuentos"
         },
-        precio: 145,
+        precio: 232,
     },
     {
         id: "libroCuentos-19",
@@ -1796,7 +1800,7 @@ const LibrosArray = [
             nombre: "Libros Cuentos",
             id: "cuentos"
         },
-        precio: 205,
+        precio: 149,
     },
     {
         id: "libroCuentos-20",
@@ -1807,8 +1811,8 @@ const LibrosArray = [
             nombre: "Libros Cuentos",
             id: "cuentos"
         },
-        precio: 175,
-    },
+        precio: 1041,
+    }
 
 
     //Salud ----------------------------------------------------------------------------------------------------
@@ -3171,7 +3175,7 @@ function cargarLibros(LibrosElegido)
                              <div class="producto-detalles">
                                  <h3 class="producto-titulo">${producto.titulo}</h3>
                                  <h4 class = "producto-autor" style="color: #5d5a5a;">${producto.autor}</h4> 
-                                 <p class="producto-precio" style=" color: #bc0202;">$${producto.precio}</p>
+                                 <p class="producto-precio" style=" color: #856601;">$${producto.precio}</p>
                                  <button class="producto-agregar" id="${producto.id}">Agregar</button>
                              </div>
             `;

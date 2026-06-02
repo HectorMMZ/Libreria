@@ -443,3 +443,9 @@ body {
 .Boton-Cerrar:hover {
     background-color: #1A3636;
 }
+
+/* Numerito */
+
+.numerito{
+    margin-left: 7px !important; 
+}
