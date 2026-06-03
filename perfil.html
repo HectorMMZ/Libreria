@@ -3,32 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iniciar Sesion - Librería Quimera</title>
+    <title>Perfil - Libreria Quimera</title>
 
-     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="styleInicioDeSesion.css">
-    
+
+    <link rel="stylesheet" href="global.css">
+
     <link rel="stylesheet" href="stylecatalogo.css">
 
 
-    <!-- Css global -->
-    <link rel="stylesheet" href="global.css">
-
-    <!-- Y CON ESTO SE PUEDO "VER" LOS ICONOS -->
+       <!-- Y CON ESTO SE PUEDO "VER" EL ICONO DEL CARRO -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <!-- ---------------------------- -->
-     
-    <link rel="stylesheet" href="stylecontacto.css">
-    
 </head>
 <body>
 
-   <div class="ColorBarraDeActividades">
+    <div class="ColorBarraDeActividades">
         <div class="BarraDeActividadesMargen">
-               <div class="FilaSuperior">
+                <div class="FilaSuperior">
                     <div class="LogoYTitulo">
                         <img src="LechuzaLogo.png" class="logo">
                         <a>    
@@ -50,6 +45,7 @@
 
                         <a href="carrito.html" class="BotonCarro">
                             <i class="fa-solid fa-cart-arrow-down"> </i> <span style="margin-left: 10px;">Carrito </span> <span id="numerito" class="numerito"> 0 </strong> </span>
+                            
                         </a>
                     </div>
                 </div>
@@ -64,47 +60,35 @@
                     </nav>
                 </div>
         </div>
-    </div>  
-<div class="CuerpoDelInicioDeSesion">
-        <div class="Contenido">
-            <div class="Registro" id="Registro">
+    </div> 
 
-                <div class="Formato InicioDeSesion">
-                    <h2>Iniciar sesion</h2>
-                    
-                    <input type="email" id="loginCorreo" placeholder="Correo">
-                    <input type="password" id="loginPassword" placeholder="Contraseña">
-                    
-                    <button class="ingresar" id="btnIngresar" style="color: #fff;">Ingresar</button>
-                    
-                    <p>¿Aun no tienes cuenta?
-                        <span id="Registrate">Registrate</span>
-                    </p>
-                </div>
-
-                <div class="Formato NuevaCuenta">
-                    <h2>Registrate</h2>
-                    
-                    <input type="text" id="regNombre" placeholder="Primer Nombre">
-                    <input type="text" id="regApellido" placeholder="Primer Apellido">
-                    <input type="email" id="regCorreo" placeholder="Correo">
-                    <input type="password" id="regPassword" placeholder="Contraseña">
-                    <input type="tel" id="regTelefono" placeholder="Numero Telefonico">
-                    
-                    <button class="crear-cuenta" id="btnCrearCuenta" style="color: #fff;">Crear cuenta</button>
-                    
-                    <p>¿Todo listo?
-                        <span id="RegistroNuevo">Iniciar sesion</span>
-                    </p>
-                </div>
-
-            </div>
+        <div style="text-align: center; margin-top: 50px;">
+        <h2 id="saludoPerfil">Mi Perfil</h2>
+        
+        <div style="margin: 30px auto; max-width: 400px; padding: 20px; border: 1px solid #ccc;">
+            <h3>Cambiar Contraseña</h3>
+            <input type="password" id="nuevaPassword" placeholder="Escribe tu nueva contraseña" style="margin-bottom: 15px; width: 100%;"><br>
+            <button id="btnCambiarPass" style="background-color: #505839; color: white; padding: 10px;">Actualizar Contraseña</button>
         </div>
+
+        <button id="btnCerrarSesion" style="background-color: #bc0202; color: white; padding: 10px; margin-top: 20px;">Cerrar Sesión</button>
     </div>
 
-       <script src="scriptIniciarSesion.js"></script>
-       <script src="scriptCatalogo.js"></script>
-        <script src="scriptBarRebelde.js"></script>
+        <hr style="margin: 30px 0; border: 1px solid #ddd;">
     
+    <div style="margin: 30px auto; max-width: 400px; padding: 20px; border: 1px solid #ffcccc; background-color: #fff0f0;">
+        <h3 style="color: #bc0202; margin-top: 0;">Zona de Peligro: Eliminar Cuenta</h3>
+        <p style="font-size: 14px; color: #555;">Para eliminar tu cuenta, por favor confirma tu contraseña actual.</p>
+        
+        <input type="password" id="passEliminar" placeholder="Escribe tu contraseña" style="margin-bottom: 15px; width: 90%; padding: 8px;">
+        <br>
+        <button id="btnEliminarCuenta" style="background-color: #bc0202; color: white; padding: 10px; width: 95%; border: none; cursor: pointer; font-weight: bold;">
+            Eliminar mi cuenta para siempre
+        </button>
+    </div>
+
+        <script src="scriptPerfil.js"></script>
+        <script src="scriptBarRebelde.js"></script>
+
 </body>
 </html>

@@ -16,44 +16,44 @@ if (document.getElementById('RegistroNuevo')) {
 // =========================================================
 // 2. SISTEMA DINÁMICO DE NAVBAR (Lo que adaptamos de tu amiga)
 // =========================================================
-function verificarSesionUsuario() {
-    // Intentamos buscar si hay un usuario guardado en el navegador
-    const usuarioActivo = JSON.parse(localStorage.getItem('usuarioQuimera'));
+// function verificarSesionUsuario() {
+//     // Intentamos buscar si hay un usuario guardado en el navegador
+//     const usuarioActivo = JSON.parse(localStorage.getItem('usuarioQuimera'));
     
-    // Buscamos el botón de "Mi cuenta" en el menú superior
-    const enlaceUsuario = document.querySelector('.BotonUsuario');
+//     // Buscamos el botón de "Mi cuenta" en el menú superior
+//     const enlaceUsuario = document.querySelector('.BotonUsuario');
 
-    if (usuarioActivo && enlaceUsuario) {
-        // Separamos el primer nombre por si acaso
-        const primerNombre = usuarioActivo.nombre.split(' ')[0];
+//     if (usuarioActivo && enlaceUsuario) {
+//         // Separamos el primer nombre por si acaso
+//         const primerNombre = usuarioActivo.nombre.split(' ')[0];
 
-        // Cambiamos el icono y ponemos un saludo personalizado dinámicamente
-        enlaceUsuario.innerHTML = `<i class="fa-solid fa-user-check"></i> <span style="margin-left: 10px;">Hola, ${primerNombre}</span>`;
+//         // Cambiamos el icono y ponemos un saludo personalizado dinámicamente
+//         enlaceUsuario.innerHTML = `<i class="fa-solid fa-user-check"></i> <span style="margin-left: 10px;">Hola, ${primerNombre}</span>`;
         
-        // Si el usuario ya está logueado, al dar clic lo podemos mandar al index o a una página de perfil
-        enlaceUsuario.href = "index.html"; 
+//         // Si el usuario ya está logueado, al dar clic lo podemos mandar al index o a una página de perfil
+//         enlaceUsuario.href = "index.html"; 
         
-        // TIP OPCIONAL: Añadir un botón pequeño para cerrar sesión si se desea
-        if (!document.getElementById('btn-cerrar-sesion-nav')) {
-            const btnLogout = document.createElement('a');
-            btnLogout.id = 'btn-cerrar-sesion-nav';
-            btnLogout.href = '#';
-            btnLogout.style.cssText = 'color: #ff8c8c; margin-left: 15px; font-size: 13px; text-decoration: none; font-weight: bold;';
-            btnLogout.innerHTML = '<i class="fa-solid fa-power-off"></i> Salir';
-            btnLogout.onclick = (e) => {
-                e.preventDefault();
-                if (confirm('¿Quieres cerrar sesión en Librería Quimera?')) {
-                    localStorage.removeItem('usuarioQuimera');
-                    window.location.reload();
-                }
-            };
-            enlaceUsuario.insertAdjacentElement('afterend', btnLogout);
-        }
-    }
-}
+//         // TIP OPCIONAL: Añadir un botón pequeño para cerrar sesión si se desea
+//         if (!document.getElementById('btn-cerrar-sesion-nav')) {
+//             const btnLogout = document.createElement('a');
+//             btnLogout.id = 'btn-cerrar-sesion-nav';
+//             btnLogout.href = '#';
+//             btnLogout.style.cssText = 'color: #ff8c8c; margin-left: 15px; font-size: 13px; text-decoration: none; font-weight: bold;';
+//             btnLogout.innerHTML = '<i class="fa-solid fa-power-off"></i> Salir';
+//             btnLogout.onclick = (e) => {
+//                 e.preventDefault();
+//                 if (confirm('¿Quieres cerrar sesión en Librería Quimera?')) {
+//                     localStorage.removeItem('usuarioQuimera');
+//                     window.location.reload();
+//                 }
+//             };
+//             enlaceUsuario.insertAdjacentElement('afterend', btnLogout);
+//         }
+//     }
+// }
 
-// Ejecutamos la verificación inmediatamente al cargar el archivo de JS
-document.addEventListener('DOMContentLoaded', verificarSesionUsuario);
+// // Ejecutamos la verificación inmediatamente al cargar el archivo de JS
+// document.addEventListener('DOMContentLoaded', verificarSesionUsuario);
 
 // =========================================================
 // 3. ENVIAR REGISTRO NUEVO A LA BASE DE DATOS
@@ -75,7 +75,7 @@ if (btnCrearCuenta) {
         }
 
         try {
-            let respuesta = await fetch('http://localhost:3000/api/registrar', {
+            let respuesta = await fetch('https://localhost:7138/registrar', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(datos)
@@ -113,7 +113,7 @@ if (btnIngresar) {
         }
 
         try {
-            let respuesta = await fetch('http://localhost:3000/api/login', {
+            let respuesta = await fetch('https://localhost:7138/login', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(datos)
@@ -131,7 +131,7 @@ if (btnIngresar) {
                 }));
 
                 // Redirigimos a la página principal
-                window.location.href = "index.html"; 
+                window.location.href = "index.html";
             } else {
                 alert(resultado.mensaje);
             }

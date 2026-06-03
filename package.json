@@ -4,6 +4,7 @@
   "description": "",
   "main": "scriptBotonTarjetas.js",
   "scripts": {
+    "dev": "nodemon src/sqlserver.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

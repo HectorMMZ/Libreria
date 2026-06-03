@@ -1,1818 +1,1818 @@
-const LibrosArray = [
-    // Libros de clasicos ------------------------------------------------------------------------------------------
-   {
-        id: "libroClasico-01",
-        titulo: "Don Quijote de la Mancha",
-        imagen: "./img/libro1.png",
-        autor: "Miguel de Cervantes",
-        categoria: {
-            nombre: "Libros Clasicos",
-            id: "clasicos"
-        },
-        precio: 349,
-    },
-    {
-        id: "libroClasico-02",
-        titulo: "Orgullo y Prejuicio",
-        imagen: "./img/libro2.jpg",
-        autor: "Jane Austen",
-        categoria: {
-            nombre: "Libros Clasicos",
-            id: "clasicos"
-        },
-        precio: 253,
-    },
-    {
-        id: "libroClasico-03",
-        titulo: "El Principito",
-        imagen: "./img/libro3.jpg",
-        autor: "Antoine de Saint-Exupéry",
-        categoria: {
-            nombre: "Libros Clasicos",
-            id: "clasicos"
-        },
-        precio: 148,
-    },
-    {
-        id: "libroClasico-04",
-        titulo: "1984",
-        imagen: "./img/libro4.jpg",
-        autor: "George Orwell",
-        categoria: {
-            nombre: "Libros Clasicos",
-            id: "clasicos"
-        },
-        precio: 206,
-    },
-    {
-        id: "libroClasico-05",
-        titulo: "Cien Años de Soledad",
-        imagen: "./img/libro5.jpg",
-        autor: "Gabriel García Márquez",
-        categoria: {
-            nombre: "Libros Clasicos",
-            id: "clasicos"
-        },
-        precio: 298,
-    },
-    {
-        id: "libroClasico-06",
-        titulo: "Crimen y Castigo",
-        imagen: "./img/libro6.jpg",
-        autor: "Fiódor Dostoyevski",
-        categoria: {
-            nombre: "Libros Clasicos",
-            id: "clasicos"
-        },
-        precio: 405,
-    },
-    {
-        id: "libroClasico-07",
-        titulo: "El Gran Gatsby",
-        imagen: "./img/libro7.jpg",
-        autor: "F. Scott Fitzgerald",
-        categoria: {
-            nombre: "Libros Clasicos",
-            id: "clasicos"
-        },
-        precio: 249,
-    },
-    {
-        id: "ibroClasico-08",
-        titulo: "Moby Dick",
-        imagen: "./img/libro8.jpg",
-        autor: "Herman Melville",
-        categoria: {
-            nombre: "Libros Clasicos",
-            id: "clasicos"
-        },
-        precio: 372,
-    },
-    {
-        id: "libroClasico-09",
-        titulo: "Cumbres Borrascosas",
-        imagen: "./img/libro9.jpg",
-        autor: "Emily Brontë",
-        categoria: {
-            nombre: "Libros Clasicos",
-            id: "clasicos"
-        },
-        precio: 284,
-    },
-    {
-        id: "libroClasico-10",
-        titulo: "El Retrato de Dorian Gray",
-        imagen: "./img/libro10.jpg",
-        autor: "Oscar Wilde",
-        categoria: {
-            nombre: "Libros Clasicos",
-            id: "clasicos"
-        },
-        precio: 223,
-    },
-    {
-        id: "libroClasico-11",
-        titulo: "Frankenstein",
-        imagen: "./img/libro11.jpg",
-        autor: "Mary Shelley",
-        categoria: {
-            nombre: "Libros Clasicos",
-            id: "clasicos"
-        },
-        precio: 278,
-    },
-    {
-        id: "libroClasico-12",
-        titulo: "Drácula",
-        imagen: "./img/libro12.jpg",
-        autor: "Bram Stoker",
-        categoria: {
-            nombre: "Libros Clasicos",
-            id: "clasicos"
-        },
-        precio: 399,
-    },
-    {
-        id: "libroClasico-13",
-        titulo: "Los Miserables",
-        imagen: "./img/libro13.jpg",
-        autor: "Victor Hugo",
-        categoria: {
-            nombre: "Libros Clasicos",
-            id: "clasicos"
-        },
-        precio: 185,
-    },
-    {
-        id: "libroClasico-14",
-        titulo: "La Odisea",
-        imagen: "./img/libro14.jpg",
-        autor: "Homero",
-        categoria: {
-            nombre: "Libros Clasicos",
-            id: "clasicos"
-        },
-        precio: 160,
-    },
-    {
-        id: "libroClasico-15",
-        titulo: "La Divina Comedia",
-        imagen: "./img/libro15.jpg",
-        autor: "Dante Alighieri",
-        categoria: {
-            nombre: "Libros Clasicos",
-            id: "clasicos"
-        },
-        precio: 320,
-    },
-    {
-        id: "libroClasico-16",
-        titulo: "Las Aventuras de Tom Sawyer",
-        imagen: "./img/libro16.jpg",
-        autor: "Mark Twain",
-        categoria: {
-            nombre: "Libros Clasicos",
-            id: "clasicos"
-        },
-        precio: 99,
-    },
-    {
-        id: "libroClasico-17",
-        titulo: "Un Mundo Feliz",
-        imagen: "./img/libro17.jpg",
-        autor: "Aldous Huxley",
-        categoria: {
-            nombre: "Libros Clasicos",
-            id: "clasicos"
-        },
-        precio: 232,
-    },
-    {
-        id: "libroClasico-18",
-        titulo: "El Alquimista",
-        imagen: "./img/libro18.jpg",
-        autor: "Paulo Coelho",
-        categoria: {
-            nombre: "Libros Clasicos",
-            id: "clasicos"
-        },
-        precio: 199,
-    },
-    {
-        id: "libroClasico-19",
-        titulo: "Metamorfosis",
-        imagen: "./img/libro19.jpg",
-        autor: "Franz Kafka",
-        categoria: {
-            nombre: "Libros Clasicos",
-            id: "clasicos"
-        },
-        precio: 117,
-    },
-    {
-        id: "libroClasico-20",
-        titulo: "Romeo y Julieta",
-        imagen: "./img/libro20.jpg",
-        autor: "William Shakespeare",
-        categoria: {
-            nombre: "Libros Clasicos",
-            id: "clasicos"
-        },
-        precio: 229,
-    },
+// const LibrosArray = [
+//     // Libros de clasicos ------------------------------------------------------------------------------------------
+//    {
+//         id: "libroClasico-01",
+//         titulo: "Don Quijote de la Mancha",
+//         imagen: "./img/libro1.png",
+//         autor: "Miguel de Cervantes",
+//         categoria: {
+//             nombre: "Libros Clasicos",
+//             id: "clasicos"
+//         },
+//         precio: 349,
+//     },
+//     {
+//         id: "libroClasico-02",
+//         titulo: "Orgullo y Prejuicio",
+//         imagen: "./img/libro2.jpg",
+//         autor: "Jane Austen",
+//         categoria: {
+//             nombre: "Libros Clasicos",
+//             id: "clasicos"
+//         },
+//         precio: 253,
+//     },
+//     {
+//         id: "libroClasico-03",
+//         titulo: "El Principito",
+//         imagen: "./img/libro3.jpg",
+//         autor: "Antoine de Saint-Exupéry",
+//         categoria: {
+//             nombre: "Libros Clasicos",
+//             id: "clasicos"
+//         },
+//         precio: 148,
+//     },
+//     {
+//         id: "libroClasico-04",
+//         titulo: "1984",
+//         imagen: "./img/libro4.jpg",
+//         autor: "George Orwell",
+//         categoria: {
+//             nombre: "Libros Clasicos",
+//             id: "clasicos"
+//         },
+//         precio: 206,
+//     },
+//     {
+//         id: "libroClasico-05",
+//         titulo: "Cien Años de Soledad",
+//         imagen: "./img/libro5.jpg",
+//         autor: "Gabriel García Márquez",
+//         categoria: {
+//             nombre: "Libros Clasicos",
+//             id: "clasicos"
+//         },
+//         precio: 298,
+//     },
+//     {
+//         id: "libroClasico-06",
+//         titulo: "Crimen y Castigo",
+//         imagen: "./img/libro6.jpg",
+//         autor: "Fiódor Dostoyevski",
+//         categoria: {
+//             nombre: "Libros Clasicos",
+//             id: "clasicos"
+//         },
+//         precio: 405,
+//     },
+//     {
+//         id: "libroClasico-07",
+//         titulo: "El Gran Gatsby",
+//         imagen: "./img/libro7.jpg",
+//         autor: "F. Scott Fitzgerald",
+//         categoria: {
+//             nombre: "Libros Clasicos",
+//             id: "clasicos"
+//         },
+//         precio: 249,
+//     },
+//     {
+//         id: "ibroClasico-08",
+//         titulo: "Moby Dick",
+//         imagen: "./img/libro8.jpg",
+//         autor: "Herman Melville",
+//         categoria: {
+//             nombre: "Libros Clasicos",
+//             id: "clasicos"
+//         },
+//         precio: 372,
+//     },
+//     {
+//         id: "libroClasico-09",
+//         titulo: "Cumbres Borrascosas",
+//         imagen: "./img/libro9.jpg",
+//         autor: "Emily Brontë",
+//         categoria: {
+//             nombre: "Libros Clasicos",
+//             id: "clasicos"
+//         },
+//         precio: 284,
+//     },
+//     {
+//         id: "libroClasico-10",
+//         titulo: "El Retrato de Dorian Gray",
+//         imagen: "./img/libro10.jpg",
+//         autor: "Oscar Wilde",
+//         categoria: {
+//             nombre: "Libros Clasicos",
+//             id: "clasicos"
+//         },
+//         precio: 223,
+//     },
+//     {
+//         id: "libroClasico-11",
+//         titulo: "Frankenstein",
+//         imagen: "./img/libro11.jpg",
+//         autor: "Mary Shelley",
+//         categoria: {
+//             nombre: "Libros Clasicos",
+//             id: "clasicos"
+//         },
+//         precio: 278,
+//     },
+//     {
+//         id: "libroClasico-12",
+//         titulo: "Drácula",
+//         imagen: "./img/libro12.jpg",
+//         autor: "Bram Stoker",
+//         categoria: {
+//             nombre: "Libros Clasicos",
+//             id: "clasicos"
+//         },
+//         precio: 399,
+//     },
+//     {
+//         id: "libroClasico-13",
+//         titulo: "Los Miserables",
+//         imagen: "./img/libro13.jpg",
+//         autor: "Victor Hugo",
+//         categoria: {
+//             nombre: "Libros Clasicos",
+//             id: "clasicos"
+//         },
+//         precio: 185,
+//     },
+//     {
+//         id: "libroClasico-14",
+//         titulo: "La Odisea",
+//         imagen: "./img/libro14.jpg",
+//         autor: "Homero",
+//         categoria: {
+//             nombre: "Libros Clasicos",
+//             id: "clasicos"
+//         },
+//         precio: 160,
+//     },
+//     {
+//         id: "libroClasico-15",
+//         titulo: "La Divina Comedia",
+//         imagen: "./img/libro15.jpg",
+//         autor: "Dante Alighieri",
+//         categoria: {
+//             nombre: "Libros Clasicos",
+//             id: "clasicos"
+//         },
+//         precio: 320,
+//     },
+//     {
+//         id: "libroClasico-16",
+//         titulo: "Las Aventuras de Tom Sawyer",
+//         imagen: "./img/libro16.jpg",
+//         autor: "Mark Twain",
+//         categoria: {
+//             nombre: "Libros Clasicos",
+//             id: "clasicos"
+//         },
+//         precio: 99,
+//     },
+//     {
+//         id: "libroClasico-17",
+//         titulo: "Un Mundo Feliz",
+//         imagen: "./img/libro17.jpg",
+//         autor: "Aldous Huxley",
+//         categoria: {
+//             nombre: "Libros Clasicos",
+//             id: "clasicos"
+//         },
+//         precio: 232,
+//     },
+//     {
+//         id: "libroClasico-18",
+//         titulo: "El Alquimista",
+//         imagen: "./img/libro18.jpg",
+//         autor: "Paulo Coelho",
+//         categoria: {
+//             nombre: "Libros Clasicos",
+//             id: "clasicos"
+//         },
+//         precio: 199,
+//     },
+//     {
+//         id: "libroClasico-19",
+//         titulo: "Metamorfosis",
+//         imagen: "./img/libro19.jpg",
+//         autor: "Franz Kafka",
+//         categoria: {
+//             nombre: "Libros Clasicos",
+//             id: "clasicos"
+//         },
+//         precio: 117,
+//     },
+//     {
+//         id: "libroClasico-20",
+//         titulo: "Romeo y Julieta",
+//         imagen: "./img/libro20.jpg",
+//         autor: "William Shakespeare",
+//         categoria: {
+//             nombre: "Libros Clasicos",
+//             id: "clasicos"
+//         },
+//         precio: 229,
+//     },
 
 
 
-    // Libros de romance ------------------------------------------------------------------------------------------
-    {
-        id: "libroRomance-01", 
-        titulo:"Besos de Canelo y Hielo", 
-        imagen: "./img/libro21.jpg", 
-        autor: "Estela Bescós",
-        categoria:{
-            nombre:  "Libros de Romance",  
-            id:"romance"
-        },
-        precio: 349, 
+//     // Libros de romance ------------------------------------------------------------------------------------------
+//     {
+//         id: "libroRomance-01", 
+//         titulo:"Besos de Canelo y Hielo", 
+//         imagen: "./img/libro21.jpg", 
+//         autor: "Estela Bescós",
+//         categoria:{
+//             nombre:  "Libros de Romance",  
+//             id:"romance"
+//         },
+//         precio: 349, 
 
-    },
+//     },
 
-    {
-        id: "libroRomance-02", 
-        titulo:"Mas Que rivales", 
-        imagen: "./img/libro22.jpg", 
-        autor: "Richel Reid",
-        categoria:{
-            nombre:  "Libros Romance",  
-            id:"romance"
-        },
-        precio: 303, 
+//     {
+//         id: "libroRomance-02", 
+//         titulo:"Mas Que rivales", 
+//         imagen: "./img/libro22.jpg", 
+//         autor: "Richel Reid",
+//         categoria:{
+//             nombre:  "Libros Romance",  
+//             id:"romance"
+//         },
+//         precio: 303, 
 
-    },
+//     },
 
-    {
-        id: "libroRomance-03", 
-        titulo:"Girl Haunts Boy ", 
-        imagen: "./img/libro23.jpg", 
-        autor: "Cesar Vitale",
-        categoria:{
-            nombre:  "Libros Romance",  
-            id:"romance"
-        },
-        precio: 234, 
+//     {
+//         id: "libroRomance-03", 
+//         titulo:"Girl Haunts Boy ", 
+//         imagen: "./img/libro23.jpg", 
+//         autor: "Cesar Vitale",
+//         categoria:{
+//             nombre:  "Libros Romance",  
+//             id:"romance"
+//         },
+//         precio: 234, 
 
-    },
+//     },
 
-    {
-        id: "libroRomance-04", 
-        titulo:"Llamalo Como Quieras", 
-        imagen: "./img/libro24.jpg", 
-        autor: "Alissa Derogatis",
-        categoria:{
-            nombre:  "Libros Romance",  
-            id:"romance"
-        },
-        precio: 578, 
+//     {
+//         id: "libroRomance-04", 
+//         titulo:"Llamalo Como Quieras", 
+//         imagen: "./img/libro24.jpg", 
+//         autor: "Alissa Derogatis",
+//         categoria:{
+//             nombre:  "Libros Romance",  
+//             id:"romance"
+//         },
+//         precio: 578, 
 
-    },
+//     },
 
-    {
-        id: "libroRomance-05", 
-        titulo:"Mala Publicidad", 
-        imagen: "./img/libro25.jpg", 
-        autor: "Bianca Gillam",
-        categoria:{
-            nombre:  "Libros Romance",  
-            id:"romance"
-        },
-        precio: 299, 
+//     {
+//         id: "libroRomance-05", 
+//         titulo:"Mala Publicidad", 
+//         imagen: "./img/libro25.jpg", 
+//         autor: "Bianca Gillam",
+//         categoria:{
+//             nombre:  "Libros Romance",  
+//             id:"romance"
+//         },
+//         precio: 299, 
 
-    },
+//     },
 
-    {
-        id: "libroRomance-06",
-        titulo: "Bajo la Misma Estrella",
-        imagen: "./img/libro26.jpg",
-        autor: "John Green",
-        categoria: {
-            nombre: "Libros Romance",
-            id: "romance"
-        },
-        precio: 160,
-    },
-    {
-        id: "libroRomance-07",
-        titulo: "Yo Antes de Ti",
-        imagen: "./img/libro27.jpg",
-        autor: "Jojo Moyes",
-        categoria: {
-            nombre: "Libros Romance",
-            id: "romance"
-        },
-        precio: 314,
-    },
-    {
-        id: "libroRomance-08",
-        titulo: "El Duque y Yo",
-        imagen: "./img/libro28.jpg",
-        autor: "Julia Quinn",
-        categoria: {
-            nombre: "Libros Romance",
-            id: "romance"
-        },
-        precio: 110,
-    },
-    {
-        id: "libroRomance-09",
-        titulo: "Rojo, Blanco y Sangre Azul",
-        imagen: "./img/libro29.jpg",
-        autor: "Casey McQuiston",
-        categoria: {
-            nombre: "Libros Romance",
-            id: "romance"
-        },
-        precio: 296,
-    },
-    {
-        id: "libroRomance-10",
-        titulo: "Romper el Círculo",
-        imagen: "./img/libro30.jpg",
-        autor: "Colleen Hoover",
-        categoria: {
-            nombre: "Libros Romance",
-            id: "romance"
-        },
-        precio: 429,
-    },
-    {
-        id: "libroRomance-11",
-        titulo: "La Hipótesis del Amor",
-        imagen: "./img/libro31.jpg",
-        autor: "Ali Hazelwood",
-        categoria: {
-            nombre: "Libros Romance",
-            id: "romance"
-        },
-        precio: 288,
-        precioViejo: 320,
-    },
-    {
-        id: "libroRomance-12",
-        titulo: "Boulevard",
-        imagen: "./img/libro32.jpg",
-        autor: "Flor M. Salvador",
-        categoria: {
-            nombre: "Libros Romance",
-            id: "romance"
-        },
-        precio: 369,
-    },
-    {
-        id: "libroRomance-13",
-        titulo: "A Través de mi Ventana",
-        imagen: "./img/libro33.jpg",
-        autor: "Ariana Godoy",
-        categoria: {
-            nombre: "Libros Romance",
-            id: "romance"
-        },
-        precio: 149,
-    },
-    {
-        id: "libroRomance-14",
-        titulo: "Cinder",
-        imagen: "./img/libro34.jpg",
-        autor: "Marissa Meyer",
-        categoria: {
-            nombre: "Libros Romance",
-            id: "romance"
-        },
-        precio: 169,
-    },
-    {
-        id: "libroRomance-15",
-        titulo: "El Diario de Noah",
-        imagen: "./img/libro35.jpg",
-        autor: "Nicholas Sparks",
-        categoria: {
-            nombre: "Libros Romance",
-            id: "romance"
-        },
-        precio: 129,
-    },
-    {
-        id: "libroRomance-16",
-        titulo: "Posdata: Te Amo",
-        imagen: "./img/libro36.jpg",
-        autor: "Cecelia Ahern",
-        categoria: {
-            nombre: "Libros Romance",
-            id: "romance"
-        },
-        precio: 419,
-    },
-    {
-        id: "libroRomance-17",
-        titulo: "Cariño, Cuánto te Odio",
-        imagen: "./img/libro37.jpg",
-        autor: "Sally Thorne",
-        categoria: {
-            nombre: "Libros Romance",
-            id: "romance"
-        },
-        precio: 298,
-    },
-    {
-        id: "libroRomance-18",
-        titulo: "Gente Normal",
-        imagen: "./img/libro38.jpg",
-        autor: "Sally Rooney",
-        categoria: {
-            nombre: "Libros Romance",
-            id: "romance"
-        },
-        precio: 189,
-    },
-    {
-        id: "libroRomance-19",
-        titulo: "Mil Besos Tuyos",
-        imagen: "./img/libro39.jpg",
-        autor: "Tillie Cole",
-        categoria: {
-            nombre: "Libros Romance",
-            id: "romance"
-        },
-        precio: 229,
-    },
-    {
-        id: "libroRomance-20",
-        titulo: "Un Cuento de Perfecto Infinito",
-        imagen: "./img/libro40.jpg",
-        autor: "Elísabet Benavent",
-        categoria: {
-            nombre: "Libros Romance",
-            id: "romance"
-        },
-        precio: 279,
-    },
+//     {
+//         id: "libroRomance-06",
+//         titulo: "Bajo la Misma Estrella",
+//         imagen: "./img/libro26.jpg",
+//         autor: "John Green",
+//         categoria: {
+//             nombre: "Libros Romance",
+//             id: "romance"
+//         },
+//         precio: 160,
+//     },
+//     {
+//         id: "libroRomance-07",
+//         titulo: "Yo Antes de Ti",
+//         imagen: "./img/libro27.jpg",
+//         autor: "Jojo Moyes",
+//         categoria: {
+//             nombre: "Libros Romance",
+//             id: "romance"
+//         },
+//         precio: 314,
+//     },
+//     {
+//         id: "libroRomance-08",
+//         titulo: "El Duque y Yo",
+//         imagen: "./img/libro28.jpg",
+//         autor: "Julia Quinn",
+//         categoria: {
+//             nombre: "Libros Romance",
+//             id: "romance"
+//         },
+//         precio: 110,
+//     },
+//     {
+//         id: "libroRomance-09",
+//         titulo: "Rojo, Blanco y Sangre Azul",
+//         imagen: "./img/libro29.jpg",
+//         autor: "Casey McQuiston",
+//         categoria: {
+//             nombre: "Libros Romance",
+//             id: "romance"
+//         },
+//         precio: 296,
+//     },
+//     {
+//         id: "libroRomance-10",
+//         titulo: "Romper el Círculo",
+//         imagen: "./img/libro30.jpg",
+//         autor: "Colleen Hoover",
+//         categoria: {
+//             nombre: "Libros Romance",
+//             id: "romance"
+//         },
+//         precio: 429,
+//     },
+//     {
+//         id: "libroRomance-11",
+//         titulo: "La Hipótesis del Amor",
+//         imagen: "./img/libro31.jpg",
+//         autor: "Ali Hazelwood",
+//         categoria: {
+//             nombre: "Libros Romance",
+//             id: "romance"
+//         },
+//         precio: 288,
+//         precioViejo: 320,
+//     },
+//     {
+//         id: "libroRomance-12",
+//         titulo: "Boulevard",
+//         imagen: "./img/libro32.jpg",
+//         autor: "Flor M. Salvador",
+//         categoria: {
+//             nombre: "Libros Romance",
+//             id: "romance"
+//         },
+//         precio: 369,
+//     },
+//     {
+//         id: "libroRomance-13",
+//         titulo: "A Través de mi Ventana",
+//         imagen: "./img/libro33.jpg",
+//         autor: "Ariana Godoy",
+//         categoria: {
+//             nombre: "Libros Romance",
+//             id: "romance"
+//         },
+//         precio: 149,
+//     },
+//     {
+//         id: "libroRomance-14",
+//         titulo: "Cinder",
+//         imagen: "./img/libro34.jpg",
+//         autor: "Marissa Meyer",
+//         categoria: {
+//             nombre: "Libros Romance",
+//             id: "romance"
+//         },
+//         precio: 169,
+//     },
+//     {
+//         id: "libroRomance-15",
+//         titulo: "El Diario de Noah",
+//         imagen: "./img/libro35.jpg",
+//         autor: "Nicholas Sparks",
+//         categoria: {
+//             nombre: "Libros Romance",
+//             id: "romance"
+//         },
+//         precio: 129,
+//     },
+//     {
+//         id: "libroRomance-16",
+//         titulo: "Posdata: Te Amo",
+//         imagen: "./img/libro36.jpg",
+//         autor: "Cecelia Ahern",
+//         categoria: {
+//             nombre: "Libros Romance",
+//             id: "romance"
+//         },
+//         precio: 419,
+//     },
+//     {
+//         id: "libroRomance-17",
+//         titulo: "Cariño, Cuánto te Odio",
+//         imagen: "./img/libro37.jpg",
+//         autor: "Sally Thorne",
+//         categoria: {
+//             nombre: "Libros Romance",
+//             id: "romance"
+//         },
+//         precio: 298,
+//     },
+//     {
+//         id: "libroRomance-18",
+//         titulo: "Gente Normal",
+//         imagen: "./img/libro38.jpg",
+//         autor: "Sally Rooney",
+//         categoria: {
+//             nombre: "Libros Romance",
+//             id: "romance"
+//         },
+//         precio: 189,
+//     },
+//     {
+//         id: "libroRomance-19",
+//         titulo: "Mil Besos Tuyos",
+//         imagen: "./img/libro39.jpg",
+//         autor: "Tillie Cole",
+//         categoria: {
+//             nombre: "Libros Romance",
+//             id: "romance"
+//         },
+//         precio: 229,
+//     },
+//     {
+//         id: "libroRomance-20",
+//         titulo: "Un Cuento de Perfecto Infinito",
+//         imagen: "./img/libro40.jpg",
+//         autor: "Elísabet Benavent",
+//         categoria: {
+//             nombre: "Libros Romance",
+//             id: "romance"
+//         },
+//         precio: 279,
+//     },
 
 
-    //Libro Fantasias ----------------------------------------------------------------------------------------
+//     //Libro Fantasias ----------------------------------------------------------------------------------------
     
 
-    {
-        id: "libroFantasia-01", 
-        titulo:"El Libro Salvaje", 
-        imagen: "./img/libro41.jpg", 
-        autor: "Juan Villoro",
-        categoria:{
-            nombre:  "Libros de Fantasia",  
-            id:"fantasia"
-        },
-        precio: 87, 
+//     {
+//         id: "libroFantasia-01", 
+//         titulo:"El Libro Salvaje", 
+//         imagen: "./img/libro41.jpg", 
+//         autor: "Juan Villoro",
+//         categoria:{
+//             nombre:  "Libros de Fantasia",  
+//             id:"fantasia"
+//         },
+//         precio: 87, 
 
-    },
+//     },
 
-     {
-        id: "libroFantasia-02", 
-        titulo:"Una corte de niebla y furia", 
-        imagen: "./img/libro42.jpg", 
-        autor: "Sarah J. Maas",
-        categoria:{
-            nombre:  "Libros Fantasia",  
-            id:"fantasia"
-        },
-        precio: 298, 
+//      {
+//         id: "libroFantasia-02", 
+//         titulo:"Una corte de niebla y furia", 
+//         imagen: "./img/libro42.jpg", 
+//         autor: "Sarah J. Maas",
+//         categoria:{
+//             nombre:  "Libros Fantasia",  
+//             id:"fantasia"
+//         },
+//         precio: 298, 
 
-    },
+//     },
 
-     {
-        id: "libroFantasia-03", 
-        titulo:"La reina roja", 
-        imagen: "./img/libro43.jpg", 
-        autor: "Victoria Aveyard",
-        categoria:{
-            nombre:  "Libros Fantasia",  
-            id:"fantasia"
-        },
-        precio: 345, 
+//      {
+//         id: "libroFantasia-03", 
+//         titulo:"La reina roja", 
+//         imagen: "./img/libro43.jpg", 
+//         autor: "Victoria Aveyard",
+//         categoria:{
+//             nombre:  "Libros Fantasia",  
+//             id:"fantasia"
+//         },
+//         precio: 345, 
 
-    },
+//     },
 
-     {
-        id: "libroFantasia-04", 
-        titulo:"La elección: El Legado del Dragón", 
-        imagen: "./img/libro44.jpg", 
-        autor: "Nora Roberts",
-        categoria:{
-            nombre:  "Libros Fantasia",  
-            id:"fantasia"
-        },
-        precio: 279, 
+//      {
+//         id: "libroFantasia-04", 
+//         titulo:"La elección: El Legado del Dragón", 
+//         imagen: "./img/libro44.jpg", 
+//         autor: "Nora Roberts",
+//         categoria:{
+//             nombre:  "Libros Fantasia",  
+//             id:"fantasia"
+//         },
+//         precio: 279, 
 
-    },
+//     },
 
-     {
-        id: "libroFantasia-05", 
-        titulo:"Juego de tronos", 
-        imagen: "./img/libro45.jpg", 
-        autor: "George R.R. Martin",
-        categoria:{
-            nombre:  "Libros Fantasia",  
-            id:"fantasia"
-        },
-        precio: 539, 
+//      {
+//         id: "libroFantasia-05", 
+//         titulo:"Juego de tronos", 
+//         imagen: "./img/libro45.jpg", 
+//         autor: "George R.R. Martin",
+//         categoria:{
+//             nombre:  "Libros Fantasia",  
+//             id:"fantasia"
+//         },
+//         precio: 539, 
 
-    },
+//     },
 
-    {
-        id: "libroFantasia-06",
-        titulo: "El Hobbit",
-        imagen: "./img/libro46.jpg",
-        autor: "J.R.R. Tolkien",
-        categoria: {
-            nombre: "Libros Fantasia",
-            id: "fantasia"
-        },
-        precio: 298,
-    },
-    {
-        id: "libroFantasia-07",
-        titulo: "Harry Potter y la Piedra Filosofal",
-        imagen: "./img/libro47.jpg",
-        autor: "J.K. Rowling",
-        categoria: {
-            nombre: "Libros Fantasia",
-            id: "fantasia"
-        },
-        precio: 549,
-    },
-    {
-        id: "libroFantasia-08",
-        titulo: "El Nombre del Viento",
-        imagen: "./img/libro48.jpg",
-        autor: "Patrick Rothfuss",
-        categoria: {
-            nombre: "Libros Fantasia",
-            id: "fantasia"
-        },
-        precio: 299,
-    },
-    {
-        id: "libroFantasia-09",
-        titulo: "El Camino de los Reyes",
-        imagen: "./img/libro49.jpg",
-        autor: "Brandon Sanderson",
-        categoria: {
-            nombre: "Libros Fantasia",
-            id: "fantasia"
-        },
-        precio: 498,
-    },
-    {
-        id: "libroFantasia-10",
-        titulo: "Percy Jackson y el Ladrón del Rayo",
-        imagen: "./img/libro50.jpg",
-        autor: "Rick Riordan",
-        categoria: {
-            nombre: "Libros Fantasia",
-            id: "fantasia"
-        },
-        precio: 379,
-    },
-    {
-        id: "libroFantasia-11",
-        titulo: "Las Crónicas de Narnia: El León, la Bruja y el Ropero",
-        imagen: "./img/libro51.jpg",
-        autor: "C.S. Lewis",
-        categoria: {
-            nombre: "Libros Fantasia",
-            id: "fantasia"
-        },
-        precio: 300,
-    },
-    {
-        id: "libroFantasia-12",
-        titulo: "Nacidos de la Bruma: El Imperio Final",
-        imagen: "./img/libro52.jpg",
-        autor: "Brandon Sanderson",
-        categoria: {
-            nombre: "Libros Fantasia",
-            id: "fantasia"
-        },
-        precio: 299,
-    },
-    {
-        id: "libroFantasia-13",
-        titulo: "Alas de Sangre",
-        imagen: "./img/libro53.jpg",
-        autor: "Rebecca Yarros",
-        categoria: {
-            nombre: "Libros Fantasia",
-            id: "fantasia"
-        },
-        precio: 398,
-    },
-    {
-        id: "libroFantasia-14",
-        titulo: "Una Corte de Rosas y Espinas",
-        imagen: "./img/libro54.jpg",
-        autor: "Sarah J. Maas",
-        categoria: {
-            nombre: "Libros Fantasia",
-            id: "fantasia"
-        },
-        precio: 258,
-    },
-    {
-        id: "libroFantasia-15",
-        titulo: "Gideon la Novena",
-        imagen: "./img/libro55.jpg",
-        autor: "Tamsyn Muir",
-        categoria: {
-            nombre: "Libros Fantasia",
-            id: "fantasia"
-        },
-        precio: 179,
-    },
-    {
-        id: "libroFantasia-16",
-        titulo: "Los Juegos del Hambre",
-        imagen: "./img/libro56.jpg",
-        autor: "Suzanne Collins",
-        categoria: {
-            nombre: "Libros Fantasia",
-            id: "fantasia"
-        },
-        precio: 489,
-    },
-    {
-        id: "libroFantasia-17",
-        titulo: "Eragon",
-        imagen: "./img/libro57.jpg",
-        autor: "Christopher Paolini",
-        categoria: {
-            nombre: "Libros Fantasia",
-            id: "fantasia"
-        },
-        precio: 129,
-    },
-    {
-        id: "libroFantasia-18",
-        titulo: "El Silmarillion",
-        imagen: "./img/libro58.jpg",
-        autor: "J.R.R. Tolkien",
-        categoria: {
-            nombre: "Libros Fantasia",
-            id: "fantasia"
-        },
-        precio: 368,
-    },
-    {
-        id: "libroFantasia-19",
-        titulo: "American Gods",
-        imagen: "./img/libro59.jpg",
-        autor: "Neil Gaiman",
-        categoria: {
-            nombre: "Libros Fantasia",
-            id: "fantasia"
-        },
-        precio: 119,
-    },
-    {
-        id: "libroFantasia-20",
-        titulo: "El Señor De Los Anillo",
-        imagen: "./img/libro60.jpg",
-        autor: "J.R.R. Tolkien",
-        categoria: {
-            nombre: "Libros Fantasia",
-            id: "fantasia"
-        },
-        precio: 208,
-    },
+//     {
+//         id: "libroFantasia-06",
+//         titulo: "El Hobbit",
+//         imagen: "./img/libro46.jpg",
+//         autor: "J.R.R. Tolkien",
+//         categoria: {
+//             nombre: "Libros Fantasia",
+//             id: "fantasia"
+//         },
+//         precio: 298,
+//     },
+//     {
+//         id: "libroFantasia-07",
+//         titulo: "Harry Potter y la Piedra Filosofal",
+//         imagen: "./img/libro47.jpg",
+//         autor: "J.K. Rowling",
+//         categoria: {
+//             nombre: "Libros Fantasia",
+//             id: "fantasia"
+//         },
+//         precio: 549,
+//     },
+//     {
+//         id: "libroFantasia-08",
+//         titulo: "El Nombre del Viento",
+//         imagen: "./img/libro48.jpg",
+//         autor: "Patrick Rothfuss",
+//         categoria: {
+//             nombre: "Libros Fantasia",
+//             id: "fantasia"
+//         },
+//         precio: 299,
+//     },
+//     {
+//         id: "libroFantasia-09",
+//         titulo: "El Camino de los Reyes",
+//         imagen: "./img/libro49.jpg",
+//         autor: "Brandon Sanderson",
+//         categoria: {
+//             nombre: "Libros Fantasia",
+//             id: "fantasia"
+//         },
+//         precio: 498,
+//     },
+//     {
+//         id: "libroFantasia-10",
+//         titulo: "Percy Jackson y el Ladrón del Rayo",
+//         imagen: "./img/libro50.jpg",
+//         autor: "Rick Riordan",
+//         categoria: {
+//             nombre: "Libros Fantasia",
+//             id: "fantasia"
+//         },
+//         precio: 379,
+//     },
+//     {
+//         id: "libroFantasia-11",
+//         titulo: "Las Crónicas de Narnia: El León, la Bruja y el Ropero",
+//         imagen: "./img/libro51.jpg",
+//         autor: "C.S. Lewis",
+//         categoria: {
+//             nombre: "Libros Fantasia",
+//             id: "fantasia"
+//         },
+//         precio: 300,
+//     },
+//     {
+//         id: "libroFantasia-12",
+//         titulo: "Nacidos de la Bruma: El Imperio Final",
+//         imagen: "./img/libro52.jpg",
+//         autor: "Brandon Sanderson",
+//         categoria: {
+//             nombre: "Libros Fantasia",
+//             id: "fantasia"
+//         },
+//         precio: 299,
+//     },
+//     {
+//         id: "libroFantasia-13",
+//         titulo: "Alas de Sangre",
+//         imagen: "./img/libro53.jpg",
+//         autor: "Rebecca Yarros",
+//         categoria: {
+//             nombre: "Libros Fantasia",
+//             id: "fantasia"
+//         },
+//         precio: 398,
+//     },
+//     {
+//         id: "libroFantasia-14",
+//         titulo: "Una Corte de Rosas y Espinas",
+//         imagen: "./img/libro54.jpg",
+//         autor: "Sarah J. Maas",
+//         categoria: {
+//             nombre: "Libros Fantasia",
+//             id: "fantasia"
+//         },
+//         precio: 258,
+//     },
+//     {
+//         id: "libroFantasia-15",
+//         titulo: "Gideon la Novena",
+//         imagen: "./img/libro55.jpg",
+//         autor: "Tamsyn Muir",
+//         categoria: {
+//             nombre: "Libros Fantasia",
+//             id: "fantasia"
+//         },
+//         precio: 179,
+//     },
+//     {
+//         id: "libroFantasia-16",
+//         titulo: "Los Juegos del Hambre",
+//         imagen: "./img/libro56.jpg",
+//         autor: "Suzanne Collins",
+//         categoria: {
+//             nombre: "Libros Fantasia",
+//             id: "fantasia"
+//         },
+//         precio: 489,
+//     },
+//     {
+//         id: "libroFantasia-17",
+//         titulo: "Eragon",
+//         imagen: "./img/libro57.jpg",
+//         autor: "Christopher Paolini",
+//         categoria: {
+//             nombre: "Libros Fantasia",
+//             id: "fantasia"
+//         },
+//         precio: 129,
+//     },
+//     {
+//         id: "libroFantasia-18",
+//         titulo: "El Silmarillion",
+//         imagen: "./img/libro58.jpg",
+//         autor: "J.R.R. Tolkien",
+//         categoria: {
+//             nombre: "Libros Fantasia",
+//             id: "fantasia"
+//         },
+//         precio: 368,
+//     },
+//     {
+//         id: "libroFantasia-19",
+//         titulo: "American Gods",
+//         imagen: "./img/libro59.jpg",
+//         autor: "Neil Gaiman",
+//         categoria: {
+//             nombre: "Libros Fantasia",
+//             id: "fantasia"
+//         },
+//         precio: 119,
+//     },
+//     {
+//         id: "libroFantasia-20",
+//         titulo: "El Señor De Los Anillo",
+//         imagen: "./img/libro60.jpg",
+//         autor: "J.R.R. Tolkien",
+//         categoria: {
+//             nombre: "Libros Fantasia",
+//             id: "fantasia"
+//         },
+//         precio: 208,
+//     },
 
-    //Ciencia Ficcion ----------------------------------------------------------------------------------------------------
+//     //Ciencia Ficcion ----------------------------------------------------------------------------------------------------
 
-   {
-        id: "libroCienciaFiccion-01", 
-        titulo:"Las Sombras De Los Dioses", 
-        imagen: "./img/libro61.jpg", 
-        autor: "John Gwynne",
-        categoria:{
-            nombre:  "Libros de Ciencia Ficcion",  
-            id:"cienciaficcion"
-        },
-        precioViejo: 348, 
-        precio: 295.8,
+//    {
+//         id: "libroCienciaFiccion-01", 
+//         titulo:"Las Sombras De Los Dioses", 
+//         imagen: "./img/libro61.jpg", 
+//         autor: "John Gwynne",
+//         categoria:{
+//             nombre:  "Libros de Ciencia Ficcion",  
+//             id:"cienciaficcion"
+//         },
+//         precioViejo: 348, 
+//         precio: 295.8,
 
-    },
+//     },
     
-    {
-        id: "libroCienciaFiccion-02", 
-        titulo:"La cancion de aquiles", 
-        imagen: "./img/libro62.jpg", 
-        autor: "Madeline Miller",
-        categoria:{
-            nombre:  "Libros Ciencia Ficcion",  
-            id:"cienciaficcion"
-        },
-        precio: 202, 
-        precioViejo: 270,
+//     {
+//         id: "libroCienciaFiccion-02", 
+//         titulo:"La cancion de aquiles", 
+//         imagen: "./img/libro62.jpg", 
+//         autor: "Madeline Miller",
+//         categoria:{
+//             nombre:  "Libros Ciencia Ficcion",  
+//             id:"cienciaficcion"
+//         },
+//         precio: 202, 
+//         precioViejo: 270,
 
-    },
+//     },
     
-    {
-        id: "libroCienciaFiccion-03", 
-        titulo:"Proyecto Hail Mary", 
-        imagen: "./img/libro63.jpg", 
-        autor: "Andy Weir",
-        categoria:{
-            nombre:  "Libros Ciencia Ficcion",  
-            id:"cienciaficcion"
-        },
-        precio: 424.15, 
-        precioViejo: 499,
+//     {
+//         id: "libroCienciaFiccion-03", 
+//         titulo:"Proyecto Hail Mary", 
+//         imagen: "./img/libro63.jpg", 
+//         autor: "Andy Weir",
+//         categoria:{
+//             nombre:  "Libros Ciencia Ficcion",  
+//             id:"cienciaficcion"
+//         },
+//         precio: 424.15, 
+//         precioViejo: 499,
 
-    },
+//     },
     
 
-    {
-        id: "libroCienciaFiccion-04", 
-        titulo:"La guerra de los mundos", 
-        imagen: "./img/libro64.jpg", 
-        autor: "H.G. Wells",
-        categoria:{
-            nombre:  "Libros Ciencia Ficcion",  
-            id:"cienciaficcion"
-        },
-        precio: 139, 
+//     {
+//         id: "libroCienciaFiccion-04", 
+//         titulo:"La guerra de los mundos", 
+//         imagen: "./img/libro64.jpg", 
+//         autor: "H.G. Wells",
+//         categoria:{
+//             nombre:  "Libros Ciencia Ficcion",  
+//             id:"cienciaficcion"
+//         },
+//         precio: 139, 
 
-    },
+//     },
     
-    {
-        id: "libroCienciaFiccion-05",
-        titulo: "Dune",
-        imagen: "./img/libro65.jpg",
-        autor: "Frank Herbert",
-        categoria: {
-            nombre: "Libros Ciencia Ficcion",
-            id: "cienciaficcion"
-        },
-        precio: 329,
-    },
-    {
-        id: "libroCienciaFiccion-06",
-        titulo: "Fahrenheit 451",
-        imagen: "./img/libro66.jpg",
-        autor: "Ray Bradbury",
-        categoria: {
-            nombre: "Libros Ciencia Ficcion",
-            id: "cienciaficcion"
-        },
-        precio: 298,
-    },
-    {
-        id: "libroCienciaFiccion-07",
-        titulo: "Fundación",
-        imagen: "./img/libro67.jpg",
-        autor: "Isaac Asimov",
-        categoria: {
-            nombre: "Libros Ciencia Ficcion",
-            id: "cienciaficcion"
-        },
-        precio: 279,
-    },
-    {
-        id: "libroCienciaFiccion-08",
-        titulo: "¿Sueñan los Androides con Ovejas Eléctricas?",
-        imagen: "./img/libro68.jpg",
-        autor: "Philip K. Dick",
-        categoria: {
-            nombre: "Libros Ciencia Ficcion",
-            id: "cienciaficcion"
-        },
-        precio: 279,
-    },
-    {
-        id: "libroCienciaFiccion-09",
-        titulo: "Neuromante",
-        imagen: "./img/libro69.jpg",
-        autor: "William Gibson",
-        categoria: {
-            nombre: "Libros Ciencia Ficcion",
-            id: "cienciaficcion"
-        },
-        precio: 229,
-    },
-    {
-        id: "libroCienciaFiccion-10",
-        titulo: "El Problema de los Tres Cuerpos",
-        imagen: "./img/libro70.jpg",
-        autor: "Cixin Liu",
-        categoria: {
-            nombre: "Libros Ciencia Ficcion",
-            id: "cienciaficcion"
-        },
-        precio: 469,
-    },
-    {
-        id: "libroCienciaFiccion-11",
-        titulo: "Crónicas Marcianas",
-        imagen: "./img/libro71.jpg",
-        autor: "Ray Bradbury",
-        categoria: {
-            nombre: "Libros Ciencia Ficcion",
-            id: "cienciaficcion"
-        },
-        precio: 268,
-    },
-    {
-        id: "libroCienciaFiccion-12",
-        titulo: "Guía del Autoestopista Galáctico",
-        imagen: "./img/libro72.jpg",
-        autor: "Douglas Adams",
-        categoria: {
-            nombre: "Libros Ciencia Ficcion",
-            id: "cienciaficcion"
-        },
-        precio: 217,
-    },
-    {
-        id: "libroCienciaFiccion-13",
-        titulo: "Yo, Robot",
-        imagen: "./img/libro73.jpg",
-        autor: "Isaac Asimov",
-        categoria: {
-            nombre: "Libros Ciencia Ficcion",
-            id: "cienciaficcion"
-        },
-        precio: 278,
-    },
-    {
-        id: "libroCienciaFiccion-14",
-        titulo: "La Máquina del Tiempo",
-        imagen: "./img/libro74.jpg",
-        autor: "H.G. Wells",
-        categoria: {
-            nombre: "Libros Ciencia Ficcion",
-            id: "cienciaficcion"
-        },
-        precio: 189,
-    },
-    {
-        id: "libroCienciaFiccion-15",
-        titulo: "El Marciano",
-        imagen: "./img/libro75.jpg",
-        autor: "Andy Weir",
-        categoria: {
-            nombre: "Libros Ciencia Ficcion",
-            id: "cienciaficcion"
-        },
-        precio: 479,
-    },
-    {
-        id: "libroCienciaFiccion-16",
-        titulo: "Metro 2033",
-        imagen: "./img/libro76.jpg",
-        autor: "Dmitry Glukhovsky",
-        categoria: {
-            nombre: "Libros Ciencia Ficcion",
-            id: "cienciaficcion"
-        },
-        precio: 468,
-    },
-    {
-        id: "libroCienciaFiccion-17",
-        titulo: "Cita con Rama",
-        imagen: "./img/libro77.jpg",
-        autor: "Arthur C. Clarke",
-        categoria: {
-            nombre: "Libros Ciencia Ficcion",
-            id: "cienciaficcion"
-        },
-        precio: 319,
-    },
-    {
-        id: "libroCienciaFiccion-18",
-        titulo: "Ubik",
-        imagen: "./img/libro78.jpg",
-        autor: "Philip K. Dick",
-        categoria: {
-            nombre: "Libros Ciencia Ficcion",
-            id: "cienciaficcion"
-        },
-        precio: 333,
-    },
-    {
-        id: "libroCienciaFiccion-19",
-        titulo: "2001: Una Odisea Espacial",
-        imagen: "./img/libro79.jpg",
-        autor: "Arthur C. Clarke",
-        categoria: {
-            nombre: "Libros Ciencia Ficcion",
-            id: "cienciaficcion"
-        },
-        precio: 239,
-    },
+//     {
+//         id: "libroCienciaFiccion-05",
+//         titulo: "Dune",
+//         imagen: "./img/libro65.jpg",
+//         autor: "Frank Herbert",
+//         categoria: {
+//             nombre: "Libros Ciencia Ficcion",
+//             id: "cienciaficcion"
+//         },
+//         precio: 329,
+//     },
+//     {
+//         id: "libroCienciaFiccion-06",
+//         titulo: "Fahrenheit 451",
+//         imagen: "./img/libro66.jpg",
+//         autor: "Ray Bradbury",
+//         categoria: {
+//             nombre: "Libros Ciencia Ficcion",
+//             id: "cienciaficcion"
+//         },
+//         precio: 298,
+//     },
+//     {
+//         id: "libroCienciaFiccion-07",
+//         titulo: "Fundación",
+//         imagen: "./img/libro67.jpg",
+//         autor: "Isaac Asimov",
+//         categoria: {
+//             nombre: "Libros Ciencia Ficcion",
+//             id: "cienciaficcion"
+//         },
+//         precio: 279,
+//     },
+//     {
+//         id: "libroCienciaFiccion-08",
+//         titulo: "¿Sueñan los Androides con Ovejas Eléctricas?",
+//         imagen: "./img/libro68.jpg",
+//         autor: "Philip K. Dick",
+//         categoria: {
+//             nombre: "Libros Ciencia Ficcion",
+//             id: "cienciaficcion"
+//         },
+//         precio: 279,
+//     },
+//     {
+//         id: "libroCienciaFiccion-09",
+//         titulo: "Neuromante",
+//         imagen: "./img/libro69.jpg",
+//         autor: "William Gibson",
+//         categoria: {
+//             nombre: "Libros Ciencia Ficcion",
+//             id: "cienciaficcion"
+//         },
+//         precio: 229,
+//     },
+//     {
+//         id: "libroCienciaFiccion-10",
+//         titulo: "El Problema de los Tres Cuerpos",
+//         imagen: "./img/libro70.jpg",
+//         autor: "Cixin Liu",
+//         categoria: {
+//             nombre: "Libros Ciencia Ficcion",
+//             id: "cienciaficcion"
+//         },
+//         precio: 469,
+//     },
+//     {
+//         id: "libroCienciaFiccion-11",
+//         titulo: "Crónicas Marcianas",
+//         imagen: "./img/libro71.jpg",
+//         autor: "Ray Bradbury",
+//         categoria: {
+//             nombre: "Libros Ciencia Ficcion",
+//             id: "cienciaficcion"
+//         },
+//         precio: 268,
+//     },
+//     {
+//         id: "libroCienciaFiccion-12",
+//         titulo: "Guía del Autoestopista Galáctico",
+//         imagen: "./img/libro72.jpg",
+//         autor: "Douglas Adams",
+//         categoria: {
+//             nombre: "Libros Ciencia Ficcion",
+//             id: "cienciaficcion"
+//         },
+//         precio: 217,
+//     },
+//     {
+//         id: "libroCienciaFiccion-13",
+//         titulo: "Yo, Robot",
+//         imagen: "./img/libro73.jpg",
+//         autor: "Isaac Asimov",
+//         categoria: {
+//             nombre: "Libros Ciencia Ficcion",
+//             id: "cienciaficcion"
+//         },
+//         precio: 278,
+//     },
+//     {
+//         id: "libroCienciaFiccion-14",
+//         titulo: "La Máquina del Tiempo",
+//         imagen: "./img/libro74.jpg",
+//         autor: "H.G. Wells",
+//         categoria: {
+//             nombre: "Libros Ciencia Ficcion",
+//             id: "cienciaficcion"
+//         },
+//         precio: 189,
+//     },
+//     {
+//         id: "libroCienciaFiccion-15",
+//         titulo: "El Marciano",
+//         imagen: "./img/libro75.jpg",
+//         autor: "Andy Weir",
+//         categoria: {
+//             nombre: "Libros Ciencia Ficcion",
+//             id: "cienciaficcion"
+//         },
+//         precio: 479,
+//     },
+//     {
+//         id: "libroCienciaFiccion-16",
+//         titulo: "Metro 2033",
+//         imagen: "./img/libro76.jpg",
+//         autor: "Dmitry Glukhovsky",
+//         categoria: {
+//             nombre: "Libros Ciencia Ficcion",
+//             id: "cienciaficcion"
+//         },
+//         precio: 468,
+//     },
+//     {
+//         id: "libroCienciaFiccion-17",
+//         titulo: "Cita con Rama",
+//         imagen: "./img/libro77.jpg",
+//         autor: "Arthur C. Clarke",
+//         categoria: {
+//             nombre: "Libros Ciencia Ficcion",
+//             id: "cienciaficcion"
+//         },
+//         precio: 319,
+//     },
+//     {
+//         id: "libroCienciaFiccion-18",
+//         titulo: "Ubik",
+//         imagen: "./img/libro78.jpg",
+//         autor: "Philip K. Dick",
+//         categoria: {
+//             nombre: "Libros Ciencia Ficcion",
+//             id: "cienciaficcion"
+//         },
+//         precio: 333,
+//     },
+//     {
+//         id: "libroCienciaFiccion-19",
+//         titulo: "2001: Una Odisea Espacial",
+//         imagen: "./img/libro79.jpg",
+//         autor: "Arthur C. Clarke",
+//         categoria: {
+//             nombre: "Libros Ciencia Ficcion",
+//             id: "cienciaficcion"
+//         },
+//         precio: 239,
+//     },
 
-    {
-        id: "libroCienciaFiccion-20",
-        titulo: "Ready Player One",
-        imagen: "./img/libro80.jpg",
-        autor: "Ernest Cline",
-        categoria: {
-            nombre: "Libros Ciencia Ficcion",
-            id: "cienciaficcion"
-        },
-        precio: 299,
-    },
+//     {
+//         id: "libroCienciaFiccion-20",
+//         titulo: "Ready Player One",
+//         imagen: "./img/libro80.jpg",
+//         autor: "Ernest Cline",
+//         categoria: {
+//             nombre: "Libros Ciencia Ficcion",
+//             id: "cienciaficcion"
+//         },
+//         precio: 299,
+//     },
 
-    //Novelas ----------------------------------------------------------------------------------------------------
-    {
-        id: "libroNovelas-01",
-        titulo: "La Sombra del Viento",
-        imagen: "./img/libro81.jpg",
-        autor: "Carlos Ruiz Zafón",
-        categoria: {
-            nombre: "Libros de Novelas",
-            id: "novelas"
-        },
-        precio: 378,
-    },
-    {
-        id: "libroNovelas-02",
-        titulo: "Pedro Páramo",
-        imagen: "./img/libro82.jpg",
-        autor: "Juan Rulfo",
-        categoria: {
-            nombre: "Libros Novelas",
-            id: "novelas"
-        },
-        precio: 123,
-    },
-    {
-        id: "libroNovelas-03",
-        titulo: "El Amor en los Tiempos del Cólera",
-        imagen: "./img/libro83.jpg",
-        autor: "Gabriel García Márquez",
-        categoria: {
-            nombre: "Libros Novelas",
-            id: "novelas"
-        },
-        precio: 442,
-    },
-    {
-        id: "libroNovelas-04",
-        titulo: "Los Pilares de la Tierra",
-        imagen: "./img/libro84.jpg",
-        autor: "Ken Follett",
-        categoria: {
-            nombre: "Libros Novelas",
-            id: "novelas"
-        },
-        precio: 539,
-    },
-    {
-        id: "libroNovelas-05",
-        titulo: "La Catedral del Mar",
-        imagen: "./img/libro85.jpg",
-        autor: "Ildefonso Falcones",
-        categoria: {
-            nombre: "Libros Novelas",
-            id: "novelas"
-        },
-        precio: 129,
-    },
-    {
-        id: "libroNovelas-06",
-        titulo: "El Código Da Vinci",
-        imagen: "./img/libro86.jpg",
-        autor: "Dan Brown",
-        categoria: {
-            nombre: "Libros Novelas",
-            id: "novelas"
-        },
-        precio: 329,
-    },
-    {
-        id: "libroNovelas-07",
-        titulo: "Tokio Blues",
-        imagen: "./img/libro87.jpg",
-        autor: "Haruki Murakami",
-        categoria: {
-            nombre: "Libros Novelas",
-            id: "novelas"
-        },
-        precio: 169,
-    },
-    {
-        id: "libroNovelas-08",
-        titulo: "Ensayo sobre la Ceguera",
-        imagen: "./img/libro88.jpg",
-        autor: "José Saramago",
-        categoria: {
-            nombre: "Libros Novelas",
-            id: "novelas"
-        },
-        precio: 348,
-    },
-    {
-        id: "libroNovelas-09",
-        titulo: "El niño con el pijama de rayas",
-        imagen: "./img/libro89.jpg",
-        autor: "John Boyne",
-        categoria: {
-            nombre: "Libros Novelas",
-            id: "novelas"
-        },
-        precio: 199,
-    },
-    {
-        id: "libroNovelas-10",
-        titulo: "Rayuela",
-        imagen: "./img/libro90.jpg",
-        autor: "Julio Cortázar",
-        categoria: {
-            nombre: "Libros Novelas",
-            id: "novelas"
-        },
-        precio: 249,
-    },
-    {
-        id: "libroNovelas-11",
-        titulo: "Cometas en el Cielo",
-        imagen: "./img/libro91.jpg",
-        autor: "Khaled Hosseini",
-        categoria: {
-            nombre: "Libros Novelas",
-            id: "novelas"
-        },
-        precio: 249,
-    },
-    {
-        id: "libroNovelas-12",
-        titulo: "Marina",
-        imagen: "./img/libro92.jpg",
-        autor: "Carlos Ruiz Zafón",
-        categoria: {
-            nombre: "Libros Novelas",
-            id: "novelas"
-        },
-        precio: 318,
-    },
-    {
-        id: "libroNovelas-13",
-        titulo: "La tía Julia y el escribidor",
-        imagen: "./img/libro93.jpg",
-        autor: "Mario Vargas Llosa",
-        categoria: {
-            nombre: "Libros Novelas",
-            id: "novelas"
-        },
-        precio: 279,
-    },
-    {
-        id: "libroNovelas-14",
-        titulo: "Ficciones",
-        imagen: "./img/libro94.jpg",
-        autor: "Jorge Luis Borges",
-        categoria: {
-            nombre: "Libros Novelas",
-            id: "novelas"
-        },
-        precio: 239,
-    },
-    {
-        id: "libroNovelas-15",
-        titulo: "A Sangre Fría",
-        imagen: "./img/libro95.jpg",
-        autor: "Truman Capote",
-        categoria: {
-            nombre: "Libros Novelas",
-            id: "novelas"
-        },
-        precio: 389,
-    },
-    {
-        id: "libroNovelas-16",
-        titulo: "El Perfume",
-        imagen: "./img/libro96.jpg",
-        autor: "Patrick Süskind",
-        categoria: {
-            nombre: "Libros Novelas",
-            id: "novelas"
-        },
-        precio: 339,
-        precioViejo: 399,
-    },
-    {
-        id: "libroNovelas-17",
-        titulo: "Crónica de una Muerte Anunciada",
-        imagen: "./img/libro97.jpg",
-        autor: "Gabriel García Márquez",
-        categoria: {
-            nombre: "Libros Novelas",
-            id: "novelas"
-        },
-        precio: 343,
-    },
-    {
-        id: "libroNovelas-18",
-        titulo: "La Metafísica de los Tubos",
-        imagen: "./img/libro98.jpg",
-        autor: "Amélie Nothomb",
-        categoria: {
-            nombre: "Libros Novelas",
-            id: "novelas"
-        },
-        precio: 149,
-    },
-    {
-        id: "libroNovelas-19",
-        titulo: "Los Detectives Salvajes",
-        imagen: "./img/libro99.jpg",
-        autor: "Roberto Bolaño",
-        categoria: {
-            nombre: "Libros Novelas",
-            id: "novelas"
-        },
-        precio: 329,
-    },
-    {
-        id: "libroNovelas-20",
-        titulo: "La Casa de los Espíritus",
-        imagen: "./img/libro100.jpg",
-        autor: "Isabel Allende",
-        categoria: {
-            nombre: "Libros Novelas",
-            id: "novelas"
-        },
-        precio: 279,
-    },
-    //Aventura ----------------------------------------------------------------------------------------------------
-    {
-        id: "libroAventura-01",
-        titulo: "La Isla del Tesoro",
-        imagen: "./img/libro101.jpg",
-        autor: "Robert Louis Stevenson",
-        categoria: {
-            nombre: "Libros de Aventura",
-            id: "aventura"
-        },
-        precio: 124,
-    },
-    {
-        id: "libroAventura-02",
-        titulo: "La Vuelta al Mundo en 80 Días",
-        imagen: "./img/libro102.jpg",
-        autor: "Julio Verne",
-        categoria: {
-            nombre: "Libros Aventura",
-            id: "aventura"
-        },
-        precio: 109,
-    },
-    {
-        id: "libroAventura-03",
-        titulo: "Las Aventuras de Tom Sawyer",
-        imagen: "./img/libro103.jpg",
-        autor: "Mark Twain",
-        categoria: {
-            nombre: "Libros Aventura",
-            id: "aventura"
-        },
-        precio: 139,
-    },
-    {
-        id: "libroAventura-04",
-        titulo: "El Llamado de lo Salvaje",
-        imagen: "./img/libro104.jpg",
-        autor: "Jack London",
-        categoria: {
-            nombre: "Libros Aventura",
-            id: "aventura"
-        },
-        precio: 199,
-    },
-    {
-        id: "libroAventura-05",
-        titulo: "Robinson Crusoe",
-        imagen: "./img/libro105.jpg",
-        autor: "Daniel Defoe",
-        categoria: {
-            nombre: "Libros Aventura",
-            id: "aventura"
-        },
-        precio: 399,
-    },
-    {
-        id: "libroAventura-06",
-        titulo: "Veinte Mil Leguas de Viaje Submarino",
-        imagen: "./img/libro106.jpg",
-        autor: "Jules Verne",
-        categoria: {
-            nombre: "Libros Aventura",
-            id: "aventura"
-        },
-        precio: 260,
-    },
-    {
-        id: "libroAventura-07",
-        titulo: "Colmillo Blanco",
-        imagen: "./img/libro107.jpg",
-        autor: "Jack London",
-        categoria: {
-            nombre: "Libros Aventura",
-            id: "aventura"
-        },
-        precio: 345,
-    },
-    {
-        id: "libroAventura-08",
-        titulo: "Los Tres Mosqueteros",
-        imagen: "./img/libro108.jpg",
-        autor: "Alejandro Dumas",
-        categoria: {
-            nombre: "Libros Aventura",
-            id: "aventura"
-        },
-        precio: 313,
-    },
-    {
-        id: "libroAventura-09",
-        titulo: "Las Minas del Rey Salomón",
-        imagen: "./img/libro109.jpg",
-        autor: "H. Rider Haggard",
-        categoria: {
-            nombre: "Libros Aventura",
-            id: "aventura"
-        },
-        precio: 109,
-    },
-    {
-        id: "libroAventura-10",
-        titulo: "Viaje al Centro de la Tierra",
-        imagen: "./img/libro110.jpg",
-        autor: "Julio Verne",
-        categoria: {
-            nombre: "Libros Aventura",
-            id: "aventura"
-        },
-        precio: 88,
-    },
-    {
-        id: "libroAventura-11",
-        titulo: "El Conde de Montecristo",
-        imagen: "./img/libro111.jpg",
-        autor: "Alejandro Dumas",
-        categoria: {
-            nombre: "Libros Aventura",
-            id: "aventura"
-        },
-        precio: 529,
-    },
-    {
-        id: "libroAventura-12",
-        titulo: "El Libro de la Selva",
-        imagen: "./img/libro112.jpg",
-        autor: "Rudyard Kipling",
-        categoria: {
-            nombre: "Libros Aventura",
-            id: "aventura"
-        },
-        precio: 228,
-    },
-    {
-        id: "libroAventura-13",
-        titulo: "Tarzán de los Monos",
-        imagen: "./img/libro113.jpg",
-        autor: "Edgar Rice Burroughs",
-        categoria: {
-            nombre: "Libros Aventura",
-            id: "aventura"
-        },
-        precio: 299,
-    },
-    {
-        id: "libroAventura-14",
-        titulo: "Moby Dick",
-        imagen: "./img/libro114.jpg",
-        autor: "Herman Melville",
-        categoria: {
-            nombre: "Libros Aventura",
-            id: "aventura"
-        },
-        precio: 149,
-    },
-    {
-        id: "libroAventura-15",
-        titulo: "La Flecha Negra",
-        imagen: "./img/libro115.jpg",
-        autor: "Robert Louis Stevenson",
-        categoria: {
-            nombre: "Libros Aventura",
-            id: "aventura"
-        },
-        precio: 189,
-    },
-    {
-        id: "libroAventura-16",
-        titulo: "El Corsario Negro",
-        imagen: "./img/libro116.jpg",
-        autor: "Emilio Salgari",
-        categoria: {
-            nombre: "Libros Aventura",
-            id: "aventura"
-        },
-        precio: 256,
-    },
-    {
-        id: "libroAventura-17",
-        titulo: "Peter Pan",
-        imagen: "./img/libro117.jpg",
-        autor: "J.M. Barrie",
-        categoria: {
-            nombre: "Libros Aventura",
-            id: "aventura"
-        },
-        precio: 272,
-    },
-    {
-        id: "libroAventura-18",
-        titulo: "Las Aventuras de Huckleberry Finn",
-        imagen: "./img/libro118.jpg",
-        autor: "Mark Twain",
-        categoria: {
-            nombre: "Libros Aventura",
-            id: "aventura"
-        },
-        precio:318,
-    },
-    {
-        id: "libroAventura-19",
-        titulo: "La Quimera del Oro",
-        imagen: "./img/libro119.jpg",
-        autor: "Jack London",
-        categoria: {
-            nombre: "Libros Aventura",
-            id: "aventura"
-        },
-        precio: 420,
-    },
-    {
-        id: "libroAventura-20",
-        titulo: "Cinco Semanas en Globo",
-        imagen: "./img/libro120.jpg",
-        autor: "Julio Verne",
-        categoria: {
-            nombre: "Libros Aventura",
-            id: "aventura"
-        },
-        precio: 104,
-    },
-    //Cocina ----------------------------------------------------------------------------------------------------
-    {
-        id: "libroCocina-01",
-        titulo: "El Arte de la Cocina Francesa",
-        imagen: "./img/libro121.jpg",
-        autor: "Julia Child",
-        categoria: {
-            nombre: "Libros de Cocina",
-            id: "cocina"
-        },
-        precio: 749,
-    },
-    {
-        id: "libroCocina-02",
-        titulo: "1080 Recetas de Cocina",
-        imagen: "./img/libro122.jpg",
-        autor: "Simone Ortega",
-        categoria: {
-            nombre: "Libros Cocina",
-            id: "cocina"
-        },
-        precio: 173,
-        precioViejo: 204,
-    },
-    {
-        id: "libroCocina-03",
-        titulo: "La Cuchara de Plata",
-        imagen: "./img/libro123.jpg",
-        autor: "Editorial Phaidon",
-        categoria: {
-            nombre: "Libros Cocina",
-            id: "cocina"
-        },
-        precio: 340,
-    },
-    {
-        id: "libroCocina-04",
-        titulo: "Modernist Cuisine",
-        imagen: "./img/libro124.jpg",
-        autor: "Nathan Myhrvold",
-        categoria: {
-            nombre: "Libros Cocina",
-            id: "cocina"
-        },
-        precio: 3442,
-    },
-    {
-        id: "libroCocina-05",
-        titulo: "Sal, Grasa, Ácido, Calor",
-        imagen: "./img/libro125.jpg",
-        autor: "Samin Nosrat",
-        categoria: {
-            nombre: "Libros Cocina",
-            id: "cocina"
-        },
-        precio: 729,
-    },
-    {
-        id: "libroCocina-06",
-        titulo: "La Joya de la Cocina",
-        imagen: "./img/libro126.jpg",
-        autor: "Irma S. Rombauer",
-        categoria: {
-            nombre: "Libros Cocina",
-            id: "cocina"
-        },
-        precio: 343,
-    },
-    {
-        id: "libroCocina-07",
-        titulo: "El Gran Curso De Cocina",
-        imagen: "./img/libro127.jpg",
-        autor: "Ferrandi Paris",
-        categoria: {
-            nombre: "Libros Cocina",
-            id: "cocina"
-        },
-        precio: 1441,
-    },
-    {
-        id: "libroCocina-08",
-        titulo: "Libro Pan artesanal en casa",
-        imagen: "./img/libro128.jpg",
-        autor: "Irving Quiroz",
-        categoria: {
-            nombre: "Libros Cocina",
-            id: "cocina"
-        },
-        precio: 425,
-    },
-    {
-        id: "libroCocina-09",
-        titulo: "La Comida de La Familia",
-        imagen: "./img/libro129.jpg",
-        autor: "Ferran Adrià",
-        categoria: {
-            nombre: "Libros Cocina",
-            id: "cocina"
-        },
-        precio: 129,
-    },
-    {
-        id: "libroCocina-10",
-        titulo: "La Cocina y los Alimentos",
-        imagen: "./img/libro130.jpg",
-        autor: "Harold McGee",
-        categoria: {
-            nombre: "Libros Cocina",
-            id: "cocina"
-        },
-        precio: 2137,
-    },
-    {
-        id: "libroCocina-11",
-        titulo: "Escuela de Cocina",
-        imagen: "./img/libro131.jpg",
-        autor: "Jamie Oliver",
-        categoria: {
-            nombre: "Libros Cocina",
-            id: "cocina"
-        },
-        precio: 343,
-    },
-    {
-        id: "libroCocina-12",
-        titulo: "Repostería Tradicional",
-        imagen: "./img/libro132.jpg",
-        autor: "Eva Arguiñano",
-        categoria: {
-            nombre: "Libros Cocina",
-            id: "cocina"
-        },
-        precio: 282,
-    },
-    {
-        id: "libroCocina-13",
-        titulo: "Nonnas italienische Küche ",
-        imagen: "./img/libro133.jpg",
-        autor: "Silvia Colloca",
-        categoria: {
-            nombre: "Libros Cocina",
-            id: "cocina"
-        },
-        precio: 369,
-    },
-    {
-        id: "libroCocina-14",
-        titulo: "El Manual del Sommelier",
-        imagen: "./img/libro134.jpg",
-        autor: "Ferran Centelles",
-        categoria: {
-            nombre: "Libros Cocina",
-            id: "cocina"
-        },
-        precio: 516,
-    },
-    {
-        id: "libroCocina-15",
-        titulo: "Cocina Mexicana Auténtica: Sabores Que Enamoran",
-        imagen: "./img/libro135.jpg",
-        autor: "Diana Kennedy",
-        categoria: {
-            nombre: "Libros Cocina",
-            id: "cocina"
-        },
-        precio: 112,
-    },
-    {
-        id: "libroCocina-16",
-        titulo: "Cocina Vegetariana",
-        imagen: "./img/libro136.jpg",
-        autor: "Deborah Madison",
-        categoria: {
-            nombre: "Libros Cocina",
-            id: "cocina"
-        },
-        precio: 349,
-    },
-    {
-        id: "libroCocina-17",
-        titulo: "Recetas de Tapas Y Pinchos",
-        imagen: "./img/libro137.jpg",
-        autor: "Caballero Puig David",
-        categoria: {
-            nombre: "Libros Cocina",
-            id: "cocina"
-        },
-        precio: 608,
-    },
-    {
-        id: "libroCocina-18",
-        titulo: "Libro Sushi Chef",
-        imagen: "./img/libro138.jpg",
-        autor: "Sukiyabashi Jiro",
-        categoria: {
-            nombre: "Libros Cocina",
-            id: "cocina"
-        },
-        precio: 185,
-    },
-    {
-        id: "libroCocina-19",
-        titulo: "Ultimate Home Cooking",
-        imagen: "./img/libro139.jpg",
-        autor: "Gordon Ramsay",
-        categoria: {
-            nombre: "Libros Cocina",
-            id: "cocina"
-        },
-        precio: 969,
-    },
-    {
-        id: "libroCocina-20",
-        titulo: "Postres Saludables: Las recetas mas fit",
-        imagen: "./img/libro140.jpg",
-        autor: "Auxy Ordóñez",
-        categoria: {
-            nombre: "Libros Cocina",
-            id: "cocina"
-        },
-        precio: 279,
-    },
-    //Cuentos ----------------------------------------------------------------------------------------------------
-    {
-        id: "libroCuentos-01",
-        titulo: "Cuentos de Eva Luna",
-        imagen: "./img/libro141.jpg",
-        autor: "Isabel Allende",
-        categoria: {
-            nombre: "Libros de Cuentos",
-            id: "cuentos"
-        },
-        precio: 166,
-    },
-    {
-        id: "libroCuentos-02",
-        titulo: "Ficciones",
-        imagen: "./img/libro142.jpg",
-        autor: "Jorge Luis Borges",
-        categoria: {
-            nombre: "Libros Cuentos",
-            id: "cuentos"
-        },
-        precio: 169,
-    },
-    {
-        id: "libroCuentos-03",
-        titulo: "El Aleph",
-        imagen: "./img/libro143.jpg",
-        autor: "Jorge Luis Borges",
-        categoria: {
-            nombre: "Libros Cuentos",
-            id: "cuentos"
-        },
-        precio: 249,
-    },
-    {
-        id: "libroCuentos-04",
-        titulo: "Cuentos de Amor de Locura y de Muerte",
-        imagen: "./img/libro144.jpg",
-        autor: "Horacio Quiroga",
-        categoria: {
-            nombre: "Libros Cuentos",
-            id: "cuentos"
-        },
-        precio: 299,
-    },
-    {
-        id: "libroCuentos-05",
-        titulo: "Doce Cuentos Peregrinos",
-        imagen: "./img/libro145.jpg",
-        autor: "Gabriel García Márquez",
-        categoria: {
-            nombre: "Libros Cuentos",
-            id: "cuentos"
-        },
-        precio: 364,
-    },
-    {
-        id: "libroCuentos-06",
-        titulo: "Bestiario",
-        imagen: "./img/libro146.jpg",
-        autor: "Julio Cortázar",
-        categoria: {
-            nombre: "Libros Cuentos",
-            id: "cuentos"
-        },
-        precio: 99,
-    },
-    {
-        id: "libroCuentos-07",
-        titulo: "Cuentos de la Alhambra",
-        imagen: "./img/libro147.jpg",
-        autor: "Washington Irving",
-        categoria: {
-            nombre: "Libros Cuentos",
-            id: "cuentos"
-        },
-        precio: 252,
-    },
-    {
-        id: "libroCuentos-08",
-        titulo: "El Llano en Llamas",
-        imagen: "./img/libro148.jpg",
-        autor: "Juan Rulfo",
-        categoria: {
-            nombre: "Libros Cuentos",
-            id: "cuentos"
-        },
-        precio: 109,
-    },
-    {
-        id: "libroCuentos-09",
-        titulo: "Cuentos Completos",
-        imagen: "./img/libro149.jpg",
-        autor: "Edgar Allan Poe",
-        categoria: {
-            nombre: "Libros Cuentos",
-            id: "cuentos"
-        },
-        precio: 899,
-    },
-    {
-        id: "libroCuentos-10",
-        titulo: "El escarabajo de oro y otros cuentos",
-        imagen: "./img/libro150.jpg",
-        autor: "Edgar Allan Poe",
-        categoria: {
-            nombre: "Libros Cuentos",
-            id: "cuentos"
-        },
-        precio: 89,
-    },
-    {
-        id: "libroCuentos-11",
-        titulo: "Cuentos de Antón Chéjov",
-        imagen: "./img/libro151.jpg",
-        autor: "Antón Chéjov",
-        categoria: {
-            nombre: "Libros Cuentos",
-            id: "cuentos"
-        },
-        precio: 149,
-    },
-    {
-        id: "libroCuentos-12",
-        titulo: "Cuentos de los Hermanos Grimm",
-        imagen: "./img/libro152.jpg",
-        autor: "Jacob y Wilhelm Grimm",
-        categoria: {
-            nombre: "Libros Cuentos",
-            id: "cuentos"
-        },
-        precio: 189,
-    },
-    {
-        id: "libroCuentos-13",
-        titulo: "Las Mil y Una Noches",
-        imagen: "./img/libro153.jpg",
-        autor: "Anónimo",
-        categoria: {
-            nombre: "Libros Cuentos",
-            id: "cuentos"
-        },
-        precio: 139,
-    },
-    {
-        id: "libroCuentos-14",
-        titulo: "Cuentos de Hadas",
-        imagen: "./img/libro154.jpg",
-        autor: "Hans Christian Andersen",
-        categoria: {
-            nombre: "Libros Cuentos",
-            id: "cuentos"
-        },
-        precio: 629,
-    },
-    {
-        id: "libroCuentos-15",
-        titulo: "Historias de Cronopios y de Famas",
-        imagen: "./img/libro155.jpg",
-        autor: "Julio Cortázar",
-        categoria: {
-            nombre: "Libros Cuentos",
-            id: "cuentos"
-        },
-        precio: 229,
-    },
-    {
-        id: "libroCuentos-16",
-        titulo: "El Príncipe Feliz y otros cuentos",
-        imagen: "./img/libro156.jpg",
-        autor: "Oscar Wilde",
-        categoria: {
-            nombre: "Libros Cuentos",
-            id: "cuentos"
-        },
-        precio: 90,
-    },
-    {
-        id: "libroCuentos-17",
-        titulo: "La Increíble y Triste Historia de la Cándida Eréndira y su abuela desalmada",
-        imagen: "./img/libro157.jpg",
-        autor: "Gabriel García Márquez",
-        categoria: {
-            nombre: "Libros Cuentos",
-            id: "cuentos"
-        },
-        precio: 218,
-    },
-    {
-        id: "libroCuentos-18",
-        titulo: "Cuentos de la Selva",
-        imagen: "./img/libro158.jpg",
-        autor: "Horacio Quiroga",
-        categoria: {
-            nombre: "Libros Cuentos",
-            id: "cuentos"
-        },
-        precio: 232,
-    },
-    {
-        id: "libroCuentos-19",
-        titulo: "Las Armas Secretas",
-        imagen: "./img/libro159.jpg",
-        autor: "Julio Cortázar",
-        categoria: {
-            nombre: "Libros Cuentos",
-            id: "cuentos"
-        },
-        precio: 149,
-    },
-    {
-        id: "libroCuentos-20",
-        titulo: "El perseguidor y otros relatos",
-        imagen: "./img/libro160.jpg",
-        autor: "Julio Cortázar",
-        categoria: {
-            nombre: "Libros Cuentos",
-            id: "cuentos"
-        },
-        precio: 1041,
-    }
+//     //Novelas ----------------------------------------------------------------------------------------------------
+//     {
+//         id: "libroNovelas-01",
+//         titulo: "La Sombra del Viento",
+//         imagen: "./img/libro81.jpg",
+//         autor: "Carlos Ruiz Zafón",
+//         categoria: {
+//             nombre: "Libros de Novelas",
+//             id: "novelas"
+//         },
+//         precio: 378,
+//     },
+//     {
+//         id: "libroNovelas-02",
+//         titulo: "Pedro Páramo",
+//         imagen: "./img/libro82.jpg",
+//         autor: "Juan Rulfo",
+//         categoria: {
+//             nombre: "Libros Novelas",
+//             id: "novelas"
+//         },
+//         precio: 123,
+//     },
+//     {
+//         id: "libroNovelas-03",
+//         titulo: "El Amor en los Tiempos del Cólera",
+//         imagen: "./img/libro83.jpg",
+//         autor: "Gabriel García Márquez",
+//         categoria: {
+//             nombre: "Libros Novelas",
+//             id: "novelas"
+//         },
+//         precio: 442,
+//     },
+//     {
+//         id: "libroNovelas-04",
+//         titulo: "Los Pilares de la Tierra",
+//         imagen: "./img/libro84.jpg",
+//         autor: "Ken Follett",
+//         categoria: {
+//             nombre: "Libros Novelas",
+//             id: "novelas"
+//         },
+//         precio: 539,
+//     },
+//     {
+//         id: "libroNovelas-05",
+//         titulo: "La Catedral del Mar",
+//         imagen: "./img/libro85.jpg",
+//         autor: "Ildefonso Falcones",
+//         categoria: {
+//             nombre: "Libros Novelas",
+//             id: "novelas"
+//         },
+//         precio: 129,
+//     },
+//     {
+//         id: "libroNovelas-06",
+//         titulo: "El Código Da Vinci",
+//         imagen: "./img/libro86.jpg",
+//         autor: "Dan Brown",
+//         categoria: {
+//             nombre: "Libros Novelas",
+//             id: "novelas"
+//         },
+//         precio: 329,
+//     },
+//     {
+//         id: "libroNovelas-07",
+//         titulo: "Tokio Blues",
+//         imagen: "./img/libro87.jpg",
+//         autor: "Haruki Murakami",
+//         categoria: {
+//             nombre: "Libros Novelas",
+//             id: "novelas"
+//         },
+//         precio: 169,
+//     },
+//     {
+//         id: "libroNovelas-08",
+//         titulo: "Ensayo sobre la Ceguera",
+//         imagen: "./img/libro88.jpg",
+//         autor: "José Saramago",
+//         categoria: {
+//             nombre: "Libros Novelas",
+//             id: "novelas"
+//         },
+//         precio: 348,
+//     },
+//     {
+//         id: "libroNovelas-09",
+//         titulo: "El niño con el pijama de rayas",
+//         imagen: "./img/libro89.jpg",
+//         autor: "John Boyne",
+//         categoria: {
+//             nombre: "Libros Novelas",
+//             id: "novelas"
+//         },
+//         precio: 199,
+//     },
+//     {
+//         id: "libroNovelas-10",
+//         titulo: "Rayuela",
+//         imagen: "./img/libro90.jpg",
+//         autor: "Julio Cortázar",
+//         categoria: {
+//             nombre: "Libros Novelas",
+//             id: "novelas"
+//         },
+//         precio: 249,
+//     },
+//     {
+//         id: "libroNovelas-11",
+//         titulo: "Cometas en el Cielo",
+//         imagen: "./img/libro91.jpg",
+//         autor: "Khaled Hosseini",
+//         categoria: {
+//             nombre: "Libros Novelas",
+//             id: "novelas"
+//         },
+//         precio: 249,
+//     },
+//     {
+//         id: "libroNovelas-12",
+//         titulo: "Marina",
+//         imagen: "./img/libro92.jpg",
+//         autor: "Carlos Ruiz Zafón",
+//         categoria: {
+//             nombre: "Libros Novelas",
+//             id: "novelas"
+//         },
+//         precio: 318,
+//     },
+//     {
+//         id: "libroNovelas-13",
+//         titulo: "La tía Julia y el escribidor",
+//         imagen: "./img/libro93.jpg",
+//         autor: "Mario Vargas Llosa",
+//         categoria: {
+//             nombre: "Libros Novelas",
+//             id: "novelas"
+//         },
+//         precio: 279,
+//     },
+//     {
+//         id: "libroNovelas-14",
+//         titulo: "Ficciones",
+//         imagen: "./img/libro94.jpg",
+//         autor: "Jorge Luis Borges",
+//         categoria: {
+//             nombre: "Libros Novelas",
+//             id: "novelas"
+//         },
+//         precio: 239,
+//     },
+//     {
+//         id: "libroNovelas-15",
+//         titulo: "A Sangre Fría",
+//         imagen: "./img/libro95.jpg",
+//         autor: "Truman Capote",
+//         categoria: {
+//             nombre: "Libros Novelas",
+//             id: "novelas"
+//         },
+//         precio: 389,
+//     },
+//     {
+//         id: "libroNovelas-16",
+//         titulo: "El Perfume",
+//         imagen: "./img/libro96.jpg",
+//         autor: "Patrick Süskind",
+//         categoria: {
+//             nombre: "Libros Novelas",
+//             id: "novelas"
+//         },
+//         precio: 339,
+//         precioViejo: 399,
+//     },
+//     {
+//         id: "libroNovelas-17",
+//         titulo: "Crónica de una Muerte Anunciada",
+//         imagen: "./img/libro97.jpg",
+//         autor: "Gabriel García Márquez",
+//         categoria: {
+//             nombre: "Libros Novelas",
+//             id: "novelas"
+//         },
+//         precio: 343,
+//     },
+//     {
+//         id: "libroNovelas-18",
+//         titulo: "La Metafísica de los Tubos",
+//         imagen: "./img/libro98.jpg",
+//         autor: "Amélie Nothomb",
+//         categoria: {
+//             nombre: "Libros Novelas",
+//             id: "novelas"
+//         },
+//         precio: 149,
+//     },
+//     {
+//         id: "libroNovelas-19",
+//         titulo: "Los Detectives Salvajes",
+//         imagen: "./img/libro99.jpg",
+//         autor: "Roberto Bolaño",
+//         categoria: {
+//             nombre: "Libros Novelas",
+//             id: "novelas"
+//         },
+//         precio: 329,
+//     },
+//     {
+//         id: "libroNovelas-20",
+//         titulo: "La Casa de los Espíritus",
+//         imagen: "./img/libro100.jpg",
+//         autor: "Isabel Allende",
+//         categoria: {
+//             nombre: "Libros Novelas",
+//             id: "novelas"
+//         },
+//         precio: 279,
+//     },
+//     //Aventura ----------------------------------------------------------------------------------------------------
+//     {
+//         id: "libroAventura-01",
+//         titulo: "La Isla del Tesoro",
+//         imagen: "./img/libro101.jpg",
+//         autor: "Robert Louis Stevenson",
+//         categoria: {
+//             nombre: "Libros de Aventura",
+//             id: "aventura"
+//         },
+//         precio: 124,
+//     },
+//     {
+//         id: "libroAventura-02",
+//         titulo: "La Vuelta al Mundo en 80 Días",
+//         imagen: "./img/libro102.jpg",
+//         autor: "Julio Verne",
+//         categoria: {
+//             nombre: "Libros Aventura",
+//             id: "aventura"
+//         },
+//         precio: 109,
+//     },
+//     {
+//         id: "libroAventura-03",
+//         titulo: "Las Aventuras de Tom Sawyer",
+//         imagen: "./img/libro103.jpg",
+//         autor: "Mark Twain",
+//         categoria: {
+//             nombre: "Libros Aventura",
+//             id: "aventura"
+//         },
+//         precio: 139,
+//     },
+//     {
+//         id: "libroAventura-04",
+//         titulo: "El Llamado de lo Salvaje",
+//         imagen: "./img/libro104.jpg",
+//         autor: "Jack London",
+//         categoria: {
+//             nombre: "Libros Aventura",
+//             id: "aventura"
+//         },
+//         precio: 199,
+//     },
+//     {
+//         id: "libroAventura-05",
+//         titulo: "Robinson Crusoe",
+//         imagen: "./img/libro105.jpg",
+//         autor: "Daniel Defoe",
+//         categoria: {
+//             nombre: "Libros Aventura",
+//             id: "aventura"
+//         },
+//         precio: 399,
+//     },
+//     {
+//         id: "libroAventura-06",
+//         titulo: "Veinte Mil Leguas de Viaje Submarino",
+//         imagen: "./img/libro106.jpg",
+//         autor: "Jules Verne",
+//         categoria: {
+//             nombre: "Libros Aventura",
+//             id: "aventura"
+//         },
+//         precio: 260,
+//     },
+//     {
+//         id: "libroAventura-07",
+//         titulo: "Colmillo Blanco",
+//         imagen: "./img/libro107.jpg",
+//         autor: "Jack London",
+//         categoria: {
+//             nombre: "Libros Aventura",
+//             id: "aventura"
+//         },
+//         precio: 345,
+//     },
+//     {
+//         id: "libroAventura-08",
+//         titulo: "Los Tres Mosqueteros",
+//         imagen: "./img/libro108.jpg",
+//         autor: "Alejandro Dumas",
+//         categoria: {
+//             nombre: "Libros Aventura",
+//             id: "aventura"
+//         },
+//         precio: 313,
+//     },
+//     {
+//         id: "libroAventura-09",
+//         titulo: "Las Minas del Rey Salomón",
+//         imagen: "./img/libro109.jpg",
+//         autor: "H. Rider Haggard",
+//         categoria: {
+//             nombre: "Libros Aventura",
+//             id: "aventura"
+//         },
+//         precio: 109,
+//     },
+//     {
+//         id: "libroAventura-10",
+//         titulo: "Viaje al Centro de la Tierra",
+//         imagen: "./img/libro110.jpg",
+//         autor: "Julio Verne",
+//         categoria: {
+//             nombre: "Libros Aventura",
+//             id: "aventura"
+//         },
+//         precio: 88,
+//     },
+//     {
+//         id: "libroAventura-11",
+//         titulo: "El Conde de Montecristo",
+//         imagen: "./img/libro111.jpg",
+//         autor: "Alejandro Dumas",
+//         categoria: {
+//             nombre: "Libros Aventura",
+//             id: "aventura"
+//         },
+//         precio: 529,
+//     },
+//     {
+//         id: "libroAventura-12",
+//         titulo: "El Libro de la Selva",
+//         imagen: "./img/libro112.jpg",
+//         autor: "Rudyard Kipling",
+//         categoria: {
+//             nombre: "Libros Aventura",
+//             id: "aventura"
+//         },
+//         precio: 228,
+//     },
+//     {
+//         id: "libroAventura-13",
+//         titulo: "Tarzán de los Monos",
+//         imagen: "./img/libro113.jpg",
+//         autor: "Edgar Rice Burroughs",
+//         categoria: {
+//             nombre: "Libros Aventura",
+//             id: "aventura"
+//         },
+//         precio: 299,
+//     },
+//     {
+//         id: "libroAventura-14",
+//         titulo: "Moby Dick",
+//         imagen: "./img/libro114.jpg",
+//         autor: "Herman Melville",
+//         categoria: {
+//             nombre: "Libros Aventura",
+//             id: "aventura"
+//         },
+//         precio: 149,
+//     },
+//     {
+//         id: "libroAventura-15",
+//         titulo: "La Flecha Negra",
+//         imagen: "./img/libro115.jpg",
+//         autor: "Robert Louis Stevenson",
+//         categoria: {
+//             nombre: "Libros Aventura",
+//             id: "aventura"
+//         },
+//         precio: 189,
+//     },
+//     {
+//         id: "libroAventura-16",
+//         titulo: "El Corsario Negro",
+//         imagen: "./img/libro116.jpg",
+//         autor: "Emilio Salgari",
+//         categoria: {
+//             nombre: "Libros Aventura",
+//             id: "aventura"
+//         },
+//         precio: 256,
+//     },
+//     {
+//         id: "libroAventura-17",
+//         titulo: "Peter Pan",
+//         imagen: "./img/libro117.jpg",
+//         autor: "J.M. Barrie",
+//         categoria: {
+//             nombre: "Libros Aventura",
+//             id: "aventura"
+//         },
+//         precio: 272,
+//     },
+//     {
+//         id: "libroAventura-18",
+//         titulo: "Las Aventuras de Huckleberry Finn",
+//         imagen: "./img/libro118.jpg",
+//         autor: "Mark Twain",
+//         categoria: {
+//             nombre: "Libros Aventura",
+//             id: "aventura"
+//         },
+//         precio:318,
+//     },
+//     {
+//         id: "libroAventura-19",
+//         titulo: "La Quimera del Oro",
+//         imagen: "./img/libro119.jpg",
+//         autor: "Jack London",
+//         categoria: {
+//             nombre: "Libros Aventura",
+//             id: "aventura"
+//         },
+//         precio: 420,
+//     },
+//     {
+//         id: "libroAventura-20",
+//         titulo: "Cinco Semanas en Globo",
+//         imagen: "./img/libro120.jpg",
+//         autor: "Julio Verne",
+//         categoria: {
+//             nombre: "Libros Aventura",
+//             id: "aventura"
+//         },
+//         precio: 104,
+//     },
+//     //Cocina ----------------------------------------------------------------------------------------------------
+//     {
+//         id: "libroCocina-01",
+//         titulo: "El Arte de la Cocina Francesa",
+//         imagen: "./img/libro121.jpg",
+//         autor: "Julia Child",
+//         categoria: {
+//             nombre: "Libros de Cocina",
+//             id: "cocina"
+//         },
+//         precio: 749,
+//     },
+//     {
+//         id: "libroCocina-02",
+//         titulo: "1080 Recetas de Cocina",
+//         imagen: "./img/libro122.jpg",
+//         autor: "Simone Ortega",
+//         categoria: {
+//             nombre: "Libros Cocina",
+//             id: "cocina"
+//         },
+//         precio: 173,
+//         precioViejo: 204,
+//     },
+//     {
+//         id: "libroCocina-03",
+//         titulo: "La Cuchara de Plata",
+//         imagen: "./img/libro123.jpg",
+//         autor: "Editorial Phaidon",
+//         categoria: {
+//             nombre: "Libros Cocina",
+//             id: "cocina"
+//         },
+//         precio: 340,
+//     },
+//     {
+//         id: "libroCocina-04",
+//         titulo: "Modernist Cuisine",
+//         imagen: "./img/libro124.jpg",
+//         autor: "Nathan Myhrvold",
+//         categoria: {
+//             nombre: "Libros Cocina",
+//             id: "cocina"
+//         },
+//         precio: 3442,
+//     },
+//     {
+//         id: "libroCocina-05",
+//         titulo: "Sal, Grasa, Ácido, Calor",
+//         imagen: "./img/libro125.jpg",
+//         autor: "Samin Nosrat",
+//         categoria: {
+//             nombre: "Libros Cocina",
+//             id: "cocina"
+//         },
+//         precio: 729,
+//     },
+//     {
+//         id: "libroCocina-06",
+//         titulo: "La Joya de la Cocina",
+//         imagen: "./img/libro126.jpg",
+//         autor: "Irma S. Rombauer",
+//         categoria: {
+//             nombre: "Libros Cocina",
+//             id: "cocina"
+//         },
+//         precio: 343,
+//     },
+//     {
+//         id: "libroCocina-07",
+//         titulo: "El Gran Curso De Cocina",
+//         imagen: "./img/libro127.jpg",
+//         autor: "Ferrandi Paris",
+//         categoria: {
+//             nombre: "Libros Cocina",
+//             id: "cocina"
+//         },
+//         precio: 1441,
+//     },
+//     {
+//         id: "libroCocina-08",
+//         titulo: "Libro Pan artesanal en casa",
+//         imagen: "./img/libro128.jpg",
+//         autor: "Irving Quiroz",
+//         categoria: {
+//             nombre: "Libros Cocina",
+//             id: "cocina"
+//         },
+//         precio: 425,
+//     },
+//     {
+//         id: "libroCocina-09",
+//         titulo: "La Comida de La Familia",
+//         imagen: "./img/libro129.jpg",
+//         autor: "Ferran Adrià",
+//         categoria: {
+//             nombre: "Libros Cocina",
+//             id: "cocina"
+//         },
+//         precio: 129,
+//     },
+//     {
+//         id: "libroCocina-10",
+//         titulo: "La Cocina y los Alimentos",
+//         imagen: "./img/libro130.jpg",
+//         autor: "Harold McGee",
+//         categoria: {
+//             nombre: "Libros Cocina",
+//             id: "cocina"
+//         },
+//         precio: 2137,
+//     },
+//     {
+//         id: "libroCocina-11",
+//         titulo: "Escuela de Cocina",
+//         imagen: "./img/libro131.jpg",
+//         autor: "Jamie Oliver",
+//         categoria: {
+//             nombre: "Libros Cocina",
+//             id: "cocina"
+//         },
+//         precio: 343,
+//     },
+//     {
+//         id: "libroCocina-12",
+//         titulo: "Repostería Tradicional",
+//         imagen: "./img/libro132.jpg",
+//         autor: "Eva Arguiñano",
+//         categoria: {
+//             nombre: "Libros Cocina",
+//             id: "cocina"
+//         },
+//         precio: 282,
+//     },
+//     {
+//         id: "libroCocina-13",
+//         titulo: "Nonnas italienische Küche ",
+//         imagen: "./img/libro133.jpg",
+//         autor: "Silvia Colloca",
+//         categoria: {
+//             nombre: "Libros Cocina",
+//             id: "cocina"
+//         },
+//         precio: 369,
+//     },
+//     {
+//         id: "libroCocina-14",
+//         titulo: "El Manual del Sommelier",
+//         imagen: "./img/libro134.jpg",
+//         autor: "Ferran Centelles",
+//         categoria: {
+//             nombre: "Libros Cocina",
+//             id: "cocina"
+//         },
+//         precio: 516,
+//     },
+//     {
+//         id: "libroCocina-15",
+//         titulo: "Cocina Mexicana Auténtica: Sabores Que Enamoran",
+//         imagen: "./img/libro135.jpg",
+//         autor: "Diana Kennedy",
+//         categoria: {
+//             nombre: "Libros Cocina",
+//             id: "cocina"
+//         },
+//         precio: 112,
+//     },
+//     {
+//         id: "libroCocina-16",
+//         titulo: "Cocina Vegetariana",
+//         imagen: "./img/libro136.jpg",
+//         autor: "Deborah Madison",
+//         categoria: {
+//             nombre: "Libros Cocina",
+//             id: "cocina"
+//         },
+//         precio: 349,
+//     },
+//     {
+//         id: "libroCocina-17",
+//         titulo: "Recetas de Tapas Y Pinchos",
+//         imagen: "./img/libro137.jpg",
+//         autor: "Caballero Puig David",
+//         categoria: {
+//             nombre: "Libros Cocina",
+//             id: "cocina"
+//         },
+//         precio: 608,
+//     },
+//     {
+//         id: "libroCocina-18",
+//         titulo: "Libro Sushi Chef",
+//         imagen: "./img/libro138.jpg",
+//         autor: "Sukiyabashi Jiro",
+//         categoria: {
+//             nombre: "Libros Cocina",
+//             id: "cocina"
+//         },
+//         precio: 185,
+//     },
+//     {
+//         id: "libroCocina-19",
+//         titulo: "Ultimate Home Cooking",
+//         imagen: "./img/libro139.jpg",
+//         autor: "Gordon Ramsay",
+//         categoria: {
+//             nombre: "Libros Cocina",
+//             id: "cocina"
+//         },
+//         precio: 969,
+//     },
+//     {
+//         id: "libroCocina-20",
+//         titulo: "Postres Saludables: Las recetas mas fit",
+//         imagen: "./img/libro140.jpg",
+//         autor: "Auxy Ordóñez",
+//         categoria: {
+//             nombre: "Libros Cocina",
+//             id: "cocina"
+//         },
+//         precio: 279,
+//     },
+//     //Cuentos ----------------------------------------------------------------------------------------------------
+//     {
+//         id: "libroCuentos-01",
+//         titulo: "Cuentos de Eva Luna",
+//         imagen: "./img/libro141.jpg",
+//         autor: "Isabel Allende",
+//         categoria: {
+//             nombre: "Libros de Cuentos",
+//             id: "cuentos"
+//         },
+//         precio: 166,
+//     },
+//     {
+//         id: "libroCuentos-02",
+//         titulo: "Ficciones",
+//         imagen: "./img/libro142.jpg",
+//         autor: "Jorge Luis Borges",
+//         categoria: {
+//             nombre: "Libros Cuentos",
+//             id: "cuentos"
+//         },
+//         precio: 169,
+//     },
+//     {
+//         id: "libroCuentos-03",
+//         titulo: "El Aleph",
+//         imagen: "./img/libro143.jpg",
+//         autor: "Jorge Luis Borges",
+//         categoria: {
+//             nombre: "Libros Cuentos",
+//             id: "cuentos"
+//         },
+//         precio: 249,
+//     },
+//     {
+//         id: "libroCuentos-04",
+//         titulo: "Cuentos de Amor de Locura y de Muerte",
+//         imagen: "./img/libro144.jpg",
+//         autor: "Horacio Quiroga",
+//         categoria: {
+//             nombre: "Libros Cuentos",
+//             id: "cuentos"
+//         },
+//         precio: 299,
+//     },
+//     {
+//         id: "libroCuentos-05",
+//         titulo: "Doce Cuentos Peregrinos",
+//         imagen: "./img/libro145.jpg",
+//         autor: "Gabriel García Márquez",
+//         categoria: {
+//             nombre: "Libros Cuentos",
+//             id: "cuentos"
+//         },
+//         precio: 364,
+//     },
+//     {
+//         id: "libroCuentos-06",
+//         titulo: "Bestiario",
+//         imagen: "./img/libro146.jpg",
+//         autor: "Julio Cortázar",
+//         categoria: {
+//             nombre: "Libros Cuentos",
+//             id: "cuentos"
+//         },
+//         precio: 99,
+//     },
+//     {
+//         id: "libroCuentos-07",
+//         titulo: "Cuentos de la Alhambra",
+//         imagen: "./img/libro147.jpg",
+//         autor: "Washington Irving",
+//         categoria: {
+//             nombre: "Libros Cuentos",
+//             id: "cuentos"
+//         },
+//         precio: 252,
+//     },
+//     {
+//         id: "libroCuentos-08",
+//         titulo: "El Llano en Llamas",
+//         imagen: "./img/libro148.jpg",
+//         autor: "Juan Rulfo",
+//         categoria: {
+//             nombre: "Libros Cuentos",
+//             id: "cuentos"
+//         },
+//         precio: 109,
+//     },
+//     {
+//         id: "libroCuentos-09",
+//         titulo: "Cuentos Completos",
+//         imagen: "./img/libro149.jpg",
+//         autor: "Edgar Allan Poe",
+//         categoria: {
+//             nombre: "Libros Cuentos",
+//             id: "cuentos"
+//         },
+//         precio: 899,
+//     },
+//     {
+//         id: "libroCuentos-10",
+//         titulo: "El escarabajo de oro y otros cuentos",
+//         imagen: "./img/libro150.jpg",
+//         autor: "Edgar Allan Poe",
+//         categoria: {
+//             nombre: "Libros Cuentos",
+//             id: "cuentos"
+//         },
+//         precio: 89,
+//     },
+//     {
+//         id: "libroCuentos-11",
+//         titulo: "Cuentos de Antón Chéjov",
+//         imagen: "./img/libro151.jpg",
+//         autor: "Antón Chéjov",
+//         categoria: {
+//             nombre: "Libros Cuentos",
+//             id: "cuentos"
+//         },
+//         precio: 149,
+//     },
+//     {
+//         id: "libroCuentos-12",
+//         titulo: "Cuentos de los Hermanos Grimm",
+//         imagen: "./img/libro152.jpg",
+//         autor: "Jacob y Wilhelm Grimm",
+//         categoria: {
+//             nombre: "Libros Cuentos",
+//             id: "cuentos"
+//         },
+//         precio: 189,
+//     },
+//     {
+//         id: "libroCuentos-13",
+//         titulo: "Las Mil y Una Noches",
+//         imagen: "./img/libro153.jpg",
+//         autor: "Anónimo",
+//         categoria: {
+//             nombre: "Libros Cuentos",
+//             id: "cuentos"
+//         },
+//         precio: 139,
+//     },
+//     {
+//         id: "libroCuentos-14",
+//         titulo: "Cuentos de Hadas",
+//         imagen: "./img/libro154.jpg",
+//         autor: "Hans Christian Andersen",
+//         categoria: {
+//             nombre: "Libros Cuentos",
+//             id: "cuentos"
+//         },
+//         precio: 629,
+//     },
+//     {
+//         id: "libroCuentos-15",
+//         titulo: "Historias de Cronopios y de Famas",
+//         imagen: "./img/libro155.jpg",
+//         autor: "Julio Cortázar",
+//         categoria: {
+//             nombre: "Libros Cuentos",
+//             id: "cuentos"
+//         },
+//         precio: 229,
+//     },
+//     {
+//         id: "libroCuentos-16",
+//         titulo: "El Príncipe Feliz y otros cuentos",
+//         imagen: "./img/libro156.jpg",
+//         autor: "Oscar Wilde",
+//         categoria: {
+//             nombre: "Libros Cuentos",
+//             id: "cuentos"
+//         },
+//         precio: 90,
+//     },
+//     {
+//         id: "libroCuentos-17",
+//         titulo: "La Increíble y Triste Historia de la Cándida Eréndira y su abuela desalmada",
+//         imagen: "./img/libro157.jpg",
+//         autor: "Gabriel García Márquez",
+//         categoria: {
+//             nombre: "Libros Cuentos",
+//             id: "cuentos"
+//         },
+//         precio: 218,
+//     },
+//     {
+//         id: "libroCuentos-18",
+//         titulo: "Cuentos de la Selva",
+//         imagen: "./img/libro158.jpg",
+//         autor: "Horacio Quiroga",
+//         categoria: {
+//             nombre: "Libros Cuentos",
+//             id: "cuentos"
+//         },
+//         precio: 232,
+//     },
+//     {
+//         id: "libroCuentos-19",
+//         titulo: "Las Armas Secretas",
+//         imagen: "./img/libro159.jpg",
+//         autor: "Julio Cortázar",
+//         categoria: {
+//             nombre: "Libros Cuentos",
+//             id: "cuentos"
+//         },
+//         precio: 149,
+//     },
+//     {
+//         id: "libroCuentos-20",
+//         titulo: "El perseguidor y otros relatos",
+//         imagen: "./img/libro160.jpg",
+//         autor: "Julio Cortázar",
+//         categoria: {
+//             nombre: "Libros Cuentos",
+//             id: "cuentos"
+//         },
+//         precio: 1041,
+//     }
 
 
     //Salud ----------------------------------------------------------------------------------------------------
@@ -3146,7 +3146,35 @@ const LibrosArray = [
 
 
 
-]
+// ]
+
+
+
+
+
+
+let LibrosArray = [];
+
+// Llamamos a nuestro servidor en C# (Asegúrate de que el número 7138 sea tu puerto correcto)
+fetch('https://localhost:7138/obtener-productos') 
+  .then(respuesta => respuesta.json())
+  .then(datos => {
+      // 1. Guardamos los datos de la base de datos en nuestro arreglo
+      LibrosArray = datos; 
+      
+      // 2. ¡MAGIA! Hasta que ya tenemos los libros reales, le decimos a la página que los dibuje
+      if (document.querySelector("#contenedor-productos")) {
+          cargarLibros(LibrosArray);
+      } else {
+          actualizarBotonesAgregar();
+      }
+      
+      // 3. Llenamos las tarjetas visuales
+      sincronizarTarjetasEstaticas();
+  })
+  .catch(error => {
+      console.error("Algo falló al traer los libros desde C#:", error);
+  });
 
 
 
@@ -3161,41 +3189,51 @@ const numerito = document.querySelector("#numerito");
 
  
 //Esto llama a los todos los libros
-function cargarLibros(LibrosElegido)
-    {
+function cargarLibros(LibrosElegido) {
 
-        contenedorProductos.innerHTML = "";
+    contenedorProductos.innerHTML = "";
 
-        LibrosElegido.forEach(producto => {
+    LibrosElegido.forEach(producto => {
 
-            const div = document.createElement("div");
-            div.classList.add("producto");
-            div.innerHTML = `
-                            <img class="producto-img" src="${producto.imagen}" alt="${producto.titulo}">
-                             <div class="producto-detalles">
-                                 <h3 class="producto-titulo">${producto.titulo}</h3>
-                                 <h4 class = "producto-autor" style="color: #5d5a5a;">${producto.autor}</h4> 
-                                 <p class="producto-precio" style=" color: #856601;">$${producto.precio}</p>
-                                 <button class="producto-agregar" id="${producto.id}">Agregar</button>
-                             </div>
-            `;
-            contenedorProductos.append(div);
-              // <h4 class = "producto-autor" style="color: #5d5a5a;">${producto.autor}</h4> 
-        })
+        const div = document.createElement("div");
+        div.classList.add("producto");
 
-        actualizarBotonesAgregar();
+        // 1. Creamos una variable para guardar el diseño de nuestro precio
+        let diseñoPrecio = "";
 
-    }
+        // 2. Si el libro tiene descuento (precioViejo), armamos el diseño con el precio tachado
+        if (producto.precioViejo) {
+            diseñoPrecio = `<p class="producto-precio"><span style="text-decoration: line-through; color: #999; font-size: 0.85em; margin-right: 8px;">$${producto.precioViejo}</span> <span style="color: #c9302c; font-weight: bold;">$${producto.precio}</span></p>`;
+        } else {
+            // 3. Si no tiene descuento, lo ponemos normal
+            diseñoPrecio = `<p class="producto-precio" style="color: #856601;">$${producto.precio}</p>`;
+        }
+
+        // 4. Inyectamos la variable diseñoPrecio en la tarjeta
+        div.innerHTML = `
+            <img class="producto-img" src="${producto.imagen}" alt="${producto.titulo}">
+             <div class="producto-detalles">
+                 <h3 class="producto-titulo">${producto.titulo}</h3>
+                 <h4 class="producto-autor" style="color: #5d5a5a;">${producto.autor}</h4> 
+                 ${diseñoPrecio}
+                 <button class="producto-agregar" id="${producto.id}">Agregar</button>
+             </div>
+        `;
+        contenedorProductos.append(div);
+    });
+
+    actualizarBotonesAgregar();
+}
     
 // CONDICIONAL INTELIGENTE:
 // Si el contenedor dinámico existe, dibuja los libros (Catálogo).
-if (contenedorProductos) {
-    cargarLibros(LibrosArray);
-} else {
+// if (contenedorProductos) {
+//     cargarLibros(LibrosArray);
+// } else {
     // Si no existe (estamos en el Index), no dibujes nada, 
     // pero activa los escuchadores para tus tarjetas estáticas.
-    actualizarBotonesAgregar();
-}
+//     actualizarBotonesAgregar();
+// }
 
 
 //Esto hace que cuando le de click a las categorias solo llame a las id que tiene por categoria
@@ -3339,4 +3377,4 @@ function sincronizarTarjetasEstaticas() {
     });
 }
 
-sincronizarTarjetasEstaticas();
+// sincronizarTarjetasEstaticas();

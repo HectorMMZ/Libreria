@@ -118,16 +118,26 @@ function actualizarTotal(){
 
 }
 
+// Ahora este botón valida la sesión y te envía al formulario
 botonComprar.addEventListener("click", comprarCarrito);
+
 function comprarCarrito(){
+    // 1. Validamos que haya algo en el carrito
+    if (!LibrosEnCarrito || LibrosEnCarrito.length === 0) {
+        alert("Tu carrito está vacío.");
+        return;
+    }
 
-    LibrosEnCarrito.length = 0;
+    // 2. ¡EL CANDADO! Validamos si hay alguien logueado
+    const usuarioActivo = JSON.parse(localStorage.getItem('usuarioQuimera'));
+    
+    if (!usuarioActivo) {
+        // Si no hay post-it de sesión, lo frenamos
+        alert("¡Hola! Necesitas iniciar sesión o crear una cuenta para poder finalizar tu compra.");
+        window.location.href = "usuario.html"; // Lo mandamos a la página de login
+        return; // Cortamos la función para que no avance al envío
+    }
 
-    localStorage.setItem("libros-en-carrito", JSON.stringify(LibrosEnCarrito));
-
-    contenedorCarritoVacio.classList.add("disable");
-        contenedorCarritoProductos.classList.add("disable");
-        contenedorCarritoAcciones.classList.add("disable");
-        contenedorCarritoComprado.classList.remove("disable");
-
+    // 3. Si el carrito tiene libros y el usuario SÍ tiene sesión, le abrimos la puerta al envío
+    window.location.href = "envio.html";
 }

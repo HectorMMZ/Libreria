@@ -86,23 +86,21 @@
             </td>
 
             <td width="60%" valign="top">
-                <form>
-                    
+               <form id="formContacto">
                     <p>Nombre</p>
-                    <input type="text" placeholder="Nombre Completo">
+                    <input type="text" id="contactoNombre" placeholder="Nombre Completo" required>
 
                     <p>Teléfono</p>
-                    <input type="text" placeholder="Num.Teléfono">
+                    <input type="text" id="contactoTelefono" placeholder="Num.Teléfono">
 
                     <p>Email</p>
-                    <input type="text" placeholder="Correo Electrónico">
+                    <input type="email" id="contactoCorreo" placeholder="Correo Electrónico" required>
 
                     <p>Mensaje</p>
-                    <textarea placeholder="Mensaje" rows="6"></textarea>
+                    <textarea id="contactoMensaje" placeholder="Mensaje" rows="6" required></textarea>
 
                     <br><br>
                     <input type="submit" value="Enviar">
-
                 </form>
             </td>
 
@@ -110,8 +108,8 @@
     </table>
  </div>
 
-    <script src="scriptCatalogo.js"></script>
-
+    <script src="scriptContacto.js"></script>
+    <script src="scriptBarRebelde.js"></script>
 
 </body>
 </html>
