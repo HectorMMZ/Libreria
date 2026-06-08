@@ -5,28 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil - Libreria Quimera</title>
 
+    <!-- Fuentes y Estilos -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
-
-
     <link rel="stylesheet" href="global.css">
-
     <link rel="stylesheet" href="stylecatalogo.css">
 
-
-       <!-- Y CON ESTO SE PUEDO "VER" EL ICONO DEL CARRO -->
+    <!-- Iconos FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <!-- ---------------------------- -->
 </head>
 <body>
 
+    <!-- ==========================================
+         BARRA DE NAVEGACIÓN (Intacta)
+         ========================================== -->
     <div class="ColorBarraDeActividades">
         <div class="BarraDeActividadesMargen">
                 <div class="FilaSuperior">
                     <div class="LogoYTitulo">
-                        <img src="LechuzaLogo.png" class="logo">
-                        <a>    
+                        <img src="LechuzaLogo.png" class="logo" alt="Logo">
+                        <a href="index.html">    
                             <h3 style="color: white"> Libreria <br> Quimera</h3>
                         </a>
                     </div>
@@ -39,13 +38,12 @@
                     </div>
 
                     <div class="AccionesUsuario">
-                        <a href="usuario.html" class="BotonUsuario">
-                            <i class="fa-solid fa-user"> </i> <span style="margin-left: 10px;">Mi cuenta</span>
+                        <a href="perfil.html" class="BotonUsuario">
+                            <i class="fa-solid fa-user"> </i> <span style="margin-left: 10px;">Hola, Eduard</span>
                         </a>
 
                         <a href="carrito.html" class="BotonCarro">
-                            <i class="fa-solid fa-cart-arrow-down"> </i> <span style="margin-left: 10px;">Carrito </span> <span id="numerito" class="numerito"> 0 </strong> </span>
-                            
+                            <i class="fa-solid fa-cart-arrow-down"> </i> <span style="margin-left: 10px;">Carrito </span> <span id="numerito" class="numerito"> 0 </span>
                         </a>
                     </div>
                 </div>
@@ -62,33 +60,45 @@
         </div>
     </div> 
 
-        <div style="text-align: center; margin-top: 50px;">
-        <h2 id="saludoPerfil">Mi Perfil</h2>
+    <!-- ==========================================
+         ZONA DE PERFIL (Refactorizada)
+         ========================================== -->
+    <div class="ContenedorPerfil">
         
-        <div style="margin: 30px auto; max-width: 400px; padding: 20px; border: 1px solid #ccc;">
-            <h3>Cambiar Contraseña</h3>
-            <input type="password" id="nuevaPassword" placeholder="Escribe tu nueva contraseña" style="margin-bottom: 15px; width: 100%;"><br>
-            <button id="btnCambiarPass" style="background-color: #505839; color: white; padding: 10px;">Actualizar Contraseña</button>
+        <div class="CabeceraPerfil">
+            <i class="fa-solid fa-circle-user IconoPerfil"></i>
+            <h2 id="saludoPerfil">Mi Perfil</h2>
         </div>
 
-        <button id="btnCerrarSesion" style="background-color: #bc0202; color: white; padding: 10px; margin-top: 20px;">Cerrar Sesión</button>
-    </div>
+        <!-- Tarjeta de Contraseña -->
+        <div class="TarjetaPerfil">
+            <h3><i class="fa-solid fa-lock"></i> Cambiar Contraseña</h3>
+            <div class="GrupoInput">
+                <input type="password" id="nuevaPassword" placeholder="Escribe tu nueva contraseña">
+            </div>
+            <button id="btnCambiarPass" class="BotonPerfil Primario">Actualizar Contraseña</button>
+        </div>
 
-        <hr style="margin: 30px 0; border: 1px solid #ddd;">
-    
-    <div style="margin: 30px auto; max-width: 400px; padding: 20px; border: 1px solid #ffcccc; background-color: #fff0f0;">
-        <h3 style="color: #bc0202; margin-top: 0;">Zona de Peligro: Eliminar Cuenta</h3>
-        <p style="font-size: 14px; color: #555;">Para eliminar tu cuenta, por favor confirma tu contraseña actual.</p>
-        
-        <input type="password" id="passEliminar" placeholder="Escribe tu contraseña" style="margin-bottom: 15px; width: 90%; padding: 8px;">
-        <br>
-        <button id="btnEliminarCuenta" style="background-color: #bc0202; color: white; padding: 10px; width: 95%; border: none; cursor: pointer; font-weight: bold;">
-            Eliminar mi cuenta para siempre
+        <!-- Tarjeta de Peligro -->
+        <div class="TarjetaPerfil Peligro">
+            <h3><i class="fa-solid fa-triangle-exclamation"></i> Eliminar Cuenta</h3>
+            <p>Para eliminar tu cuenta para siempre, por favor confirma tu contraseña actual.</p>
+            <div class="GrupoInput">
+                <input type="password" id="passEliminar" placeholder="Escribe tu contraseña">
+            </div>
+            <button id="btnEliminarCuenta" class="BotonPerfil Secundario">Eliminar mi cuenta</button>
+        </div>
+
+        <!-- Botón de Cerrar Sesión -->
+        <button id="btnCerrarSesion" class="BotonCerrarSesion">
+            <i class="fa-solid fa-arrow-right-from-bracket"></i> Cerrar Sesión
         </button>
+
     </div>
 
-        <script src="scriptPerfil.js"></script>
-        <script src="scriptBarRebelde.js"></script>
+    <!-- Scripts -->
+    <script src="scriptPerfil.js"></script>
+    <script src="scriptBarRebelde.js"></script>
 
 </body>
 </html>

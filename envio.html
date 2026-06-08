@@ -1,32 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detalles de envio - Libreria Quimera</title>
+    <title>Detalles de envío - Libreria Quimera</title>
 
-      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
 
-
     <link rel="stylesheet" href="global.css">
-
     <link rel="stylesheet" href="stylecatalogo.css">
 
-
-       <!-- Y CON ESTO SE PUEDO "VER" EL ICONO DEL CARRO -->
+    <!-- Iconos FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <!-- ---------------------------- -->
 </head>
 <body>
 
+    <!-- ==========================================
+         BARRA DE NAVEGACIÓN (Intacta)
+         ========================================== -->
     <div class="ColorBarraDeActividades">
         <div class="BarraDeActividadesMargen">
                 <div class="FilaSuperior">
                     <div class="LogoYTitulo">
-                        <img src="LechuzaLogo.png" class="logo">
-                        <a>    
+                        <img src="LechuzaLogo.png" class="logo" alt="Logo">
+                        <a href="index.html">    
                             <h3 style="color: white"> Libreria <br> Quimera</h3>
                         </a>
                     </div>
@@ -44,8 +43,7 @@
                         </a>
 
                         <a href="carrito.html" class="BotonCarro">
-                            <i class="fa-solid fa-cart-arrow-down"> </i> <span style="margin-left: 10px;">Carrito </span> <span id="numerito" class="numerito"> 0 </strong> </span>
-                            
+                            <i class="fa-solid fa-cart-arrow-down"> </i> <span style="margin-left: 10px;">Carrito </span> <span id="numerito" class="numerito"> 0 </span>
                         </a>
                     </div>
                 </div>
@@ -62,44 +60,57 @@
         </div>
     </div> 
 
-
-    <div style="max-width: 500px; margin: 0 auto;">
+    <!-- ==========================================
+         ZONA DE ENVÍO (Refactorizada con el estilo del Perfil)
+         ========================================== -->
+    <div class="ContenedorPerfil">
         
-        <h2>Datos de Envío</h2>
-        <hr>
+        <div class="CabeceraPerfil">
+            <!-- Icono de camión de envío -->
+            <i class="fa-solid fa-truck-fast IconoPerfil"></i>
+            <h2>Datos de Envío</h2>
+        </div>
 
-        <h3 style="color: #c9302c;" id="totalEnvio">Total a pagar: $0.00</h3>
-        <p>Por favor, llena tus datos para procesar el pedido:</p>
-
-        <form id="formEnvio" style="display: flex; flex-direction: column; gap: 15px;">
+        <div class="TarjetaPerfil">
             
-            <div>
-                <label><b>Dirección completa:</b></label><br>
-                <input type="text" id="direccion" placeholder="Ej. Calle Pino 123" required style="width: 100%; padding: 8px;">
+            <!-- Resumen de pago destacado -->
+            <div style="text-align: center; border-bottom: 2px dashed #EAEAEA; padding-bottom: 20px; margin-bottom: 25px;">
+                <h3 style="color: #c9302c; font-size: 1.8rem; margin: 0;" id="totalEnvio">Total a pagar: $0.00</h3>
+                <p style="color: #666; margin: 10px 0 0 0;">Por favor, llena tus datos para procesar el pedido.</p>
             </div>
 
-            <div>
-                <label><b>Ciudad:</b></label><br>
-                <input type="text" id="ciudad" placeholder="Tu ciudad" required style="width: 100%; padding: 8px;">
-            </div>
+            <!-- Formulario limpio -->
+            <form id="formEnvio">
+                
+                <div class="GrupoInput">
+                    <label><i class="fa-solid fa-location-dot"></i> Dirección completa:</label>
+                    <input type="text" id="direccion" placeholder="Ej. Calle Pino 123" required>
+                </div>
 
-            <div>
-                <label><b>Código Postal:</b></label><br>
-                <input type="text" id="codigo_postal" placeholder="Ej. 24000" required style="width: 100%; padding: 8px;">
-            </div>
+                <div class="GrupoInput">
+                    <label><i class="fa-solid fa-city"></i> Ciudad:</label>
+                    <input type="text" id="ciudad" placeholder="Tu ciudad" required>
+                </div>
 
-            <div>
-                <label><b>Teléfono:</b></label><br>
-                <input type="text" id="telefono_envio" placeholder="A 10 dígitos" required style="width: 100%; padding: 8px;">
-            </div>
-            
-            <button type="submit" style="background-color: #505839; color: white; padding: 12px; font-weight: bold; border: none; cursor: pointer; margin-top: 10px;">
-                Finalizar Compra
-            </button>
-            
-        </form>
+                <div class="GrupoInput">
+                    <label><i class="fa-solid fa-envelopes-bulk"></i> Código Postal:</label>
+                    <input type="text" id="codigo_postal" placeholder="Ej. 24000" required>
+                </div>
+
+                <div class="GrupoInput">
+                    <label><i class="fa-solid fa-phone"></i> Teléfono:</label>
+                    <input type="text" id="telefono_envio" placeholder="A 10 dígitos" required>
+                </div>
+                
+                <button type="submit" class="BotonPerfil Primario" style="margin-top: 15px;">
+                    <i class="fa-solid fa-check-circle"></i> Finalizar Compra
+                </button>
+                
+            </form>
+        </div>
     </div>
 
+    <!-- Scripts -->
     <script src="scriptNavbar.js"></script>
     <script src="scriptEnvio.js"></script>
 

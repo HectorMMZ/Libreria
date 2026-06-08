@@ -254,3 +254,144 @@ main{
     display: none;
 }
 
+/* =======================================================
+   PERFIL DE USUARIO
+   ======================================================= */
+.ContenedorPerfil {
+    width: 90%;
+    max-width: 500px; /* Un poco más angosto para que se vea elegante */
+    margin: 50px auto;
+    text-align: center;
+}
+
+.CabeceraPerfil {
+    margin-bottom: 30px;
+    color: #1A3636;
+}
+
+.IconoPerfil {
+    font-size: 5rem;
+    color: #D4AF37; /* Tu color dorado */
+    margin-bottom: 10px;
+}
+
+/* Las tarjetas contenedoras */
+.TarjetaPerfil {
+    background-color: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 12px; /* Bordes suaves */
+    padding: 30px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.TarjetaPerfil:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.TarjetaPerfil h3 {
+    color: #1A3636;
+    margin-top: 0;
+    border-bottom: 2px solid #e4edd0;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Estilo exclusivo para la zona de peligro */
+.TarjetaPerfil.Peligro {
+    border: 1px solid #ffcccc;
+    background-color: #fffafb;
+}
+
+.TarjetaPerfil.Peligro h3 {
+    color: #c9302c;
+    border-bottom: 2px solid #ffcccc;
+}
+
+.TarjetaPerfil.Peligro p {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+/* Cajas de texto (Inputs) */
+.GrupoInput input {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 25px; /* Súper redondeados */
+    font-family: "Marcellus", serif; /* Forzamos tu tipografía */
+    font-size: 1rem;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.GrupoInput input:focus {
+    border-color: #D4AF37;
+    box-shadow: 0 0 8px rgba(212, 175, 55, 0.3);
+}
+
+/* =======================================================
+   BOTONES DEL PERFIL
+   ======================================================= */
+.BotonPerfil {
+    width: 100%;
+    padding: 12px;
+    border-radius: 25px; /* Botones en forma de píldora */
+    font-family: "Marcellus", serif; /* Tipografía corregida */
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+/* Botón Verde (Actualizar) */
+.BotonPerfil.Primario {
+    background-color: #1A3636;
+    color: white;
+}
+
+.BotonPerfil.Primario:hover {
+    background-color: #D4AF37;
+}
+
+/* Botón Rojo (Eliminar - Estilo fantasma) */
+.BotonPerfil.Secundario {
+    background-color: transparent;
+    color: #c9302c;
+    border: 2px solid #c9302c;
+}
+
+.BotonPerfil.Secundario:hover {
+    background-color: #c9302c;
+    color: white;
+}
+
+/* Botón de Cerrar Sesión (Sutil abajo) */
+.BotonCerrarSesion {
+    background-color: transparent;
+    color: #666;
+    border: none;
+    font-family: "Marcellus", serif;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: color 0.3s;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.BotonCerrarSesion:hover {
+    color: #1A3636;
+}

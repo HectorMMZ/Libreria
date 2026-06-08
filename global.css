@@ -449,3 +449,12 @@ body {
 .numerito{
     margin-left: 7px !important; 
 }
+
+/* Estilo para los títulos de los campos del formulario */
+.GrupoInput label {
+    display: block;
+    margin-bottom: 8px;
+    color: #1A3636;
+    font-weight: bold;
+    font-size: 0.95rem;
+}
