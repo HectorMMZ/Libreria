@@ -1,6 +1,5 @@
-
 // =========================================================
-// 2. SISTEMA DINÁMICO DE NAVBAR (Lo que adaptamos de tu amiga)
+// 1. SISTEMA DINÁMICO DE NAVBAR
 // =========================================================
 function verificarSesionUsuario() {
     // Intentamos buscar si hay un usuario guardado
@@ -14,7 +13,7 @@ function verificarSesionUsuario() {
         // Cambiamos el botón visualmente
         enlaceUsuario.innerHTML = `<i class="fa-solid fa-user-check"></i> <span style="margin-left: 10px;">Hola, ${primerNombre}</span>`;
         
-        // ¡LA MAGIA AQUÍ! Cambiamos el enlace para que te lleve a tu perfil
+        //Cambiamos el enlace para que te lleve a tu perfil
         enlaceUsuario.href = "perfil.html"; 
     }
     
