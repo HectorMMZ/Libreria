@@ -8,8 +8,6 @@ if (!usuarioActivo) {
     // Le ponemos su nombre en la pantalla
     document.getElementById('saludoPerfil').innerText = "Bienvenido, " + usuarioActivo.nombre;
 }
-
-// 2. Botón para Cerrar Sesión
 // 2. Botón para Cerrar Sesión (Ahora con pregunta)
 const btnCerrarSesion = document.getElementById('btnCerrarSesion');
 if (btnCerrarSesion) {
@@ -26,8 +24,6 @@ if (btnCerrarSesion) {
         // Si le da a "Cancelar", no hace nada y se queda en la página
     });
 }
-
-
 // 3. Botón para Cambiar Contraseña
 const btnCambiarPass = document.getElementById('btnCambiarPass');
 if (btnCambiarPass) {
@@ -63,7 +59,6 @@ if (btnCambiarPass) {
         }
     });
 }
-
 // 4. Botón para Eliminar Cuenta
 const btnEliminarCuenta = document.getElementById('btnEliminarCuenta');
 if (btnEliminarCuenta) {

@@ -14,49 +14,7 @@ if (document.getElementById('RegistroNuevo')) {
 }
 
 // =========================================================
-// 2. SISTEMA DINÁMICO DE NAVBAR (Lo que adaptamos de tu amiga)
-// =========================================================
-// function verificarSesionUsuario() {
-//     // Intentamos buscar si hay un usuario guardado en el navegador
-//     const usuarioActivo = JSON.parse(localStorage.getItem('usuarioQuimera'));
-    
-//     // Buscamos el botón de "Mi cuenta" en el menú superior
-//     const enlaceUsuario = document.querySelector('.BotonUsuario');
-
-//     if (usuarioActivo && enlaceUsuario) {
-//         // Separamos el primer nombre por si acaso
-//         const primerNombre = usuarioActivo.nombre.split(' ')[0];
-
-//         // Cambiamos el icono y ponemos un saludo personalizado dinámicamente
-//         enlaceUsuario.innerHTML = `<i class="fa-solid fa-user-check"></i> <span style="margin-left: 10px;">Hola, ${primerNombre}</span>`;
-        
-//         // Si el usuario ya está logueado, al dar clic lo podemos mandar al index o a una página de perfil
-//         enlaceUsuario.href = "index.html"; 
-        
-//         // TIP OPCIONAL: Añadir un botón pequeño para cerrar sesión si se desea
-//         if (!document.getElementById('btn-cerrar-sesion-nav')) {
-//             const btnLogout = document.createElement('a');
-//             btnLogout.id = 'btn-cerrar-sesion-nav';
-//             btnLogout.href = '#';
-//             btnLogout.style.cssText = 'color: #ff8c8c; margin-left: 15px; font-size: 13px; text-decoration: none; font-weight: bold;';
-//             btnLogout.innerHTML = '<i class="fa-solid fa-power-off"></i> Salir';
-//             btnLogout.onclick = (e) => {
-//                 e.preventDefault();
-//                 if (confirm('¿Quieres cerrar sesión en Librería Quimera?')) {
-//                     localStorage.removeItem('usuarioQuimera');
-//                     window.location.reload();
-//                 }
-//             };
-//             enlaceUsuario.insertAdjacentElement('afterend', btnLogout);
-//         }
-//     }
-// }
-
-// // Ejecutamos la verificación inmediatamente al cargar el archivo de JS
-// document.addEventListener('DOMContentLoaded', verificarSesionUsuario);
-
-// =========================================================
-// 3. ENVIAR REGISTRO NUEVO A LA BASE DE DATOS
+// 2. ENVIAR REGISTRO NUEVO A LA BASE DE DATOS
 // =========================================================
 const btnCrearCuenta = document.getElementById('btnCrearCuenta');
 if (btnCrearCuenta) {
@@ -97,7 +55,7 @@ if (btnCrearCuenta) {
 }
 
 // =========================================================
-// 4. VALIDAR CUENTA E INICIAR SESIÓN (GUARDANDO LA SESIÓN)
+// 3. VALIDAR CUENTA E INICIAR SESIÓN (GUARDANDO LA SESIÓN)
 // =========================================================
 const btnIngresar = document.getElementById('btnIngresar');
 if (btnIngresar) {
