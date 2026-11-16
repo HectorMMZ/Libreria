@@ -18,22 +18,26 @@ if (document.getElementById('RegistroNuevo')) {
 // =========================================================
 const btnCrearCuenta = document.getElementById('btnCrearCuenta');
 if (btnCrearCuenta) {
-    btnCrearCuenta.onclick = async () => {
+    btnCrearCuenta.onclick = async (event) => {
+        event.preventDefault(); // Evita que la página se recargue
+
+        // AQUI CAMBIAMOS LOS NOMBRES PARA QUE COINCIDAN CON TU C# EXACTAMENTE
         const datos = {
-            nombre: document.getElementById('regNombre').value,
-            apellido: document.getElementById('regApellido').value,
-            correo: document.getElementById('regCorreo').value,
-            password: document.getElementById('regPassword').value,
-            telefono: document.getElementById('regTelefono').value
+            Nombre: document.getElementById('regNombre').value,
+            Apellido: document.getElementById('regApellido').value,
+            Correo: document.getElementById('regCorreo').value,
+            Contrasena: document.getElementById('regPassword').value, // Era "password", C# espera "Contrasena"
+            Telefono: document.getElementById('regTelefono').value
         };
 
-        if (!datos.nombre || !datos.apellido || !datos.correo || !datos.password) {
+        if (!datos.Nombre || !datos.Apellido || !datos.Correo || !datos.Contrasena) {
             alert("Por favor, llena los campos obligatorios.");
             return;
         }
 
         try {
-            let respuesta = await fetch('https://localhost:7138/registrar', {
+            // ACTUALIZADO AL PUERTO 7270 Y RUTA /api/registro
+            let respuesta = await fetch('https://localhost:7270/api/registro', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(datos)
@@ -41,7 +45,7 @@ if (btnCrearCuenta) {
 
             let resultado = await respuesta.json();
 
-            if (resultado.exito) {
+            if (respuesta.ok) { // C# manda status 200 si todo sale bien
                 alert(resultado.mensaje);
                 document.getElementById('Registro').style.transform = "translateX(0)";
             } else {
@@ -49,7 +53,7 @@ if (btnCrearCuenta) {
             }
         } catch (error) {
             console.error(error);
-            alert("No se pudo conectar con el servidor local.");
+            alert("No se pudo conectar con el servidor local. Verifica que Visual Studio esté en Play (Puerto 7270).");
         }
     };
 }
@@ -59,19 +63,23 @@ if (btnCrearCuenta) {
 // =========================================================
 const btnIngresar = document.getElementById('btnIngresar');
 if (btnIngresar) {
-    btnIngresar.onclick = async () => {
+    btnIngresar.onclick = async (event) => {
+        event.preventDefault();
+
+        // NOMBRES EXACTOS PARA C#
         const datos = {
-            correo: document.getElementById('loginCorreo').value,
-            password: document.getElementById('loginPassword').value
+            Correo: document.getElementById('loginCorreo').value,
+            Contrasena: document.getElementById('loginPassword').value
         };
 
-        if (!datos.correo || !datos.password) {
+        if (!datos.Correo || !datos.Contrasena) {
             alert("Por favor escribe tu correo y contraseña.");
             return;
         }
 
         try {
-            let respuesta = await fetch('https://localhost:7138/login', {
+            // ACTUALIZADO AL PUERTO 7270 Y RUTA /api/login
+            let respuesta = await fetch('https://localhost:7270/api/login', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(datos)
@@ -79,13 +87,14 @@ if (btnIngresar) {
 
             let resultado = await respuesta.json();
 
-            if (resultado.exito) {
+            if (respuesta.ok) {
                 alert("¡Bienvenido a Librería Quimera!");
                 
-                // MÁGIA AQUÍ: Guardamos los datos que nos regresó SQL Server en el navegador
+                // MÁGIA AQUÍ: Guardamos el nombre directo que nos manda tu nuevo C#
                 localStorage.setItem('usuarioQuimera', JSON.stringify({
-                    nombre: resultado.usuario.nombre,
-                    correo: resultado.usuario.correo
+                    id_usuario: resultado.id_usuario,
+                    nombre: resultado.nombre,
+                    correo: datos.Correo
                 }));
 
                 // Redirigimos a la página principal
@@ -95,7 +104,7 @@ if (btnIngresar) {
             }
         } catch (error) {
             console.error(error);
-            alert("No se pudo conectar con el servidor local.");
+            alert("No se pudo conectar con el servidor local. Verifica que Visual Studio esté en Play (Puerto 7270).");
         }
     };
 }

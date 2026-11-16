@@ -4,23 +4,19 @@ const formEnvio = document.getElementById('formEnvio');
 // 1. CALCULAR Y MOSTRAR EL TOTAL AL ABRIR LA PÁGINA
 // =======================================================
 document.addEventListener('DOMContentLoaded', () => {
-    // Leemos qué hay en el carrito
     const carritoGuardado = JSON.parse(localStorage.getItem("libros-en-carrito"));
     let totalCalculado = 0;
     
-    // Si hay libros, hacemos la suma total
     if (carritoGuardado && carritoGuardado.length > 0) {
         carritoGuardado.forEach(libro => {
             totalCalculado += libro.precio * libro.cantidad;
         });
     } else {
-        // Si llegaron aquí con el carrito vacío por accidente, los regresamos
         alert("Tu carrito está vacío, te regresaremos al catálogo.");
         window.location.href = "index.html";
         return;
     }
     
-    // Inyectamos el total en el HTML
     const etiquetaTotal = document.getElementById('totalEnvio');
     if (etiquetaTotal) {
         etiquetaTotal.innerText = `Total a pagar: $${totalCalculado.toFixed(2)}`;
@@ -28,28 +24,44 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // =======================================================
-// 2. ENVIAR EL FORMULARIO A LA BASE DE DATOS (Tu código)
+// 2. ENVIAR EL FORMULARIO A LA BASE DE DATOS
 // =======================================================
 if (formEnvio) {
     formEnvio.addEventListener('submit', async (e) => {
         e.preventDefault();
 
-        // --- ¡NUEVO! Sacamos quién es el usuario que está comprando ---
         const usuarioActivo = JSON.parse(localStorage.getItem('usuarioQuimera'));
+        
+        // Calculamos el total nuevamente para enviarlo seguro
+        const carritoGuardado = JSON.parse(localStorage.getItem("libros-en-carrito")) || [];
+        let totalCalculado = 0;
+        let carritoFormateado = [];
+        
+        carritoGuardado.forEach(libro => {
+            totalCalculado += libro.precio * libro.cantidad;
+            // Acomodamos los libros EXACTAMENTE como los pide la clase ItemCarrito de tu C#
+            carritoFormateado.push({
+                IdLibro: libro.id,
+                Cantidad: libro.cantidad,
+                PrecioUnitario: libro.precio
+            });
+        });
 
+        // Empaquetamos todo con los NOMBRES EXACTOS de tu clase CheckoutRequest de C#
         const datosEnvio = {
-            // --- ¡NUEVO! Le mandamos el correo al mesero ---
-            correo_usuario: usuarioActivo.correo, 
-            
-            direccion: document.getElementById('direccion').value,
-            ciudad: document.getElementById('ciudad').value,
-            codigo_postal: document.getElementById('codigo_postal').value,
-            telefono_envio: document.getElementById('telefono_envio').value,
-            carrito: JSON.parse(localStorage.getItem("libros-en-carrito"))
+            // Si por alguna razón el id_usuario no está en el localStorage, le ponemos 1 por defecto para que no falle
+            IdUsuario: usuarioActivo.id_usuario ? parseInt(usuarioActivo.id_usuario) : 1, 
+            Total: totalCalculado,
+            Direccion: document.getElementById('direccion').value,
+            Ciudad: document.getElementById('ciudad').value,
+            CodigoPostal: document.getElementById('codigo_postal').value,
+            TelefonoEnvio: document.getElementById('telefono_envio').value,
+            Carrito: carritoFormateado
         };
 
         try {
-            let respuesta = await fetch('https://localhost:7138/finalizar-compra', {
+            // ¡Cambiamos la ruta a /api/checkout y actualizamos al puerto 7270!
+            let respuesta = await fetch('https://localhost:7270/api/checkout', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(datosEnvio)
@@ -62,11 +74,11 @@ if (formEnvio) {
                 localStorage.removeItem("libros-en-carrito");
                 window.location.href = "index.html";
             } else {
-                alert("Error al procesar: " + resultado.mensaje);
+                alert("Error al procesar: " + (resultado.mensaje || "Error desconocido"));
             }
         } catch (error) {
             console.error("Error:", error);
-            alert("No se pudo conectar con el servidor.");
+            alert("No se pudo conectar con el servidor. Verifica que Visual Studio esté corriendo.");
         }
     });
 }

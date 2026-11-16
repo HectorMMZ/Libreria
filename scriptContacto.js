@@ -33,7 +33,7 @@ if (formContacto) {
 
         // 3. Enviamos el mensaje al "mesero" (C#)
         try {
-            let respuesta = await fetch('https://localhost:7138/enviar-contacto', {
+            let respuesta = await fetch('https://localhost:7270/enviar-contacto', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(datos)
