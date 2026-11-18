@@ -1,6 +1,22 @@
 // 1. Verificamos que el usuario esté logueado
 const usuarioActivo = JSON.parse(localStorage.getItem('usuarioQuimera'));
 
+document.addEventListener("DOMContentLoaded", () => {
+     // 1. Verificamos el usuario logueado en localStorage
+    const usuarioActivo = JSON.parse(localStorage.getItem('usuarioQuimera'));
+    
+    // Imprimimos en consola para depurar qué rol tiene guardado actualmente
+    console.log("Usuario activo en perfil:", usuarioActivo);
+
+    const btnAdmin = document.getElementById('btn-panel-admin');
+
+    // 2. Validamos si es admin de forma flexible (por si viene en mayúsculas o minúsculas)
+    if (usuarioActivo && usuarioActivo.rol && usuarioActivo.rol.toLowerCase() === 'admin' && btnAdmin) {
+        btnAdmin.style.display = 'inline-block';
+        console.log("¡Botón de administrador activado con éxito!");btnAdmin.style.display = 'inline-block';
+    }
+});
+
 if (!usuarioActivo) {
     // Si no hay post-it de sesión, lo regresamos a que inicie sesión
     window.location.href = "usuario.html";

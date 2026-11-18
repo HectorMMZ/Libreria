@@ -108,3 +108,9 @@ if (btnIngresar) {
         }
     };
 }
+
+localStorage.setItem('usuarioQuimera', JSON.stringify({
+    id: data.id,
+    nombre: data.nombre,
+    rol: data.rol // <-- Asegúrate de incluir esta línea
+}));
