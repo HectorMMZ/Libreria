@@ -49,8 +49,8 @@ async function cargarLibros() {
                     <td>$${libro.precio}</td>
                     <td class="${alertaStock}">${libro.stock}</td>
                     <td>
-                        <button class="btn-amarillo" onclick="prepararEdicion(${id}, '${libro.titulo}', '${libro.autor}', ${libro.precio}, ${libro.stock}, '${libro.imagen || ''}')">Editar</button>
-                        <button class="btn-rojo" onclick="eliminarLibro(${id})">Eliminar</button>
+                        <button class="btn-amarillo" onclick="prepararEdicion('${id}', '${libro.titulo}', '${libro.autor}', ${libro.precio}, ${libro.stock}, '${libro.imagen || ''}')">Editar</button>
+                        <button class="btn-rojo" onclick="eliminarLibro('${id}')">Eliminar</button>
                     </td>
                 </tr>
             `;
